@@ -20,6 +20,8 @@ During the development process, I was manually testing in the following ways:-
 1. Published the page via GitHub pages and shared with fellow students to test and received feedback.
 
 ### ***Manual Testing:***
+
+**Browser Compatibility**
 * During testing, I used four different browsers to ensure cross-compatibility. The desktop browsers used by myself were:
 
   1. Chrome
@@ -27,8 +29,30 @@ During the development process, I was manually testing in the following ways:-
   3. Opera
   4. Edge
 
-* I then used the devtools to simulate different screen sizes/devices from 320 px up to 4000px in width. CHECK THIS BEFORE PROJECT COMPLETION!!
+* I then used the devtools to simulate different screen sizes/devices from 320 px up to 1700px in width. 
 * In addition to this, I also asked several people to test using iPhones and Apple Mac laptops/desktops using safari. These users reported no issues or bugs only style suggestions. CHECK THIS BEFORE PROJECT COMPLETION!!
+
+**Style and Script link functionality**
+* To manaually test my CSS and JS links were funcitoning as intended: 
+  * I created a test h1 on my html.
+  * I added code in the style.css to make the h1 content red.
+  * I added code in the script.js to message the console. 
+  * Ran my project in a live browser.
+  * Result: Links working correctly.
+
+  ![The reults of the links test image](/documents/testing-images/manual-testing-linked-css-and-js.png)
+
+**Colour Palette**
+* I softened the white and black values to reduce screen glare discomfort for the user. To test the contrast was still high enough for readability:
+  * I created an additional h2 & h3 on my html.
+  * I added code in the style.css to test font-color and background-color combos. 
+  * Ran my project in a live browser and inspected with chrome dev tools.
+  * H1 result: contrast rating = 9.6. Good readability.
+  * H2 result: contrast rating = 15.11. Good readability.
+  * H3 result: contrast rating = 1.57 Low readability.
+  * Result: Only the H1 and H2 combo examples will be used. 
+
+  ![The results of the colour palette test image](/documents/testing-images/color-testing.png)
 
 ### ***Bugs and Fixes:*** CHECK THIS BEFORE PROJECT COMPLETION!!
 
