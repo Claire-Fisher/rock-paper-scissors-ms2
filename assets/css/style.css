@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;900&display=swap');
+
+body {
+    background-color: #f9f9f9;
+    font-family: 'Inter', serif;
+    font-weight:400;
+}
+
 h1 {
-    color: red;
+    background-color: #c9c9c9;
+    color: #222;
+}
+h2 {
+    background-color:#222;
+    color: #f9f9f9;
 }
