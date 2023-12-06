@@ -17,6 +17,18 @@ body {
     background-color: #c9c9c9;
 }
 
+.light-txt {
+    color:#f9f9f9;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalise {
+    text-transform: capitalize;
+}
+
 /* LOGO & HEADER */
 
 #logo {
@@ -34,7 +46,7 @@ h1 {
 /* GAME AREA */
 
 #game-area {
-    margin-bottom:18rem;
+    /* margin-bottom:18rem; */
 }
 
 .para-choose-weapon {
@@ -47,6 +59,23 @@ h1 {
     font-weight:700;
     margin: 0.4rem;
     height: 10rem;
+}
+
+/* SCORE AREA */
+
+.scores-box {
+    max-width: 60%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1.5rem;
+}
+
+.score-title {
+    margin: 1rem 0 0.5rem;
+}
+
+.scores {
+    margin: 0.5rem 0 1rem;
 }
 
 /* FOOTER */
@@ -65,19 +94,25 @@ h3 {
         margin-top:0.5rem;
         font-size:1.16rem;
     }
-    #game-area {
+    /* #game-area {
         margin-bottom:0.8rem;
-    }
+    } */
     .btn {
-        height: 6.5rem;
+        height: 3rem;
     }
+    .scores-box {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    max-width: 90%;
+    border-radius: 1.5rem;
+}
 }
 
 @media screen and (min-width:992px) {
     #logo {
         margin-top: 4rem;
     }
-    #game-area {
+    /* #game-area {
         margin-bottom:10rem;
-    }
+    } */
 }
