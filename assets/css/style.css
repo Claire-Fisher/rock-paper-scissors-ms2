@@ -17,23 +17,18 @@ body {
     background-color: #c9c9c9;
 }
 
-/* HEADER LOGO  */
+/* LOGO & HEADER */
 
-h1 {
-    font-weight: 900;
-    font-size: 9rem;
+#logo {
 }
 
-h2 {
-    font-weight: 700;
-    font-display: bold;
+h1 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
 }
 
 /* GAME AREA */
-
-#game-area, p,
-#game-area, button {
-}
 
 button {
     text-transform: uppercase;
