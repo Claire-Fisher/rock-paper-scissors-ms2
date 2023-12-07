@@ -43,9 +43,15 @@ h1 {
     text-align: center;
 }
 
+/* MODALS */
+
 #rulesModalBtn {
     margin:0;
     padding:0;
+}
+
+#rulesModalBtn p {
+    font-weight: 700;
 }
 
 /* GAME AREA */
@@ -99,6 +105,9 @@ h3 {
         margin-top:0.5rem;
         font-size:1.12rem;
     }
+    #rulesModalBtn p {
+        font-size:1.2rem;
+    }
     .btn {
         height: 3rem;
     }
@@ -107,7 +116,7 @@ h3 {
     margin-bottom: 0.5rem;
     max-width: 90%;
     border-radius: 1.5rem;
-}
+    }
 }
 
 @media screen and (min-width:992px) {
