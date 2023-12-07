@@ -197,6 +197,7 @@ EXAMPLE DONT LEAVE THIS IN!!  Designed as....... the site will .... This project
 # Credits
 
 - Google Fonts for 'Inter" typography [View here](https://fonts.google.com/specimen/Inter?query=inter)
+- Tinypng.com for image compression [View here](https://tinypng.com/)
 
 # **Content**
 
