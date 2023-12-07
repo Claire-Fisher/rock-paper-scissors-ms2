@@ -1,6 +1,7 @@
 console.log("Js connected properly");
 
 // event listener: Users weapon choice //
+const buttons = document.getElementsByClassName("game-btn");
 
 // hide game main section, show countdown timer circles //
 
