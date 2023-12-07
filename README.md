@@ -176,8 +176,10 @@ EXAMPLE DONT LEAVE THIS IN!!  Designed as....... the site will .... This project
 
 # Languages
 
-- The coding languages used to create this site were HTML, CSS, and Javascript.
-- Bootstrap 4.5.3
+- HTML
+- CSS
+- Javascript.
+- Bootstrap 4.6
 - JQuery
 
 # Software
@@ -189,7 +191,7 @@ EXAMPLE DONT LEAVE THIS IN!!  Designed as....... the site will .... This project
 
 # Code
 
-- Template modal code from [Bootstrap 4.5 Library](https://getbootstrap.com/docs/4.6/components/modal/). Heavily modified to suit my project requirements
+- Template modal code from [Bootstrap 4.6 Library](https://getbootstrap.com/docs/4.6/components/modal/). Heavily modified to suit my project requirements
 ![An image of bootstrap4 modal code used](/documents/readme-images/bootstrap4-modal.png)
 
 # Credits
