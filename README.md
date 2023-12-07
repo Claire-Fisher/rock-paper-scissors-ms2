@@ -189,15 +189,14 @@ EXAMPLE DONT LEAVE THIS IN!!  Designed as....... the site will .... This project
 
 # Code
 
-- EXAMPLE DONT LEAVE THIS IN!! Template code for responsive navbar header taken from [Bootstrap 4.5 Library.](https://getbootstrap.com/docs/4.5/components/navbar/) Heavily modified to suit my sites needs.
-
-
+- Template modal code from [Bootstrap 4.5 Library](https://getbootstrap.com/docs/4.6/components/modal/). Heavily modified to suit my project requirements
+![An image of bootstrap4 modal code used](/documents/readme-images/bootstrap4-modal.png)
 
 # Credits
 
 - Google Fonts for 'Inter" typography [View here](https://fonts.google.com/specimen/Inter?query=inter)
 
-## **Content**
+# **Content**
 
 
 ## **Thanks**
