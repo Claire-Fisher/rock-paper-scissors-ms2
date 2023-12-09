@@ -1,6 +1,11 @@
 // Test to check javascipt loading and connected correctly.
 console.log("Js connected properly");
 
+// TEST - JQuery connected correctly
+$(".game-btn").click(function () {
+  console.log("JQuery working correctly");
+});
+
 /**
  * Event listener: asigns user weapon selection
  * depending on button clicked.
