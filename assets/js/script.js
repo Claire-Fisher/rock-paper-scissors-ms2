@@ -17,14 +17,32 @@ for (button of buttons) {
 
 // hide game main section, show countdown timer circles //
 
-// function randomise Ai weapon choice //
-
 // game rules object with win/lose combos. Compare user & Ai weapons //
-const weapons = [
-  { name: "rock", beats: "scissors" },
-  { name: "scissors", beats: "paper" },
-  { name: "paper", beats: "rock" },
-];
+const weapons = {
+  rock: {
+    beats: "scissors",
+  },
+  scissors: {
+    beats: "paper",
+  },
+  paper: {
+    beats: "rock",
+  },
+};
+
+/**
+ *
+ * @returns computer's random selection
+ */
+const getRandomWeapon = () => {
+  const weaponNames = Object.keys(weapons);
+  return weaponNames[Math.floor(Math.random() * weaponNames.length)];
+};
+
+const computersChoice = getRandomWeapon();
+
+// TESTS computer randomising a selection
+console.info("Computer chooses: ", computersChoice);
 
 // hide countdown timer circles section, show games results section //
 
