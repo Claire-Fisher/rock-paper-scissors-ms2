@@ -20,6 +20,15 @@ for (button of buttons) {
   });
 }
 
+/**
+ * Event: on weapon button click:
+ * Hide game-area section.
+ * Show game-countdown sectiom
+ */
+$(".game-btn").click(function () {
+  $("#game-area").hide(1000);
+});
+
 // hide game main section, show countdown timer circles //
 
 // game rules object with win/lose combos. Compare user & Ai weapons //
