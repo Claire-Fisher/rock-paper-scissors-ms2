@@ -16,9 +16,14 @@ const buttons = document.getElementsByClassName("game-btn");
 for (button of buttons) {
   button.addEventListener("click", (event) => {
     const playersChoice = event.target.dataset.weapon;
-    console.log(playersChoice);
+    console.info("Player has chosen: ", playersChoice);
   });
 }
+
+// Placeholder text for user weapon choice paragraph //
+$(".game-btn").click(function () {
+  $("#users-choice").text("test test test");
+});
 
 /**
  * Event: on weapon button click:
