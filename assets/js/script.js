@@ -27,6 +27,7 @@ for (button of buttons) {
  */
 $(".game-btn").click(function () {
   $("#game-area").hide(1000);
+  $("#game-countdown").removeClass("hidden");
 });
 
 // hide game main section, show countdown timer circles //
