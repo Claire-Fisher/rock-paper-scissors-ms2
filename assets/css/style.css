@@ -21,12 +21,20 @@ body {
     color:#f9f9f9;
 }
 
+/* GENERAL STYLES */
+
 .uppercase {
     text-transform: uppercase;
 }
 
 .capitalise {
     text-transform: capitalize;
+}
+
+/* FUNCTIONAL STYLES */
+
+.hidden {
+    display: none;
 }
 
 /* LOGO & HEADER */
