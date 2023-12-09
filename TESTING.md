@@ -60,9 +60,11 @@ Below is a list of bugs I found during the development process by testing myself
 
 1. **Intended Outcome** - 
     * ***Issue Found:*** 
-        * 
+        * Game countdown area showing on page load. Needs to be hidden on load, and show briefly during countdown phase, before returning back to hidden.
     * ***Solution Used:*** 
-        * 
+        * Gave the countdown-area section the class of 'hidden'.
+        * Styled with CSS to display: none. 
+        * Added jquery function to remove 'hidden' class when the user clicks on a game-btn.
 1. **Intended Outcome** 
     * ***Issue Found:*** 
         * 
