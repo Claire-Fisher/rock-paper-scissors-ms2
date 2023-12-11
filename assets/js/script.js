@@ -6,6 +6,13 @@ $(".game-btn").click(function () {
   console.log("JQuery working correctly");
 });
 
+let game = {
+  winScore: 0,
+  loseScore: 0,
+  drawScore: 0,
+  finalResult: "",
+};
+
 /**
  * Event listener: asigns user weapon selection
  * depending on button clicked.
@@ -39,7 +46,7 @@ $(".game-btn").click(function () {
   $("#No1").delay(2000).removeClass("hidden").delay(500).fadeOut(500, 0);
 });
 
-// game rules object with win/lose combos. Compare user & Ai weapons //
+// game rules object with win/lose combos. //
 const weapons = {
   rock: {
     beats: "scissors",
@@ -62,6 +69,10 @@ const getRandomWeapon = () => {
 };
 
 const computersChoice = getRandomWeapon();
+
+// Compare user & Ai weapons //
+
+turnOutcome(playersChoice, computersChoice);
 
 // TESTS computer randomising a selection
 console.info("Computer chooses: ", computersChoice);
