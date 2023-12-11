@@ -13,6 +13,28 @@ let game = {
   finalResult: "",
 };
 
+// game rules object with win/lose combos. //
+const weapons = {
+  rock: {
+    beats: "scissors",
+  },
+  scissors: {
+    beats: "paper",
+  },
+  paper: {
+    beats: "rock",
+  },
+};
+
+/**
+ *
+ * returns computer's random selection
+ */
+const getRandomWeapon = () => {
+  const weaponNames = Object.keys(weapons);
+  return weaponNames[Math.floor(Math.random() * weaponNames.length)];
+};
+
 /**
  * Event listener: asigns user weapon selection
  * depending on button clicked.
@@ -22,9 +44,11 @@ const buttons = document.getElementsByClassName("game-btn");
 var playersChoice = "";
 for (button of buttons) {
   button.addEventListener("click", (event) => {
-    playersChoice = event.target.dataset.weapon;
+    const playersChoice = event.target.dataset.weapon;
     console.info("Player has chosen: ", playersChoice);
-    return playersChoice;
+    const computersChoice = getRandomWeapon();
+    console.info("Computer has chosen: ", computersChoice);
+    turnOutcome(playersChoice, computersChoice);
   });
 }
 
@@ -46,36 +70,7 @@ $(".game-btn").click(function () {
   $("#No1").delay(2000).removeClass("hidden").delay(500).fadeOut(500, 0);
 });
 
-// game rules object with win/lose combos. //
-const weapons = {
-  rock: {
-    beats: "scissors",
-  },
-  scissors: {
-    beats: "paper",
-  },
-  paper: {
-    beats: "rock",
-  },
-};
-
-/**
- *
- * @returns computer's random selection
- */
-const getRandomWeapon = () => {
-  const weaponNames = Object.keys(weapons);
-  return weaponNames[Math.floor(Math.random() * weaponNames.length)];
-};
-
-const computersChoice = getRandomWeapon();
-
 // Compare user & Ai weapons //
-
-turnOutcome(playersChoice, computersChoice);
-
-// TESTS computer randomising a selection
-console.info("Computer chooses: ", computersChoice);
 
 // hide countdown timer circles section, show games results section //
 
