@@ -12,17 +12,18 @@ $(".game-btn").click(function () {
  * Console logs selection to test working as expected.
  */
 const buttons = document.getElementsByClassName("game-btn");
-
+const playersChoice = "";
 for (button of buttons) {
   button.addEventListener("click", (event) => {
-    const playersChoice = event.target.dataset.weapon;
+    playersChoice = event.target.dataset.weapon;
     console.info("Player has chosen: ", playersChoice);
+    return playersChoice;
   });
 }
 
 // Placeholder text for user weapon choice paragraph //
 $(".game-btn").click(function () {
-  $("#users-choice").text("test test test");
+  $("#users-choice").text(`Your weapon = ${playersChoice}`);
 });
 
 /**
@@ -31,7 +32,7 @@ $(".game-btn").click(function () {
  * Show game-countdown sectiom
  */
 $(".game-btn").click(function () {
-  $("#game-area").hide(1000);
+  $("#game-area").hide();
   $("#game-countdown").removeClass("hidden");
 });
 
