@@ -29,14 +29,15 @@ $(".game-btn").click(function () {
 /**
  * Event: on weapon button click:
  * Hide game-area section.
- * Show game-countdown sectiom
+ * Show game-countdown section
  */
 $(".game-btn").click(function () {
   $("#game-area").hide();
   $("#game-countdown").removeClass("hidden");
+  $("#No3").delay(500).fadeOut(500, 0);
+  $("#No2").delay(1000).removeClass("hidden").delay(500).fadeOut(500, 0);
+  $("#No1").delay(2000).removeClass("hidden").delay(500).fadeOut(500, 0);
 });
-
-// hide game main section, show countdown timer circles //
 
 // game rules object with win/lose combos. Compare user & Ai weapons //
 const weapons = {
