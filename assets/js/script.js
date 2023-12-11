@@ -12,7 +12,7 @@ $(".game-btn").click(function () {
  * Console logs selection to test working as expected.
  */
 const buttons = document.getElementsByClassName("game-btn");
-const playersChoice = "";
+var playersChoice = "";
 for (button of buttons) {
   button.addEventListener("click", (event) => {
     playersChoice = event.target.dataset.weapon;
