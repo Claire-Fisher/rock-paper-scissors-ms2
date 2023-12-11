@@ -26,6 +26,19 @@ const weapons = {
   },
 };
 
+const buttons = document.getElementsByClassName("game-btn");
+
+/**
+ * Event listener: asigns user weapon selection
+ * depending on button clicked.
+ * Console logs selection to test working as expected.
+ */
+for (const button of buttons) {
+  button.addEventListener("click", (event) => {
+    const playersChoice = event.target.dataset.weapon;
+  });
+}
+
 /**
  *
  * returns computer's random selection
@@ -35,22 +48,10 @@ const getRandomWeapon = () => {
   return weaponNames[Math.floor(Math.random() * weaponNames.length)];
 };
 
-/**
- * Event listener: asigns user weapon selection
- * depending on button clicked.
- * Console logs selection to test working as expected.
- */
-const buttons = document.getElementsByClassName("game-btn");
-var playersChoice = "";
-for (button of buttons) {
-  button.addEventListener("click", (event) => {
-    const playersChoice = event.target.dataset.weapon;
-    console.info("Player has chosen: ", playersChoice);
-    const computersChoice = getRandomWeapon();
-    console.info("Computer has chosen: ", computersChoice);
-    turnOutcome(playersChoice, computersChoice);
-  });
-}
+var computersChoice = getRandomWeapon();
+playersChoice = "";
+console.info("Computer has chosen: ", computersChoice);
+console.info("Player has chosen: ", playersChoice);
 
 // Placeholder text for user weapon choice paragraph //
 $(".game-btn").click(function () {
