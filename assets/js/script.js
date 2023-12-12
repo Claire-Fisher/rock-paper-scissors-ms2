@@ -33,9 +33,10 @@ const buttons = document.getElementsByClassName("game-btn");
  * depending on button clicked.
  * Console logs selection to test working as expected.
  */
+
 for (const button of buttons) {
   button.addEventListener("click", (event) => {
-    const playersChoice = event.target.dataset.weapon;
+    return (playersChoice = event.target.dataset.weapon);
   });
 }
 
@@ -58,6 +59,17 @@ $(".game-btn").click(function () {
   $("#users-choice").text(`Your weapon = ${playersChoice}`);
 });
 
+// Compare user & Ai weapons //
+function turnPoint(a, b) {
+  if (a === b) {
+    drawScore++;
+  } else if (weapons[a].beats === computersChoice) {
+    winScore++;
+  } else (weapons[b].beats === playersChoice) {
+    loseScore++;    
+  };
+};
+
 /**
  * Event: on weapon button click:
  * Hide game-area section.
@@ -69,9 +81,8 @@ $(".game-btn").click(function () {
   $("#No3").delay(500).fadeOut(500, 0);
   $("#No2").delay(1000).removeClass("hidden").delay(500).fadeOut(500, 0);
   $("#No1").delay(2000).removeClass("hidden").delay(500).fadeOut(500, 0);
+  turnPoint(playersChoice, computersChoice);
 });
-
-// Compare user & Ai weapons //
 
 // hide countdown timer circles section, show games results section //
 
