@@ -33,7 +33,6 @@ const buttons = document.getElementsByClassName("game-btn");
  * depending on button clicked.
  * Console logs selection to test working as expected.
  */
-
 for (const button of buttons) {
   button.addEventListener("click", (event) => {
     return (playersChoice = event.target.dataset.weapon);
@@ -67,7 +66,10 @@ function editScores() {
   document.getElementById("win-tally").innerText = game.winScore;
   document.getElementById("lose-tally").innerText = game.loseScore;
   document.getElementById("draw-tally").innerText = game.drawScore;
-};
+  $("#game-countdown").addClass("hidden");
+  $("#game-area").removeClass("hidden");
+  $("#next-turn").removeClass("hidden");
+}
 
 /**
  * Compares playersChoice with computersChoice
@@ -78,18 +80,19 @@ function turnPoint(a, b) {
     drawScore++;
   } else if (weapons[a].beats === computersChoice) {
     winScore++;
-  } else (weapons[b].beats === playersChoice) {
-    loseScore++;    
-  };
+  } else weapons[b].beats === playersChoice;
+  {
+    loseScore++;
+  }
   editScores();
-};
+}
 
 // hide countdown timer circles section, show games results section //
 function editScores() {
   document.getElementById("win-tally").innerText = game.winScore;
   document.getElementById("lose-tally").innerText = game.loseScore;
   document.getElementById("draw-tally").innerText = game.drawScore;
-};
+}
 
 /**
  * Event: on weapon button click:
