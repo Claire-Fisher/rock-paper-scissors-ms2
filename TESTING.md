@@ -58,13 +58,21 @@ During the development process, I was manually testing in the following ways:-
 
 Below is a list of bugs I found during the development process by testing myself via the live server extension on VSCode. I tried each element for how the browser would display the page to potential users on a range of different screen widths from 320px to 4000px:-
 
-1. **Intended Outcome** - 
+1. **Game-countdown area visibility** - 
     * ***Issue Found:*** 
         * Game countdown area showing on page load. Needs to be hidden on load, and show briefly during countdown phase, before returning back to hidden.
     * ***Solution Used:*** 
         * Gave the countdown-area section the class of 'hidden'.
         * Styled with CSS to display: none. 
         * Added jquery function to remove 'hidden' class when the user clicks on a game-btn.
+1. **Variable playersChoice not updating** 
+    * ***Issue Found:***
+        * Variable playersChoice assigning on page load & not updating with event listener
+        * Error message in console stated playersChoice as an empty string still, even after button clicked.
+        * Template literal blank where variable value should be. 
+    * ***Solution Used:***    
+        * Declared the variable with an empty string.
+        * Created an updateChoices function & called it inside the handleButtonClick function.
 1. **Intended Outcome** 
     * ***Issue Found:*** 
         * 
