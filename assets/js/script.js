@@ -26,17 +26,21 @@ const weapons = {
   },
 };
 
+let playersChoice = "";
 const buttons = document.getElementsByClassName("game-btn");
 
 /**
- * Event listener: asigns user weapon selection
- * depending on button clicked.
- * Console logs selection to test working as expected.
+ * Takes eventListener data
+ * Reassigns playersChoice with users selection
  */
+function handleButtonClick(event) {
+  playersChoice = event.target.dataset.weapon;
+  console.info("Player has chosen: ", playersChoice);
+}
+
+// Event listener for user weapon selection
 for (const button of buttons) {
-  button.addEventListener("click", (event) => {
-    return (playersChoice = event.target.dataset.weapon);
-  });
+  button.addEventListener("click", handleButtonClick);
 }
 
 /**
@@ -48,14 +52,13 @@ const getRandomWeapon = () => {
   return weaponNames[Math.floor(Math.random() * weaponNames.length)];
 };
 
-var computersChoice = getRandomWeapon();
-playersChoice = "";
+let computersChoice = getRandomWeapon();
 console.info("Computer has chosen: ", computersChoice);
 console.info("Player has chosen: ", playersChoice);
 
 // Placeholder text for user weapon choice paragraph //
 $(".game-btn").click(function () {
-  $("#users-choice").text(`Your weapon = ${playersChoice}`); // playersChoice in wrong scope!!
+  $("#users-choice").text(`Your weapon = ${playersChoice}`); // playersChoice in wrong scope, or not reassigning
 });
 
 /**
@@ -75,13 +78,14 @@ function editScores() {
  * Compares playersChoice with computersChoice
  * Changes score points depending on outcome
  */
-function turnPoint(a, b) {
-  if (a === b) {
+function turnPoint(playersChoice, computersChoice) {
+  if (playersChoice === computersChoice) {
     drawScore++;
-  } else if (weapons[a].beats === computersChoice) {
+  }
+  if (weapons[playersChoice].beats === computersChoice) {
     winScore++;
-  } else weapons[b].beats === playersChoice;
-  {
+  }
+  if (weapons[computersChoice].beats === playersChoice) {
     loseScore++;
   }
   editScores();
