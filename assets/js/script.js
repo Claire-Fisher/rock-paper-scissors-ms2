@@ -56,7 +56,7 @@ console.info("Player has chosen: ", playersChoice);
 
 // Placeholder text for user weapon choice paragraph //
 $(".game-btn").click(function () {
-  $("#users-choice").text(`Your weapon = ${playersChoice}`);
+  $("#users-choice").text(`Your weapon = ${playersChoice}`); // playersChoice in wrong scope!!
 });
 
 /**
