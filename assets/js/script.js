@@ -90,13 +90,6 @@ function turnPoint(playersChoice, computersChoice) {
   editScores();
 }
 
-// hide countdown timer circles section, show games results section //
-function editScores() {
-  document.getElementById("win-tally").innerText = game.winScore;
-  document.getElementById("lose-tally").innerText = game.loseScore;
-  document.getElementById("draw-tally").innerText = game.drawScore;
-}
-
 /**
  * Event: on weapon button click:
  * Hide game-area section.
