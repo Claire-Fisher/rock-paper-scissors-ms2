@@ -60,6 +60,16 @@ $(".game-btn").click(function () {
 });
 
 /**
+ * Targets the score board,
+ * edits and shows the user the current scores
+ */
+function editScores() {
+  document.getElementById("win-tally").innerText = game.winScore;
+  document.getElementById("lose-tally").innerText = game.loseScore;
+  document.getElementById("draw-tally").innerText = game.drawScore;
+};
+
+/**
  * Compares playersChoice with computersChoice
  * Changes score points depending on outcome
  */
@@ -71,6 +81,14 @@ function turnPoint(a, b) {
   } else (weapons[b].beats === playersChoice) {
     loseScore++;    
   };
+  editScores();
+};
+
+// hide countdown timer circles section, show games results section //
+function editScores() {
+  document.getElementById("win-tally").innerText = game.winScore;
+  document.getElementById("lose-tally").innerText = game.loseScore;
+  document.getElementById("draw-tally").innerText = game.drawScore;
 };
 
 /**
@@ -86,8 +104,6 @@ $(".game-btn").click(function () {
   $("#No1").delay(2000).removeClass("hidden").delay(500).fadeOut(500, 0);
   turnPoint(playersChoice, computersChoice);
 });
-
-// hide countdown timer circles section, show games results section //
 
 // show new scores tally in scores section //
 
