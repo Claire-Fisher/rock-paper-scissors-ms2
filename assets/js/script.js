@@ -79,13 +79,13 @@ function editScores() {
  */
 function turnPoint(playersChoice, computersChoice) {
   if (playersChoice === computersChoice) {
-    drawScore++;
+    game.drawScore++;
   }
   if (weapons[playersChoice].beats === computersChoice) {
-    winScore++;
+    game.winScore++;
   }
   if (weapons[computersChoice].beats === playersChoice) {
-    loseScore++;
+    game.loseScore++;
   }
   editScores();
 }
