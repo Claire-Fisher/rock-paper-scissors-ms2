@@ -35,7 +35,7 @@ const buttons = document.getElementsByClassName("game-btn");
  */
 function handleButtonClick(event) {
   playersChoice = event.target.dataset.weapon;
-  console.info("Player has chosen: ", playersChoice);
+  updateChoices();
 }
 
 // Event listener for user weapon selection
@@ -52,14 +52,13 @@ const getRandomWeapon = () => {
   return weaponNames[Math.floor(Math.random() * weaponNames.length)];
 };
 
-let computersChoice = getRandomWeapon();
-console.info("Computer has chosen: ", computersChoice);
-console.info("Player has chosen: ", playersChoice);
+function updateChoices() {
+  console.info("Computer has chosen: ", computersChoice);
+  console.info("Player has chosen: ", playersChoice);
+  $("#users-choice").text(`Your weapon = ${playersChoice}`);
+}
 
-// Placeholder text for user weapon choice paragraph //
-$(".game-btn").click(function () {
-  $("#users-choice").text(`Your weapon = ${playersChoice}`); // playersChoice in wrong scope, or not reassigning
-});
+let computersChoice = getRandomWeapon();
 
 /**
  * Targets the score board,
