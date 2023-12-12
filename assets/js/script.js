@@ -59,7 +59,10 @@ $(".game-btn").click(function () {
   $("#users-choice").text(`Your weapon = ${playersChoice}`);
 });
 
-// Compare user & Ai weapons //
+/**
+ * Compares playersChoice with computersChoice
+ * Changes score points depending on outcome
+ */
 function turnPoint(a, b) {
   if (a === b) {
     drawScore++;
