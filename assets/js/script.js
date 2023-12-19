@@ -35,6 +35,7 @@ const buttons = document.getElementsByClassName("game-btn");
  */
 function handleButtonClick(event) {
   playersChoice = event.target.dataset.weapon;
+  rollCountdown();
   updateChoices();
 }
 
@@ -95,14 +96,28 @@ function turnPoint(playersChoice, computersChoice) {
  * Hide game-area section.
  * Show game-countdown section
  */
-$(".game-btn").click(function () {
+function rollCountdown() {
   $("#game-area").hide();
   $("#game-countdown").removeClass("hidden");
-  $("#No3").delay(500).fadeOut(500, 0);
-  $("#No2").delay(1000).removeClass("hidden").delay(500).fadeOut(500, 0);
-  $("#No1").delay(2000).removeClass("hidden").delay(500).fadeOut(500, 0);
-  turnPoint(playersChoice, computersChoice);
-});
+  $("#No3")
+    .fadeOut(1000)
+    .promise()
+    .done(function () {
+      $("#No2")
+        .removeClass("hidden")
+        .fadeOut(1000)
+        .promise()
+        .done(function () {
+          $("#No1")
+            .removeClass("hidden")
+            .fadeOut(1000)
+            .promise()
+            .done(function () {
+              turnPoint(playersChoice, computersChoice);
+            });
+        });
+    });
+}
 
 // show new scores tally in scores section //
 
