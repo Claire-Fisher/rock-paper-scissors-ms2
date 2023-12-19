@@ -113,6 +113,8 @@ function rollCountdown() {
             .fadeOut(1000)
             .promise()
             .done(function () {
+              $("#next-turn").removeClass("hidden");
+              $("#game-area").show();
               turnPoint(playersChoice, computersChoice);
             });
         });
