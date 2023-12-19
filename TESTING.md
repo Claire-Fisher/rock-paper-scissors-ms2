@@ -73,6 +73,13 @@ Below is a list of bugs I found during the development process by testing myself
     * ***Solution Used:***    
         * Declared the variable with an empty string.
         * Created an updateChoices function & called it inside the handleButtonClick function.
+1. **H1 styling issue** 
+    * ***Issue Found:*** 
+        * H1 line height was far too big and causing styling issues. Dropping lower elements further down the page. All attempts to restyle H1 failed to fix the issue. 
+    * ***Solution Used:***    
+        * Realised I had targeted the weapon buttons with the class .btn
+        * .btn is a bootstrap class, so the styling I'd applied to the weapons buttons, was also targetting the bootstrap modal button in the H1. 
+        * Targetted the weapons buttons with .game-btn instead (my own class name). Additional height properties no longer affecting the H1 element. 
 1. **Intended Outcome** 
     * ***Issue Found:*** 
         * 
