@@ -194,6 +194,10 @@ EXAMPLE DONT LEAVE THIS IN!!  Designed as....... the site will .... This project
 - Template modal code from [Bootstrap 4.6 Library](https://getbootstrap.com/docs/4.6/components/modal/). Heavily modified to suit my project requirements
 ![An image of bootstrap4 modal code used](/documents/readme-images/bootstrap4-modal.png)
 
+- After a mentor session with Richard Wells. We unpicked my animated countdown I'd coded with JQuery. Explored the .promise() and .done() methods and improved the code.
+![An image of the code from Richard Wells](/documents/readme-images/countdown-code.png)
+
+
 # Credits
 
 - Google Fonts for 'Inter" typography [View here](https://fonts.google.com/specimen/Inter?query=inter)
