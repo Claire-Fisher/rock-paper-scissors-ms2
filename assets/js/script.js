@@ -87,16 +87,30 @@ function editScores() {
 function turnPoint(playersChoice, computersChoice) {
   if (playersChoice === computersChoice) {
     game.drawScore++;
+    resultAnnouncement("draw");
   }
   if (weapons[playersChoice].beats === computersChoice) {
     game.winScore++;
+    resultAnnouncement("win");
   }
   if (weapons[computersChoice].beats === playersChoice) {
     game.loseScore++;
+    resultAnnouncement("lose");
   }
   editScores();
 }
 
+function resultAnnouncement(result) {
+  if (result === "draw") {
+    console.info(`You both chose ${playersChoice}!  It's a draw!`);
+  }
+  if (result === "win") {
+    console.info(`${playersChoice} beats ${computersChoice}! You score!`);
+  }
+  if (result === "lose") {
+    console.info(`${playersChoice} loses to ${computersChoice}! AI scores!`);
+  }
+}
 /**
  * Event: on weapon button click:
  * Hide game-area section.
@@ -119,6 +133,9 @@ function rollCountdown() {
             .fadeOut(1000)
             .promise()
             .done(function () {
+              $("#turn-result-area").removeClass("hidden");
+              resultAnnouncement();
+
               $("#next-turn").removeClass("hidden");
               $("#game-area").show();
               turnPoint(playersChoice, computersChoice);
