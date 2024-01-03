@@ -142,7 +142,7 @@ function rollCountdown() {
             .fadeOut(1000)
             .promise()
             .done(function () {
-              $("#turn-result-area").removeClass("hidden");
+              $("#turnResultArea").removeClass("hidden");
               resultAnnouncement();
 
               $("#next-turn").removeClass("hidden");
