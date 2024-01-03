@@ -75,6 +75,9 @@ function editScores() {
 }
 
 /**
+ *
+ * @param {string} playersChoice
+ * @param {string} computersChoice
  * Compares playersChoice with computersChoice
  * Changes score points depending on outcome
  */
