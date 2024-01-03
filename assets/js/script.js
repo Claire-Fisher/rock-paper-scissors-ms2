@@ -125,6 +125,11 @@ function resultAnnouncement(result) {
     resultText.innerText = "AI scores.";
     console.info(`${playersChoice} loses to ${computersChoice}! AI scores!`);
   }
+  $("#continueButton").on("click", function () {
+    $("#game-area").show();
+    $("#next-turn").removeClass("hidden");
+    $("#turnResultArea").addClass("hidden");
+  });
 }
 
 /**
@@ -151,8 +156,6 @@ function rollCountdown() {
             .done(function () {
               $("#turnResultArea").removeClass("hidden");
               resultAnnouncement();
-              $("#next-turn").removeClass("hidden");
-              $("#game-area").show();
               turnPoint(playersChoice, computersChoice);
             });
         });
