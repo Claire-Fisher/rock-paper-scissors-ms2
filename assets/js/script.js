@@ -101,13 +101,22 @@ function turnPoint(playersChoice, computersChoice) {
 }
 
 function resultAnnouncement(result) {
+  var resultChoices = document.getElementById("turnResultChoices");
+  var resultText = document.getElementById("turnResultText");
+
   if (result === "draw") {
+    resultChoices.innerText = `You both chose ${playersChoice}!`;
+    resultText.innerText = "it's a draw!";
     console.info(`You both chose ${playersChoice}!  It's a draw!`);
   }
   if (result === "win") {
+    resultChoices.innerText = `${playersChoice} beats ${computersChoice}!`;
+    resultText.innerText = "you score!";
     console.info(`${playersChoice} beats ${computersChoice}! You score!`);
   }
   if (result === "lose") {
+    resultChoices.innerText = `${playersChoice} loses to  ${computersChoice}!`;
+    resultText.innerText = "AI scores.";
     console.info(`${playersChoice} loses to ${computersChoice}! AI scores!`);
   }
 }
