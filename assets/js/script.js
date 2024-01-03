@@ -100,6 +100,12 @@ function turnPoint(playersChoice, computersChoice) {
   editScores();
 }
 
+/**
+ *
+ * @param {string} result
+ * Take the result of turnPoint()
+ * Edits innerText of Turn Results area to display outcome to the user.
+ */
 function resultAnnouncement(result) {
   var resultChoices = document.getElementById("turnResultChoices");
   var resultText = document.getElementById("turnResultText");
@@ -120,6 +126,7 @@ function resultAnnouncement(result) {
     console.info(`${playersChoice} loses to ${computersChoice}! AI scores!`);
   }
 }
+
 /**
  * Event: on weapon button click:
  * Hide game-area section.
@@ -144,7 +151,6 @@ function rollCountdown() {
             .done(function () {
               $("#turnResultArea").removeClass("hidden");
               resultAnnouncement();
-
               $("#next-turn").removeClass("hidden");
               $("#game-area").show();
               turnPoint(playersChoice, computersChoice);
