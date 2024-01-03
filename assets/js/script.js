@@ -11,6 +11,7 @@ let game = {
   loseScore: 0,
   drawScore: 0,
   finalResult: "",
+  turnNumber: 0,
 };
 
 // game rules object with win/lose combos. //
@@ -35,6 +36,8 @@ const buttons = document.getElementsByClassName("game-btn");
  */
 function handleButtonClick(event) {
   playersChoice = event.target.dataset.weapon;
+  game.turnNumber++;
+  console.info(`Turn Number = ${game.turnNumber}`);
   rollCountdown();
   updateChoices();
 }
