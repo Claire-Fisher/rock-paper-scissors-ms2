@@ -62,7 +62,8 @@ h1 {
     font-weight: 700;
 }
 
-.modal-body {
+.modal-body,
+.modal-body p {
     margin-top: 2rem;
 }
 
