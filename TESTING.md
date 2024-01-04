@@ -33,7 +33,7 @@ During the development process, I was manually testing in the following ways:-
 * In addition to this, I also asked several people to test using iPhones and Apple Mac laptops/desktops using safari. These users reported no issues or bugs only style suggestions. CHECK THIS BEFORE PROJECT COMPLETION!!
 
 **Style and Script link functionality**
-* To manaually test my CSS and JS links were funcitoning as intended: 
+* To manaually test my CSS and JS links were functioning as intended: 
   * I created a test h1 on my html.
   * I added code in the style.css to make the h1 content red.
   * I added code in the script.js to message the console. 
@@ -53,6 +53,12 @@ During the development process, I was manually testing in the following ways:-
   * Result: Only the H1 and H2 combo examples will be used. 
 
   ![The results of the colour palette test image](/documents/testing-images/color-testing.png)
+
+**Best of three function**
+* To manaually test my bestOfThree function was working as intended: 
+  * Included a simple console log to announce "GAME OVER. PLEASE REFRESH" when any of the scores (win/lose/draw) hit the value of 3. 
+
+  ![The results of manually testing the best-of-three function image](/documents/testing-images/best-of-three.png)
 
 ### ***Bugs and Fixes:*** CHECK THIS BEFORE PROJECT COMPLETION!!
 
