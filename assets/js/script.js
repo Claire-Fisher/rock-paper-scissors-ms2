@@ -30,6 +30,7 @@ const weapons = {
 let playersChoice = "";
 let computersChoice = "";
 const buttons = document.getElementsByClassName("game-btn");
+const continueButton = document.getElementById("continueButton");
 
 /**
  * Takes eventListener data
@@ -87,6 +88,7 @@ function editScores() {
  */
 function bestOfThree(a, b, c) {
   if (a === 3 || b === 3 || c === 3) {
+    continueButton.innerText = "New Game";
     console.log("GAME OVER. PLEASE REFRESH");
   }
 }
@@ -111,6 +113,7 @@ function turnPoint(playersChoice, computersChoice) {
     game.loseScore++;
     resultAnnouncement("lose");
   }
+  continueButton.innerText = "Continue";
   editScores();
   bestOfThree(game.winScore, game.loseScore, game.drawScore);
 }
