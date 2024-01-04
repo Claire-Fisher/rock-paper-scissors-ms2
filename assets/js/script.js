@@ -97,6 +97,9 @@ function newGame() {
   editScores();
 }
 
+/**
+ * Holds final scores info for user until newGameButton is clicked
+ */
 function finalScores() {
   $("#continueButton").hide();
   $("#newGameButton").removeClass("hidden");
@@ -162,9 +165,6 @@ function turnPoint(playersChoice, computersChoice) {
  * Edits innerText of Turn Results area to display outcome to the user.
  */
 function resultAnnouncement(result) {
-  // var resultChoices = document.getElementById("turnResultChoices");
-  // var resultText = document.getElementById("turnResultText");
-
   if (result === "draw") {
     resultChoices.innerText = `You both chose ${playersChoice}`;
     resultText.innerText = "it's a draw!";
