@@ -79,6 +79,20 @@ function editScores() {
 
 /**
  *
+ * @param {integer} a
+ * @param {integer} b
+ * @param {integer} c
+ * Takes the win/lose/draw scores from game object.
+ * If any = 3. Game over. New game.
+ */
+function bestOfThree(a, b, c) {
+  if (a === 3 || b === 3 || c === 3) {
+    console.log("GAME OVER. PLEASE REFRESH");
+  }
+}
+
+/**
+ *
  * @param {string} playersChoice
  * @param {string} computersChoice
  * Compares playersChoice with computersChoice
@@ -98,6 +112,7 @@ function turnPoint(playersChoice, computersChoice) {
     resultAnnouncement("lose");
   }
   editScores();
+  bestOfThree(game.winScore, game.loseScore, game.drawScore);
 }
 
 /**
@@ -116,12 +131,12 @@ function resultAnnouncement(result) {
     console.info(`You both chose ${playersChoice}!  It's a draw!`);
   }
   if (result === "win") {
-    resultChoices.innerText = `${playersChoice} beats ${computersChoice}!`;
+    resultChoices.innerText = `Your ${playersChoice} beats ${computersChoice}!`;
     resultText.innerText = "you score!";
     console.info(`${playersChoice} beats ${computersChoice}! You score!`);
   }
   if (result === "lose") {
-    resultChoices.innerText = `${playersChoice} loses to  ${computersChoice}!`;
+    resultChoices.innerText = `Your ${playersChoice} loses to  ${computersChoice}!`;
     resultText.innerText = "AI scores.";
     console.info(`${playersChoice} loses to ${computersChoice}! AI scores!`);
   }
