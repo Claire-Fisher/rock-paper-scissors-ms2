@@ -83,6 +83,10 @@ function newGame() {
   game.drawScore = 0;
   game.turnNumber = 0;
   $("#next-turn").addClass("hidden");
+  $("#newGameButton").addClass("hidden");
+  $("#continueButton").show();
+  $("#turnResultArea").addClass("hidden");
+  $("#game-area").show();
   editScores();
 }
 
@@ -96,8 +100,9 @@ function newGame() {
  */
 function bestOfThree(a, b, c) {
   if (a === 3 || b === 3 || c === 3) {
-    continueButton.innerText = "New Game";
-    $("#continueButton").on("click", newGame());
+    $("#continueButton").hide();
+    $("#newGameButton").removeClass("hidden");
+    $("#newGameButton").on("click", newGame);
     console.log("GAME OVER. PLEASE REFRESH");
   }
 }
@@ -190,7 +195,3 @@ function rollCountdown() {
         });
     });
 }
-
-// show new scores tally in scores section //
-
-// event listener: play again  //
