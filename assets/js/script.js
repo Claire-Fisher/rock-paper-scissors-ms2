@@ -31,6 +31,8 @@ let playersChoice = "";
 let computersChoice = "";
 const buttons = document.getElementsByClassName("game-btn");
 const continueButton = document.getElementById("continueButton");
+let resultChoices = document.getElementById("turnResultChoices");
+let resultText = document.getElementById("turnResultText");
 
 /**
  * Takes eventListener data
@@ -95,20 +97,33 @@ function newGame() {
   editScores();
 }
 
+function finalScores() {
+  $("#continueButton").hide();
+  $("#newGameButton").removeClass("hidden");
+  $("#newGameButton").on("click", newGame);
+  console.log("GAME OVER. PLEASE REFRESH");
+}
+
 /**
  *
- * @param {integer} a
- * @param {integer} b
- * @param {integer} c
+ * @param {integer} win
+ * @param {integer} lose
+ * @param {integer} draw
  * Takes the win/lose/draw scores from game object.
  * If any = 3. Game over. New game.
  */
-function bestOfThree(a, b, c) {
-  if (a === 3 || b === 3 || c === 3) {
-    $("#continueButton").hide();
-    $("#newGameButton").removeClass("hidden");
-    $("#newGameButton").on("click", newGame);
-    console.log("GAME OVER. PLEASE REFRESH");
+function bestOfThree(win, lose, draw) {
+  if (win === 3) {
+    resultText.innerText = "Congratulations: You Win!";
+    finalScores();
+  }
+  if (lose === 3) {
+    resultText.innerText = "Game Over: You Lose!";
+    finalScores();
+  }
+  if (draw === 3) {
+    resultText.innerText = "Final result: Draw!";
+    finalScores();
   }
 }
 
@@ -147,21 +162,21 @@ function turnPoint(playersChoice, computersChoice) {
  * Edits innerText of Turn Results area to display outcome to the user.
  */
 function resultAnnouncement(result) {
-  var resultChoices = document.getElementById("turnResultChoices");
-  var resultText = document.getElementById("turnResultText");
+  // var resultChoices = document.getElementById("turnResultChoices");
+  // var resultText = document.getElementById("turnResultText");
 
   if (result === "draw") {
-    resultChoices.innerText = `You both chose ${playersChoice}!`;
+    resultChoices.innerText = `You both chose ${playersChoice}`;
     resultText.innerText = "it's a draw!";
     console.info(`You both chose ${playersChoice}!  It's a draw!`);
   }
   if (result === "win") {
-    resultChoices.innerText = `Your ${playersChoice} beats ${computersChoice}!`;
+    resultChoices.innerText = `Your ${playersChoice} beats ${computersChoice}`;
     resultText.innerText = "you score!";
     console.info(`${playersChoice} beats ${computersChoice}! You score!`);
   }
   if (result === "lose") {
-    resultChoices.innerText = `Your ${playersChoice} loses to  ${computersChoice}!`;
+    resultChoices.innerText = `Your ${playersChoice} loses to  ${computersChoice}`;
     resultText.innerText = "AI scores.";
     console.info(`${playersChoice} loses to ${computersChoice}! AI scores!`);
   }
