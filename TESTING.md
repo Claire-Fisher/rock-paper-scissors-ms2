@@ -86,14 +86,21 @@ Below is a list of bugs I found during the development process by testing myself
         * Realised I had targeted the weapon buttons with the class .btn
         * .btn is a bootstrap class, so the styling I'd applied to the weapons buttons, was also targetting the bootstrap modal button in the H1. 
         * Targetted the weapons buttons with .game-btn instead (my own class name). Additional height properties no longer affecting the H1 element. 
-4. **Intended Outcome** 
+4. **AI random weapon not updating correctly** 
     * ***Issue Found:*** 
         * The AI's randomly generated weapon was not updating after the first round.  
     * ***Solution Used:***    
         * Created an empty string variable. 
         * Reassigned this variable with the getRandomWeapon function inside the button click event. 
         * AI random weapon choice now refreshes on every click event. 
-5. **Intended Outcome** 
+5. **New Game functionality** 
+    * ***Issue Found:*** 
+        * Continue button still operating as a "New Game" button after first game over. So game kept resetting every time user clicked Continue.
+    * ***Solution Used:***    
+        * Created a separate New Game button in the html. Previously the button's innerText switched between "Continue" and "New Game" with JavaScript.
+        * Used show and hide JQuerys to switch between the two buttons at the correct time.
+        * With separate buttons, I could then accurately target each one to excute the correct functions and JQuery commands.  
+6. **Intended Outcome** 
     * ***Issue Found:*** 
         * 
     * ***Solution Used:***    
