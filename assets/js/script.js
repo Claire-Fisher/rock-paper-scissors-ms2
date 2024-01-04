@@ -28,6 +28,7 @@ const weapons = {
 };
 
 let playersChoice = "";
+let computersChoice = "";
 const buttons = document.getElementsByClassName("game-btn");
 
 /**
@@ -38,6 +39,7 @@ function handleButtonClick(event) {
   playersChoice = event.target.dataset.weapon;
   game.turnNumber++;
   console.info(`Turn Number = ${game.turnNumber}`);
+  computersChoice = getRandomWeapon();
   rollCountdown();
   updateChoices();
 }
@@ -61,8 +63,6 @@ function updateChoices() {
   console.info("Player has chosen: ", playersChoice);
   $("#users-choice").text(`Your weapon = ${playersChoice}`);
 }
-
-let computersChoice = getRandomWeapon();
 
 /**
  * Targets the score board,
