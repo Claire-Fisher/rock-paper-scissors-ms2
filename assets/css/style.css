@@ -64,11 +64,11 @@ h1 {
 
 .modal-body,
 .modal-body p {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 .modal-body p {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 /* GAME AREA */
@@ -93,17 +93,17 @@ h1 {
 
 #users-choice,
 #ai-choosing {
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 
 .countdown-circle {
     background-color: #c9c9c9;
-    width: 10rem;
-    height: 10rem;
-    line-height: 10rem;
+    width: 8rem;
+    height: 8rem;
+    line-height: 8rem;
     border-radius: 50%;
     font-weight:900;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 /* SCORE AREA */
