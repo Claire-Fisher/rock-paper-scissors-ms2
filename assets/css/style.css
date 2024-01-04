@@ -71,7 +71,7 @@ h1 {
     font-size: 1.5rem;
 }
 
-/* GAME COUNTDOWN AREA */
+/* GAME AREA */
 
 #game-area {
     /* margin-bottom:18rem; */
@@ -89,7 +89,7 @@ h1 {
     height: 10rem;
 }
 
-/* COUNTDOWN AREA */
+/* GAME COUNTDOWN AREA */
 
 #users-choice,
 #ai-choosing {
@@ -108,6 +108,7 @@ h1 {
 
 /* SCORE AREA */
 
+.turn-result-box,
 .scores-box {
     max-width: 60%;
     margin-top: 1rem;
@@ -146,7 +147,8 @@ footer p {
     .btn {
         height: 3rem;
     }
-    .scores-box {
+    .scores-box,
+    .turn-result-box {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     max-width: 90%;
