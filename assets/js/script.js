@@ -141,17 +141,17 @@ function rollCountdown() {
   $("#game-area").hide();
   $("#game-countdown").removeClass("hidden");
   $("#No3")
-    .fadeOut(1000)
+    .fadeOut(750)
     .promise()
     .done(function () {
       $("#No2")
         .removeClass("hidden")
-        .fadeOut(1000)
+        .fadeOut(750)
         .promise()
         .done(function () {
           $("#No1")
             .removeClass("hidden")
-            .fadeOut(1000)
+            .fadeOut(750)
             .promise()
             .done(function () {
               $("#turnResultArea").removeClass("hidden");
