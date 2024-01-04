@@ -75,7 +75,15 @@ function editScores() {
   document.getElementById("draw-tally").innerText = game.drawScore;
   $("#game-countdown").addClass("hidden");
   $("#game-area").removeClass("hidden");
-  $("#next-turn").removeClass("hidden");
+}
+
+function newGame() {
+  game.winScore = 0;
+  game.loseScore = 0;
+  game.drawScore = 0;
+  game.turnNumber = 0;
+  $("#next-turn").addClass("hidden");
+  editScores();
 }
 
 /**
@@ -117,6 +125,9 @@ function turnPoint(playersChoice, computersChoice) {
   continueButton.innerText = "Continue";
   editScores();
   bestOfThree(game.winScore, game.loseScore, game.drawScore);
+  if (game.turnNumber >= 1) {
+    $("#next-turn").removeClass("hidden");
+  }
 }
 
 /**
@@ -146,7 +157,6 @@ function resultAnnouncement(result) {
   }
   $("#continueButton").on("click", function () {
     $("#game-area").show();
-    $("#next-turn").removeClass("hidden");
     $("#turnResultArea").addClass("hidden");
   });
 }
