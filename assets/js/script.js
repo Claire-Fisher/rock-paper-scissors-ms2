@@ -77,6 +77,11 @@ function editScores() {
   $("#game-area").removeClass("hidden");
 }
 
+/**
+ * Resets scores.
+ * Hides/Shows correct game elements
+ * Shows clear scores to the user.
+ */
 function newGame() {
   game.winScore = 0;
   game.loseScore = 0;
