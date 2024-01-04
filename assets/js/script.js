@@ -36,7 +36,7 @@ const continueButton = document.getElementById("continueButton");
  * Takes eventListener data
  * Reassigns playersChoice with users selection
  */
-function handleButtonClick(event) {
+function handleWeaponClick(event) {
   playersChoice = event.target.dataset.weapon;
   game.turnNumber++;
   console.info(`Turn Number = ${game.turnNumber}`);
@@ -47,7 +47,7 @@ function handleButtonClick(event) {
 
 // Event listener for user weapon selection
 for (const button of buttons) {
-  button.addEventListener("click", handleButtonClick);
+  button.addEventListener("click", handleWeaponClick);
 }
 
 /**
@@ -89,6 +89,7 @@ function editScores() {
 function bestOfThree(a, b, c) {
   if (a === 3 || b === 3 || c === 3) {
     continueButton.innerText = "New Game";
+    $("#continueButton").on("click", newGame());
     console.log("GAME OVER. PLEASE REFRESH");
   }
 }
