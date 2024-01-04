@@ -83,6 +83,7 @@ h1 {
     font-weight:700;
     margin: 0.4rem;
     height: 10rem;
+    border-radius: 1.5rem;
 }
 
 /* GAME COUNTDOWN AREA */
