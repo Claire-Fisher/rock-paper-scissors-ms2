@@ -132,7 +132,6 @@ function bestOfThree(win, lose) {
 }
 
 /**
- *
  * @param {string} playersChoice
  * @param {string} computersChoice
  * Compares playersChoice with computersChoice
@@ -160,7 +159,6 @@ function turnPoint(playersChoice, computersChoice) {
 }
 
 /**
- *
  * @param {string} result
  * Take the result of turnPoint()
  * Edits innerText of Turn Results area to display outcome to the user.
