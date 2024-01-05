@@ -104,6 +104,9 @@ function finalScores() {
   console.log("GAME OVER. PLEASE REFRESH");
 }
 
+/**
+ * Arr of gif IDs for the randomGif() to target
+ */
 const gifs = ["gif1", "gif2", "gif3", "gif4", "gif5"];
 
 /**
