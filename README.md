@@ -142,7 +142,7 @@ EXAMPLE DONT LEAVE THIS IN!!  Designed as....... the site will .... This project
 # Testing
 
 - **Testing During Development**
-  - EXAMPLE DONT LEAVE THIS IN!! 
+  - Please see full documentation for testing and bug reports in TESTING.md
 
 ### Validator Testing
 
