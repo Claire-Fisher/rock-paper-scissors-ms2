@@ -17,7 +17,11 @@ body {
     background-color: #c9c9c9;
 }
 
-.light-txt {
+.dark-grey-text {
+    color: #222;
+}
+
+.light-text {
     color:#f9f9f9;
 }
 
