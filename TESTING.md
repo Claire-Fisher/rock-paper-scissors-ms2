@@ -111,9 +111,14 @@ Below is a list of bugs I found during the development process by testing myself
 
 1. **Final result "Draw"**
     * ***Tester feedback: Shaun Russell***
-        * The "Final Result Draw" outcome is confusing to the user. 
+        * The "Final Result: Draw" outcome is confusing to the user. 
         * Suggestion: Have "Win" and "Lose" game completion options only.
-        * Draw will continously tally until Win or Lose scores reach three. 
+        * Draw will continously tally until Win or Lose scores reach three.
+2. **Final result "Lose"**
+    * ***Tester feedback: Shaun Russell***
+        * The "Final Result: Lose" outcome isn't obvious enough to the user. 
+        * Suggestion: Have a single "Lose" game gif.
+        * Lose outcome is still less favourable than win, as the single gif will be displayed every time a loss result is reached. 
     
 ## **Post Development Testing**
 ### **Validators**
