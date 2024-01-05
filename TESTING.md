@@ -2,6 +2,7 @@
 * [**During Development Testing**](#during-development-testing)
     * [*Manual Testing*](#manual-testing)
     * [*Bugs and Fixes*](#bugs-and-fixes)
+    * [*Third Party Testing and Feedback*](#third-party-testing-and-feedback)
 * [**Post Development Testing**](#post-development-testing)
   * [**Validators**](#validators)
       * [*HTML*](#html---httpsvalidatorw3orgnu)
@@ -60,7 +61,7 @@ During the development process, I was manually testing in the following ways:-
 
   ![The results of manually testing the best-of-three function image](/documents/testing-images/best-of-three.png)
 
-### ***Bugs and Fixes:*** CHECK THIS BEFORE PROJECT COMPLETION!!
+### ***Bugs and Fixes:***
 
 Below is a list of bugs I found during the development process by testing myself via the live server extension on VSCode. I tried each element for how the browser would display the page to potential users on a range of different screen widths from 320px to 4000px:-
 
@@ -105,6 +106,14 @@ Below is a list of bugs I found during the development process by testing myself
         * 
     * ***Solution Used:***    
         * 
+
+### **Third Party Testing and Feedback**
+
+1. **Final result "Draw"**
+    * ***Tester feedback: Shaun Russell***
+        * The "Final Result Draw" outcome is confusing to the user. 
+        * Suggestion: Have "Win" and "Lose" game completion options only.
+        * Draw will continously tally until Win or Lose scores reach three. 
     
 ## **Post Development Testing**
 ### **Validators**
