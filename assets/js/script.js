@@ -85,6 +85,7 @@ function newGame() {
   game.loseScore = 0;
   game.drawScore = 0;
   game.turnNumber = 0;
+  $(".result-gif").addClass("hidden");
   $("#next-turn").addClass("hidden");
   $("#newGameButton").addClass("hidden");
   $("#continueButton").show();
