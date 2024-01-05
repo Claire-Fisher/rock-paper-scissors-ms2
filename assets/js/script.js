@@ -52,6 +52,9 @@ for (const button of buttons) {
   button.addEventListener("click", handleWeaponClick);
 }
 
+/**
+ * @returns random selection from weapons obj keys
+ */
 const getRandomWeapon = () => {
   const weaponNames = Object.keys(weapons);
   return weaponNames[Math.floor(Math.random() * weaponNames.length)];
