@@ -52,10 +52,6 @@ for (const button of buttons) {
   button.addEventListener("click", handleWeaponClick);
 }
 
-/**
- *
- * returns computer's random selection
- */
 const getRandomWeapon = () => {
   const weaponNames = Object.keys(weapons);
   return weaponNames[Math.floor(Math.random() * weaponNames.length)];
@@ -107,6 +103,8 @@ function finalScores() {
   console.log("GAME OVER. PLEASE REFRESH");
 }
 
+const gifs = ["gif1", "gif2"];
+
 /**
  *
  * @param {integer} win
@@ -116,9 +114,13 @@ function finalScores() {
  * If any = 3. Game over. New game.
  */
 function bestOfThree(win, lose, draw) {
+  let randomGif = () => {
+    return gifs[Math.floor(Math.random() * gifs.length)];
+  };
   if (win === 3) {
     resultText.innerText = "Congratulations: You Win!";
-    $(".result-gif").removeClass("hidden");
+    let selectedGif = randomGif();
+    $(`#${selectedGif}`).removeClass("hidden");
     finalScores();
   }
   if (lose === 3) {
