@@ -131,6 +131,7 @@ function bestOfThree(win, lose) {
   }
   if (lose === 3) {
     resultText.innerText = "Game Over: You Lose!";
+    $("#game-over").removeClass("hidden");
     $(".turn-result-box").removeClass("mid-grey-bg").addClass("dark-grey-bg");
     $("#turnResultChoices").removeClass("dark-text").addClass("light-text");
     $("#turnResultText").removeClass("dark-text").addClass("light-text");
