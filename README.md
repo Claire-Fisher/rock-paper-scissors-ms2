@@ -154,16 +154,6 @@ EXAMPLE DONT LEAVE THIS IN!!  Designed as....... the site will .... This project
 **CSS** - [jigsaw.w3.org/css-validator/validator#warnings/](https://jigsaw.w3.org/css-validator/)
   - EXAMPLE DONT LEAVE THIS IN!! 
 
-
-### Other Bug Fixes
-
-**Header :-**
-  - EXAMPLE DONT LEAVE THIS IN!! 
-
-### Unfixed Bugs
-  - EXAMPLE DONT LEAVE THIS IN!! 
-
-
 # Deployment
 
 - [Click here to deploy this project live]() EXAMPLE DONT LEAVE THIS IN!! 
@@ -201,6 +191,13 @@ EXAMPLE DONT LEAVE THIS IN!!  Designed as....... the site will .... This project
 # Credits
 
 - Google Fonts for 'Inter" typography [View here](https://fonts.google.com/specimen/Inter?query=inter)
+- gifphy.com
+  - [Winner, winner, chicken dinner gif](https://giphy.com/gifs/studiosoriginals-chicken-dinner-winner-etKSrsbbKbqwW6vzOg)
+- tenor.com
+  - [Shawn the sheep "Wooo" gif](https://media.tenor.com/z93T38sX_HAAAAAi/woo-yey.gif)
+  - [Minions 'Woohoo' gif](https://media1.tenor.com/m/rVH0yznv-fIAAAAC/minions-woo-hoo.gif)
+  - [tonton cheer gif](https://media.tenor.com/_ocNArtc8fEAAAAi/tonton-tonton-sticker.gif)
+  - [Cheering child gif](https://media1.tenor.com/m/Z_IV0-4w2vEAAAAC/yes-winning.gif)
 - Tinypng.com for image compression [View here](https://tinypng.com/)
 
 # **Content**
