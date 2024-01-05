@@ -118,6 +118,7 @@ function finalScores() {
 function bestOfThree(win, lose, draw) {
   if (win === 3) {
     resultText.innerText = "Congratulations: You Win!";
+    $(".result-gif").removeClass("hidden");
     finalScores();
   }
   if (lose === 3) {
