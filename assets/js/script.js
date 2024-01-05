@@ -44,7 +44,9 @@ function handleWeaponClick(event) {
   console.info(`Turn Number = ${game.turnNumber}`);
   computersChoice = getRandomWeapon();
   rollCountdown();
-  updateChoices();
+  console.info("Computer has chosen: ", computersChoice);
+  console.info("Player has chosen: ", playersChoice);
+  $("#users-choice").text(`Your weapon = ${playersChoice}`);
 }
 
 // Event listener for user weapon selection
@@ -59,12 +61,6 @@ const getRandomWeapon = () => {
   const weaponNames = Object.keys(weapons);
   return weaponNames[Math.floor(Math.random() * weaponNames.length)];
 };
-
-function updateChoices() {
-  console.info("Computer has chosen: ", computersChoice);
-  console.info("Player has chosen: ", playersChoice);
-  $("#users-choice").text(`Your weapon = ${playersChoice}`);
-}
 
 /**
  * Targets the score board,
