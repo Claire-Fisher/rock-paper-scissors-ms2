@@ -124,10 +124,6 @@ function bestOfThree(win, lose, draw) {
     resultText.innerText = "Game Over: You Lose!";
     finalScores();
   }
-  if (draw === 3) {
-    resultText.innerText = "Final result: Draw!";
-    finalScores();
-  }
 }
 
 /**
