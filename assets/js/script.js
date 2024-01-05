@@ -91,6 +91,11 @@ function newGame() {
   $("#turnResultArea").addClass("hidden");
   $("#game-area").show();
   editScores();
+  $(".turn-result-box").removeClass("dark-grey-bg").addClass("mid-grey-bg");
+  $("#newGameButton").removeClass("mid-grey-bg").addClass("dark-grey-bg");
+  $("#newGameButton").removeClass("dark-text").addClass("light-text");
+  $("#turnResultText").removeClass("light-text").addClass("dark-text");
+  $("#newGameButton").removeClass("light-grey-bg").addClass("dark-grey-bg");
 }
 
 /**
@@ -109,7 +114,6 @@ function finalScores() {
 const gifs = ["gif1", "gif2", "gif3", "gif4", "gif5"];
 
 /**
- *
  * @param {integer} win
  * @param {integer} lose
  * Takes the win/lose/draw scores from game object.
@@ -127,6 +131,12 @@ function bestOfThree(win, lose) {
   }
   if (lose === 3) {
     resultText.innerText = "Game Over: You Lose!";
+    $(".turn-result-box").removeClass("mid-grey-bg").addClass("dark-grey-bg");
+    $("#turnResultChoices").removeClass("dark-text").addClass("light-text");
+    $("#turnResultText").removeClass("dark-text").addClass("light-text");
+    $("#newGameButton").removeClass("dark-grey-bg").addClass("mid-grey-bg");
+    $("#newGameButton").removeClass("light-text").addClass("dark-text");
+
     finalScores();
   }
 }
