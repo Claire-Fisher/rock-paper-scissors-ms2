@@ -110,11 +110,10 @@ const gifs = ["gif1", "gif2", "gif3", "gif4", "gif5"];
  *
  * @param {integer} win
  * @param {integer} lose
- * @param {integer} draw
  * Takes the win/lose/draw scores from game object.
  * If any = 3. Game over. New game.
  */
-function bestOfThree(win, lose, draw) {
+function bestOfThree(win, lose) {
   let randomGif = () => {
     return gifs[Math.floor(Math.random() * gifs.length)];
   };
@@ -152,7 +151,7 @@ function turnPoint(playersChoice, computersChoice) {
   }
   continueButton.innerText = "Continue";
   editScores();
-  bestOfThree(game.winScore, game.loseScore, game.drawScore);
+  bestOfThree(game.winScore, game.loseScore);
   if (game.turnNumber >= 1) {
     $("#next-turn").removeClass("hidden");
   }
