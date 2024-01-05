@@ -104,7 +104,7 @@ function finalScores() {
   console.log("GAME OVER. PLEASE REFRESH");
 }
 
-const gifs = ["gif1", "gif2"];
+const gifs = ["gif1", "gif2", "gif3", "gif4", "gif5"];
 
 /**
  *
