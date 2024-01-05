@@ -115,6 +115,13 @@ h1 {
     padding: 0.5rem 1.5rem 0.5rem;
 }
 
+/* GAME OVER GIFS */
+
+.result-gif {
+    max-height: 250px;
+    max-width: 250px;
+}
+
 /* SCORE AREA */
 
 .turn-result-box,
