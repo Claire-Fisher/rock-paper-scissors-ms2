@@ -1,11 +1,3 @@
-// Test to check javascipt loading and connected correctly.
-console.log("Js connected properly");
-
-// TEST - JQuery connected correctly
-$(".game-btn").click(function () {
-  console.log("JQuery working correctly");
-});
-
 let game = {
   winScore: 0,
   loseScore: 0,
@@ -41,11 +33,8 @@ let resultText = document.getElementById("turnResultText");
 function handleWeaponClick(event) {
   playersChoice = event.target.dataset.weapon;
   game.turnNumber++;
-  console.info(`Turn Number = ${game.turnNumber}`);
   computersChoice = getRandomWeapon();
   rollCountdown();
-  console.info("Computer has chosen: ", computersChoice);
-  console.info("Player has chosen: ", playersChoice);
   $("#users-choice").text(`Your weapon = ${playersChoice}`);
 }
 
@@ -106,7 +95,6 @@ function finalScores() {
   $("#turnResultChoices").removeClass("light-text").addClass("dark-text");
   $("#newGameButton").removeClass("hidden");
   $("#newGameButton").on("click", newGame);
-  console.log("GAME OVER. PLEASE REFRESH");
 }
 
 /**
@@ -138,7 +126,6 @@ function bestOfThree(win, lose) {
     $("#turnResultText").removeClass("dark-text").addClass("light-text");
     $("#newGameButton").removeClass("dark-grey-bg").addClass("mid-grey-bg");
     $("#newGameButton").removeClass("light-text").addClass("dark-text");
-
     finalScores();
   }
 }
@@ -179,17 +166,14 @@ function resultAnnouncement(result) {
   if (result === "draw") {
     resultChoices.innerText = `You both chose ${playersChoice}`;
     resultText.innerText = "it's a draw!";
-    console.info(`You both chose ${playersChoice}!  It's a draw!`);
   }
   if (result === "win") {
     resultChoices.innerText = `Your ${playersChoice} beats ${computersChoice}`;
     resultText.innerText = "you score!";
-    console.info(`${playersChoice} beats ${computersChoice}! You score!`);
   }
   if (result === "lose") {
     resultChoices.innerText = `Your ${playersChoice} loses to  ${computersChoice}`;
     resultText.innerText = "AI scores.";
-    console.info(`${playersChoice} loses to ${computersChoice}! AI scores!`);
   }
   $("#continueButton").on("click", function () {
     $("#game-area").show();
