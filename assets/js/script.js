@@ -103,6 +103,7 @@ function newGame() {
  */
 function finalScores() {
   $("#continueButton").hide();
+  $("#turnResultChoices").removeClass("light-text").addClass("dark-text");
   $("#newGameButton").removeClass("hidden");
   $("#newGameButton").on("click", newGame);
   console.log("GAME OVER. PLEASE REFRESH");
