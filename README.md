@@ -125,7 +125,6 @@ This project is intended for users of any age. Target users are most likely acce
 
 - Images are intentionally very limited to prioritse project performance. Animated gifs are included to represent user win or loss respectively. This adds to a positive user experience. A win result randomly selects 1 of 5 win gif. A lose result always displays the same Game Over gif. 
 
-
 ### The Footer
 
 - The footer will be limimted to simple copyright information. It cannot be interacted with by user. 
@@ -199,6 +198,7 @@ This project is intended for users of any age. Target users are most likely acce
   - [Minions 'Woohoo' gif](https://media1.tenor.com/m/rVH0yznv-fIAAAAC/minions-woo-hoo.gif)
   - [tonton cheer gif](https://media.tenor.com/_ocNArtc8fEAAAAi/tonton-tonton-sticker.gif)
   - [Cheering child gif](https://media1.tenor.com/m/Z_IV0-4w2vEAAAAC/yes-winning.gif)
+- Favicon.io for icon converter & instructions [View here](https://favicon.io/)
 - Tinypng.com for image compression [View here](https://tinypng.com/)
 
 # **Content**
