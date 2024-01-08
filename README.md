@@ -42,10 +42,10 @@ This project is intended for users of any age. Target users are most likely acce
 ### User Stories
 
 - As a user, I want to be entertained.
-- As a user, I want to be occupied.
 - As a user, I want to have a positive user experience.
 - As a user, I want the game to be intuitive and the rules easy to find.
 - As a user, I want to use the project across multiple devices.
+- As a travelling user, I want to be able to play the game with my mobile device in one hand, while I hold onto a transport safety rail, or bags of groceries.
 - As a differently abled user, I want the buttons and text to be of good contrast and larger size for accessiblity.  
 - As a colour blind user, I want the project to work clearly in grayscale.
 
@@ -54,6 +54,7 @@ This project is intended for users of any age. Target users are most likely acce
 - To provide a positive user experience.
 - To create an intuitive UI that provides good site flow.
 - To build a family-friendly game that is appropriate for all ages.
+- To build a single-finger playable game. 
 - To deliver a game that is responsive on a large variety of screen sizes and mobile devices.
 - To create a fast, easy-to-use game that can be enjoyed in less than 1 minute.
 - To deliver a game that implements accessibility needs.
