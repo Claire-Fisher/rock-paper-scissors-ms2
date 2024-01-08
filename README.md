@@ -2,7 +2,7 @@
 
 ### This site is designed as a pick-up-&-play game for entertainment. 
 
-EXAMPLE DONT LEAVE THIS IN!!  Designed as....... the site will .... This project is intended for users .... age and above. Target users will most likely use this project on mobile devices, so it must be fully responsive and will be developed using a mobile first approach.
+This project is intended for users of any age. Target users are most likely access this on mobile devices. Therefore it is developed using a mobile first approach and is fully responsive. The project aims to meet high standards of accessibility requirements. 
 
 ![An mock-up image of the Rock Paper Scissors project]()EXAMPLE DONT LEAVE THIS IN!! 
 
