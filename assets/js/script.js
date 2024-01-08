@@ -190,15 +190,21 @@ function rollCountdown() {
   $("#game-area").hide();
   $("#game-countdown").removeClass("hidden");
   $("#No3")
+    .show()
+    .css("opacity", "1")
     .fadeOut(750)
     .promise()
     .done(function () {
       $("#No2")
+        .show()
+        .css("opacity", "1")
         .removeClass("hidden")
         .fadeOut(750)
         .promise()
         .done(function () {
           $("#No1")
+            .show()
+            .css("opacity", "1")
             .removeClass("hidden")
             .fadeOut(750)
             .promise()
