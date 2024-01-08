@@ -119,11 +119,11 @@ This project is intended for users of any age. Target users are most likely acce
 
 - A navigation bar is unnecessary for this single-page project. 
 - User input can be selected intuitively from large button choices dominating the page. 
-- Game rules can be found intuitively via an obvious interactive button that will toggle a pop-up window of information.
+- Game rules can be found intuitively via an obvious interactive button that toggles a modal of information.
 
 ### Images
 
-- EXAMPLE DONT LEAVE THIS IN!! Images will be very limited, if featured at all. This is to maximise loading and running times. Animated gifs may be included to represent user win or loss respectively. This would add to a positive user experience. 
+- Images are intentionally very limited to prioritse project performance. Animated gifs are included to represent user win or loss respectively. This adds to a positive user experience. A win result randomly selects 1 of 5 win gif. A lose result always displays the same Game Over gif. 
 
 
 ### The Footer
