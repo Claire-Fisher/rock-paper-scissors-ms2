@@ -180,6 +180,10 @@ footer p {
     max-width: 90%;
     border-radius: 1.5rem;
     }
+    .result-gif {
+    max-height: 150px;
+    max-width: 150px;
+}
 }
 
 @media screen and (min-width:992px) {
