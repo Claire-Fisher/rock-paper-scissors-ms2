@@ -68,20 +68,20 @@ This project is intended for users of any age. Target users are most likely acce
 
 ### Research
 
-- EXAMPLE DONT LEAVE THIS IN!! The following sites were examined as part of my project research:
+- The following sites were examined as part of my project research:
+- https://www.online-stopwatch.com/chance-games/rock-paper-scissors/
+- https://www.coolmathgames.com/0-rock-paper-scissors
+- https://www.twoplayergames.org/game/rock-paper-scissors
 
-- EXAMPLE DONT LEAVE THIS IN!! Common themes found:
+- Common themes found:
   - Responsive design.
   - Neutral backgrounds to page styling.
-  - Lists of psychological words connected to each colour.
-  - Site logo's top left (user expected location, intuitive design).
-  - Navigation link top (user expected location, intuitive design).
-  - Grey font used on white/light backgrounds. Softer for sensory perception.
-  - Examples cited of how each colour is used in design concepts.
-  - Colour quotes.
-  - Video content exploring colour psychology further.
-- My adjustments to suit my project target audience:
-  - Switched the word "Psychology" for "Theory" to be less intimidating for a younger user (Except for psychology word lists).
+  - Colourful, busy designs, auto-played music.
+- My adjustments to suit my project aims:
+  - Less colour. Keep to a greyscale palette for better accessibility. 
+  - Clearer feedback to the user on what they chose and what the AI chose. 
+  - No auto play music that can reduce a users positive UX.
+  - A best of three outcome. A game that has a definite win or lose outcome is more satisfying to the user. 
 
 ### Wireframes
 
