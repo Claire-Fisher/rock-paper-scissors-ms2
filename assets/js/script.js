@@ -1,10 +1,10 @@
-let game = {
-  winScore: 0,
-  loseScore: 0,
-  drawScore: 0,
-  finalResult: "",
-  turnNumber: 0,
-};
+const resultChoices = document.getElementById("turnResultChoices");
+const continueButton = document.getElementById("continueButton");
+const resultText = document.getElementById("turnResultText");
+const buttons = document.getElementsByClassName("game-btn");
+const winTally = document.getElementById("win-tally");
+const loseTally = document.getElementById("lose-tally");
+const drawTally = document.getElementById("draw-tally");
 
 // game rules object with win/lose combos. //
 const weapons = {
@@ -19,12 +19,16 @@ const weapons = {
   },
 };
 
+let game = {
+  winScore: 0,
+  loseScore: 0,
+  drawScore: 0,
+  finalResult: "",
+  turnNumber: 0,
+};
+
 let playersChoice = "";
 let computersChoice = "";
-const buttons = document.getElementsByClassName("game-btn");
-const continueButton = document.getElementById("continueButton");
-let resultChoices = document.getElementById("turnResultChoices");
-let resultText = document.getElementById("turnResultText");
 
 /**
  * Takes eventListener data
@@ -56,9 +60,9 @@ const getRandomWeapon = () => {
  * edits and shows the user the current scores
  */
 function editScores() {
-  document.getElementById("win-tally").innerText = game.winScore;
-  document.getElementById("lose-tally").innerText = game.loseScore;
-  document.getElementById("draw-tally").innerText = game.drawScore;
+  winTally.innerText = game.winScore;
+  loseTally.innerText = game.loseScore;
+  drawTally.innerText = game.drawScore;
   $("#game-countdown").addClass("hidden");
   $("#game-area").removeClass("hidden");
 }
@@ -103,8 +107,8 @@ function finalScores() {
 const gifs = ["gif1", "gif2", "gif3", "gif4", "gif5"];
 
 /**
- * @param {integer} win
- * @param {integer} lose
+ * @param {int} win
+ * @param {int} lose
  * Takes the win/lose/draw scores from game object.
  * If any = 3. Game over. New game.
  */
