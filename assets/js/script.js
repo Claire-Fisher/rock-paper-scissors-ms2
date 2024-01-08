@@ -83,6 +83,7 @@ function newGame() {
   $(".turn-result-box").removeClass("dark-grey-bg").addClass("mid-grey-bg");
   $("#newGameButton").removeClass("mid-grey-bg").addClass("dark-grey-bg");
   $("#newGameButton").removeClass("dark-text").addClass("light-text");
+  $("#turnResultChoices").removeClass("light-text").addClass("dark-text");
   $("#turnResultText").removeClass("light-text").addClass("dark-text");
   $("#newGameButton").removeClass("light-grey-bg").addClass("dark-grey-bg");
 }
@@ -92,7 +93,6 @@ function newGame() {
  */
 function finalScores() {
   $("#continueButton").hide();
-  $("#turnResultChoices").removeClass("light-text").addClass("dark-text");
   $("#newGameButton").removeClass("hidden");
   $("#newGameButton").on("click", newGame);
 }
