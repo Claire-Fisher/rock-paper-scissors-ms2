@@ -127,6 +127,11 @@ h1 {
     max-width: 250px;
 }
 
+#game-over {
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+}
+
 /* SCORE AREA */
 
 .turn-result-box,
