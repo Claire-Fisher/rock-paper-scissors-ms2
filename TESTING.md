@@ -101,7 +101,13 @@ Below is a list of bugs I found during the development process by testing myself
         * Created a separate New Game button in the html. Previously the button's innerText switched between "Continue" and "New Game" with JavaScript.
         * Used show and hide JQuerys to switch between the two buttons at the correct time.
         * With separate buttons, I could then accurately target each one to excute the correct functions and JQuery commands.  
-6. **Intended Outcome** 
+6. **rollCountdown function** 
+    * ***Issue Found:*** 
+        * Appeared rollCountdown function was not executing after it's first cycle.
+        * Suspected issue was the countdown numbers were still classed as "hidden" after the first fadeOuts. Showing and hiding in different positions, and even later functions, did not fix the issue. 
+    * ***Solution Used:***    
+        * Not only did the numbers need to be unhidden with show(), but the opacity had to be reset back up to 1 so they werent transparent. Countdown now executes as expected. 
+7. **Intended Outcome** 
     * ***Issue Found:*** 
         * 
     * ***Solution Used:***    
