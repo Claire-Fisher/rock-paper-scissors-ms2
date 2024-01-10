@@ -73,19 +73,35 @@ This project is intended for users of any age. Target users are most likely acce
   - A best of three outcome. A game that has a definite win or lose outcome is more satisfying to the user. 
 
 ### Wireframes
-- Procreate was used to document research, sketch out initial ideas, page layouts and wireframes.
-- Wireframes Home/Countdown/Next-Turn for mobile
-![Wireframes Home/Countdown/Next-Turn for mobile](/documents/readme-images/wireframe-mobile-home-countdown-next.jpg)
-- Wireframes Home/Countdown/Next-Turn for mobile
-![Wireframes Win/Lose/Draw turn-results for mobile](/documents/readme-images/wireframe-mobile-turn-result-continue.jpg)
-- Wireframes Home/Countdown/Next-Turn for mobile
-![Wireframes Game-Over Win or Lose for mobile](/documents/readme-images/wireframe-mobile-win-lose.jpg)
-- Wireframes Home/Countdown/Next-Turn for mobile
-![Wireframes Game-Rules-Modal for mobile](/documents/readme-images/wireframe-mobile-rules-modal.jpg)
-- This planning and development work was uploaded to Figma. The design page on Figma is a useful tool to layout all my early project documents in one space, and share online with others for additional input. It allowed my mentor to quickly view and understand my project themes and objectives.
-- Using Figma's wireframes capabilities, I was able to play with initial layouts and plan intuitive flow around my site. This has given me a good understanding of how an MVP might be presented to me by a frontend designer.
-- I focused on a mobile first development ethos.
-- Please click the link to view my development work on Figma:[View here](https://www.figma.com/file/5D9C0Ra8mOWScMFT2Mqq1e/RPS-Designs-%26-Development?type=design&node-id=0-1&mode=design&t=GZVaXRDeF3EGs5T8-0)
+
+Procreate was used to document research, sketch out initial ideas, page layouts and wireframes.
+
+Please toggle the following dropdowns to view the wireframe images.
+
+<details><summary>Wireframe Mobile: Home/Countdown/Next-Turn image</summary>
+<img src="documents/readme-images/wireframe-mobile-home-countdown-next.jpg">
+</details>
+
+<details><summary>Wireframe Mobile: Turn-result image</summary>
+<img src="documents/readme-images/wireframe-mobile-turn-result-continue.jpg">
+</details>
+
+<details><summary>Wireframe Mobile: Game Over Win/Lose image</summary>
+<img src="documents/readme-images/wireframe-mobile-win-lose.jpg">
+</details>
+
+<details><summary>Wireframe Mobile: Game-Rules-Modal image</summary>
+<img src="documents/readme-images/wireframe-mobile-rules-modal.jpg">
+</details>
+<br/>
+
+This planning and development work was uploaded to Figma. The design page on Figma is a useful tool to layout all my early project documents in one space, and share online with others for additional input. It allowed my mentor to quickly view and understand my project themes and objectives.
+
+Using Figma's wireframes capabilities, I was able to play with initial layouts and plan intuitive flow around my site. This has given me a good understanding of how an MVP might be presented to me by a frontend designer.
+
+I focused on a mobile first development ethos.
+
+Please click the link to view my development work on Figma:[View here](https://www.figma.com/file/5D9C0Ra8mOWScMFT2Mqq1e/RPS-Designs-%26-Development?type=design&node-id=0-1&mode=design&t=GZVaXRDeF3EGs5T8-0)
 
 ### Colour Scheme
 - There are no colour restrictions for this project.
