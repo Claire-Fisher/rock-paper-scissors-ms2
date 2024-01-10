@@ -31,6 +31,10 @@ body {
     text-transform: uppercase;
 }
 
+.bold {
+    font-weight: 700;
+}
+
 .capitalise {
     text-transform: capitalize;
 }
@@ -110,15 +114,16 @@ h1 {
 
 /* TURN RESULT AREA */
 
-#continueButton {
-    border-radius: 1.5rem;
-    padding: 0.5rem 1.5rem 0.5rem;
-}
-
+#continueButton,
 #newGameButton {
     border-radius: 1.5rem;
     padding: 0.5rem 1.5rem 0.5rem;
 }
+
+/* #newGameButton {
+    border-radius: 1.5rem;
+    padding: 0.5rem 1.5rem 0.5rem;
+} */
 
 /* GIFS */
 
@@ -148,6 +153,22 @@ h1 {
 
 .scores {
     margin: 0.5rem 0 1rem;
+}
+
+/* 404 PAGE */
+
+.page404 {
+    margin-top:10%;
+    font-size: 1.5rem;
+}
+
+#back-from-404 {
+    margin-top:0.9rem;
+    border-radius: 1.5rem;
+    min-height:3rem;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 /* FOOTER */
@@ -183,7 +204,11 @@ footer p {
     .result-gif {
     max-height: 150px;
     max-width: 150px;
-}
+    }
+    #back-from-404 {
+        padding: 0 18px;
+        font-size: 1.05rem;
+    }
 }
 
 @media screen and (min-width:992px) {
