@@ -129,14 +129,26 @@ Please click the link to view my development work on Figma:[View here](https://w
 - Images are intentionally very limited to prioritse project performance. Animated gifs are included to represent user win or loss respectively. This adds to a positive user experience. A win result randomly selects 1 of 5 win gif. A lose result always displays the same Game Over gif. 
 
 ### The Footer
-- The footer will be limimted to simple copyright information. It cannot be interacted with by user. 
+The footer will be limimted to simple copyright information. It cannot be interacted with by user. 
 
 # Future Features
+### Feedback Form
+Include a button link to a feedback form page. Users can be invited to report bugs, ask for future features, or suggest accessibility improvements.  
+
 ### Link to additional games 
-- Additional game versions, or game types could be added. A drop-down menu to those options would add additional positive user experience. It would also keep the user on the product longer. 
+Additional game versions, or game types could be added. A drop-down menu to those options would add additional positive user experience. It would also keep the user on the product longer. 
+
+### Difficulty setting
+Have an option the user can toggle to change the difficulty of the game. Harder levels might calculate the computer has a 50% change to select the winning weapon based on the user's choice etc. 
+
+### AI personality
+More conversational responses from the AI could be included to give the AI a "personality".
+
+### AI personality Expanded
+Have an option the user can toggle to select a "nice" or a "mean" AI opponent.
 
 ### Advertising 
-- An advertising banner could be added to promote other content from the same publisher. Or adverts supplied by third party companies to monetise the project. 
+An advertising banner could be added to promote other content from the same publisher. Or adverts supplied by third party companies to monetise the project. 
 
 # Testing
 - Please see full documentation for testing and bug reports in TESTING.md
