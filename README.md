@@ -112,7 +112,7 @@ Please click the link to view my development work on Figma:[View here](https://w
   - Project also displays extremely well on mobile devices set to dark mode.  
 
 ### Typography
-- 'Inter" from Google Fonts was selected throughout as a clear, easily-readable font choice.
+'Inter" from Google Fonts was selected throughout as a clear, easily-readable font choice. [View here](https://fonts.google.com/specimen/Inter?query=inter)
 
 # Features
 ### General
@@ -197,6 +197,7 @@ An advertising banner could be added to promote other content from the same publ
   - [Cheering child gif](https://media1.tenor.com/m/Z_IV0-4w2vEAAAAC/yes-winning.gif)
 - Favicon.io for icon converter & instructions [View here](https://favicon.io/)
 - Tinypng.com for image compression [View here](https://tinypng.com/)
+- EZGIF.com to gif compression [View here](https://ezgif.com/gif-to-webp)
 
 ## **Thanks**
 - Richard Wells: my Code Institute Mentor.
