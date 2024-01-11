@@ -73,7 +73,6 @@ body {
     color: #222;
 }
 
-
 .modal-body,
 .modal-body p {
     margin-top: 1.5rem;
@@ -225,5 +224,5 @@ footer p {
     }
     .fa-circle-question {
     font-size: 1.5rem;
-}
+    }
 }
