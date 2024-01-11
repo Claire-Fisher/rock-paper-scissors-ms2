@@ -104,8 +104,12 @@ I focused on a mobile first development ethos.
 Please click the link to view my development work on Figma:[View here](https://www.figma.com/file/5D9C0Ra8mOWScMFT2Mqq1e/RPS-Designs-%26-Development?type=design&node-id=0-1&mode=design&t=GZVaXRDeF3EGs5T8-0)
 
 ### Colour Scheme
-- There are no colour restrictions for this project.
-- A neutral colour palette of two greys ranging from light to midtone, and black have been chosen to meet accessibilty needs and keep the project clean, professional, and classc. This limited choice is also a bid for the widest user appeal.
+![Image of colour palette](/documents/readme-images/rps-colour-scheme.png)
+- A reduced colour scheme of three greys (#f9f9f9, #c9c9c9, #222222) has been chosen for this project. The advantages of this are as follows:
+  - Clean, professional design with universal appeal.
+  - Reduced screen glare for all users as lightest shade is off-white, and darkest is off-black. 
+  - Better accommodates users with higher visual requirements.
+  - Project also displays extremely well on mobile devices set to dark mode.  
 
 ### Typography
 - 'Inter" from Google Fonts was selected throughout as a clear, easily-readable font choice.
@@ -113,7 +117,7 @@ Please click the link to view my development work on Figma:[View here](https://w
 # Features
 ### General
 - The site is fully responsive and functional on all screen sizes down to 320px.
-- The site considers different user's sensory perceptions and reduces screen glare by softening white to a off-white, and black to a dark-grey.
+- The site considers different user's sensory perceptions and reduces screen glare by softening white to a off-white (#f9f9f9), and black to a dark-grey (#222).
 - The site uses semantic elements to assist screen reader users to navigate and access information.
 
 ### Logo
