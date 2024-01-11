@@ -119,16 +119,15 @@ h1 {
 
 /* TURN RESULT AREA */
 
+.turn-result-para {
+    margin-bottom: 0.4rem;
+}
+
 #continueButton,
 #newGameButton {
     border-radius: 1.5rem;
     padding: 0.5rem 1.5rem 0.5rem;
 }
-
-/* #newGameButton {
-    border-radius: 1.5rem;
-    padding: 0.5rem 1.5rem 0.5rem;
-} */
 
 /* GIFS */
 
