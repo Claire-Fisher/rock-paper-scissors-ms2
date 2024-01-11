@@ -33,13 +33,13 @@ This project is intended for users of any age. Target users are most likely acce
 - Users who want entertaining while waiting for something (commuters, patients in a waiting room etc).
 
 ### User Stories
-- As a user, I want to be entertained.
-- As a user, I want to have a positive user experience.
-- As a user, I want the game to be intuitive and the rules easy to find.
-- As a user, I want to use the project across multiple devices.
-- As a travelling user, I want to be able to play the game with my mobile device in one hand, while I hold onto a transport safety rail, or bags of groceries.
-- As a differently abled user, I want the buttons and text to be of good contrast and larger size for accessiblity.  
-- As a colour blind user, I want the project to work clearly in grayscale.
+1. As a user, I want to be entertained.
+2. As a user, I want to have a positive user experience.
+3. As a user, I want the game to be intuitive and the rules easy to find.
+4. As a user, I want to use the project across multiple devices.
+5. As a travelling user, I want to be able to play the game with my mobile device in one hand, while I hold onto a transport safety rail, or bags of groceries.
+6. As a differently abled user, I want the buttons and text to be of good contrast and larger size for accessiblity.  
+7. As a colour blind user, I want the project to work clearly in grayscale.
 
 ### Site Objectives
 - To provide a positive user experience.
