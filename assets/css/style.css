@@ -96,9 +96,14 @@ h1 {
 
 /* COUNTDOWN AREA */
 
+#countdown-text-box {
+    margin-top: 1.25rem;
+}
+
 #users-choice,
 #ai-choosing {
     font-size: 1.2rem;
+    line-height: 0.9;
 }
 
 .countdown-circle {
