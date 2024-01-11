@@ -112,7 +112,7 @@ Please click the link to view my development work on Figma:[View here](https://w
 A reduced colour scheme of three greys (#f9f9f9, #c9c9c9, #222222) has been chosen for this project. The advantages of this are as follows:
   - Clean, professional design with universal appeal.
   - Reduced screen glare for all users as lightest shade is off-white, and darkest is off-black. 
-  - Better accommodates users with higher visual requirements.
+  - Better accommodates users with higher visual requirements (Site objective No.7).
   - Project also displays extremely well on mobile devices set to dark mode.  
 
 ### Typography
@@ -122,16 +122,16 @@ A generic 'serif' font has been included as a backup in the event 'Inter' fails 
 
 # Features
 
-This project consists of one page with 13 features.
+This project consists of one page with 14 features.
 
-### Fully Responsive
+### Fully Responsive 
 - This site adapts to all devices and screen sizes ranging between 320px to 2560px wide (Tested).
 
 ### Intuitive Navigation
 - The rules button is present on every page and stays in the same location.
 - The weapon buttons are large, obvious and stay in the same location. Shifting only from horizontal to vertical alignment dependant on screen width. 
-- All buttons are named with intuitive text so navigation is clear to the user (e.g Continue, New Game).
-- All buttons have aria-labels to allow good navigation for users with screen-readers.
+- All buttons are named with intuitive text so navigation is clear to the user (e.g Continue, New Game) (Site objective No.7).
+- All buttons have aria-labels to allow good navigation for users with screen-readers. (Site objective No.7).
 
 ### Clear typography
 - The highly legible and readable font 'Inter' was selected from googlefonts. As a googlefonts listed typography, 'Inter' has a high chance of being useable across most devices. A generic 'serif' font has been coded to display in the event a device is not compatible with 'Inter'. 
@@ -142,6 +142,7 @@ This project consists of one page with 13 features.
 
 ### Images
 - Game over gifs have been included to increase the users positive experience. (Site objective No.1).
+- All images and gifs included aria-labels and/or alt attributes for accessibility (Site objective No.7).
 - To prioritise performance (Site objective No.6), all images and gifs are:
   - Limited.
   - Compressed for faster load times.
@@ -152,16 +153,16 @@ This project consists of one page with 13 features.
 - The AI's choice, turn result, score keeping and final result are all fully automated and displayed to the user. 
 
 ### 3-2-1 Countdown
-- An animated short countdown gives the illusion that the AI is "thinking" about it's weapon selection. It build suspense before the turn result, improving UX. 
+- An animated short countdown gives the illusion that the AI is "thinking" about it's weapon selection. It builds suspense before the turn result, improving UX. 
 - The countdown allows the user a moment to read and be reminded of their latest weapon choice, while not interrupting site flow.
-- This feature also improves accessibilities by allowing users with cognitive, and/or reading difficulties, a moment to process the game information.
+- This feature also improves accessibilities by allowing users with cognitive, and/or reading difficulties, a moment to process the game information (Site objective No.7).
 
 ### Game Win Result
 - The game randomly selects one of five different gifs when the player achieves a win result. In contrast to the singular "Game Over: You Lose" ending, this is more rewarding for the player when they win (Site objective No.1). 
 
 ### Large Buttons
 - Buttons have been built for all user interactions with this project. This eliminates user input error so the game functions are rapid, and excellent site flow is maintained. (Site objectives No.1, 2, 6).
-- They are designed with a minimum size of 48px x 48px. These are the WCAG 2.1 recommended guidelines for touchscreen buttons.
+- They are designed with a minimum size of 48px x 48px. These are the WCAG 2.1 recommended guidelines for touchscreen buttons (Site objective No.7).
 - It improves usability for all users, especially when using their device single handed. Input doesnt need to be typed and is selected with a simple button press (User story No.5).
 - It improves accessibility for people with physical disabilities who have dexterity needs (Site objective No.7). 
 
@@ -174,6 +175,8 @@ This project consists of one page with 13 features.
 
 ### High Standards of Accessibiliy 
 [According to accessguide.io](https://www.accessguide.io/)
+
+(Site objective No.7).
 - Definite status messages - 404 page included - "Oops, something went wrong" message.
 - Responsive design.
 - High colour contrast.
@@ -187,7 +190,10 @@ This project consists of one page with 13 features.
 - Written content is at an approachable level.
 - Minimum font size of 16px throughout the site and on all screen sizes.  
 - Custom visual graphic of the game rules. This minimises the amount of written information needed to be understood by the user. It helps those with cognitive difficulties. An brief but descriptive aria-label has been given to the rules image for visually impaired users. 
-- Pausable game play. The pauses at specific intervals (game start, user weapon selection, turn result, game over), and waits for the user input before continuing (eg. click continue). This provides all users the opportunity to break their attention from the game to attend to other things. It gives people with cognitive and learning disabilities the control to pace the game to suit their individual needs.   
+- Pausable game play. The pauses at specific intervals (game start, user weapon selection, turn result, game over), and waits for the user input before continuing (eg. click continue). This provides all users the opportunity to break their attention from the game to attend to other things. It gives people with cognitive and learning disabilities the control to pace the game to suit their individual needs.
+
+### Family Friendly
+- This site is free from offensive language and imagery, and is suitable for users of all ages (Site objective No.3).
 
 ### The Footer
 The footer provides copyright information and name of the site creator. It cannot be interacted with by user. 
