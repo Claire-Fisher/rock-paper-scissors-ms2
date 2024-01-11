@@ -27,7 +27,8 @@ This project is intended for users of any age. Target users are most likely acce
 
 # Planning and Development
 ### Target Audiences
-- Users who are looking to waste some time on a simple game.
+- Users of all age groups.
+- Users who are looking to spend some time on a simple game.
 - Users who want a game for a couple of seconds, to a couple of minutes, and beyond.
 - Users who want a clear and easy-to-use game with simple, familiar rules.
 - Users who want entertaining while waiting for something (commuters, patients in a waiting room etc).
@@ -48,27 +49,29 @@ This project is intended for users of any age. Target users are most likely acce
 - To build a single-finger playable game. 
 - To deliver a game that is responsive on a large variety of screen sizes and mobile devices.
 - To create a fast, easy-to-use game that can be enjoyed in less than 1 minute.
-- To deliver a game that implements accessibility needs.
+- To deliver a game that implements accessibility needs to a high level.
 
 ### Approach
+- Mobile first design.
 - The game functionality will be provided to the user logically and intuitively.
 - The site will be created following the principles of user experience design.
 - The content of the site will be inoffensive and accessible to all.
-- The site will be easy to navigate, intuitive and consistent in design.
+- Clean, professional design, with consistent colour-scheme, style and layouts throughout.
 
 ### Research
-- The following sites were examined as part of my project research:
+The following sites were examined as part of my project research:
 - https://www.online-stopwatch.com/chance-games/rock-paper-scissors/
 - https://www.coolmathgames.com/0-rock-paper-scissors
 - https://www.twoplayergames.org/game/rock-paper-scissors
 
-- Common themes found:
+Common themes found:
   - Responsive design.
   - Neutral backgrounds to page styling.
   - Colourful, busy designs, auto-played music.
-- My adjustments to suit my project aims:
+
+My adjustments to suit my project aims:
   - Less colour. Keep to a greyscale palette for better accessibility. 
-  - Clearer feedback to the user on what they chose and what the AI chose. 
+  - Clearer feedback to the user on their choice and the AI choice. 
   - No auto play music that can reduce a users positive UX.
   - A best of three outcome. A game that has a definite win or lose outcome is more satisfying to the user. 
 
@@ -95,17 +98,15 @@ Please toggle the following dropdowns to view the wireframe images.
 </details>
 <br/>
 
-This planning and development work was uploaded to Figma. The design page on Figma is a useful tool to layout all my early project documents in one space, and share online with others for additional input. It allowed my mentor to quickly view and understand my project themes and objectives.
+This planning and development work is uploaded to Figma. The design page on Figma is a useful tool to layout all my early project documents in one space, and share online with others for additional input. It allowed my mentor to quickly view and understand my project themes and objectives.
 
 Using Figma's wireframes capabilities, I was able to play with initial layouts and plan intuitive flow around my site. This has given me a good understanding of how an MVP might be presented to me by a frontend designer.
-
-I focused on a mobile first development ethos.
 
 Please click the link to view my development work on Figma:[View here](https://www.figma.com/file/5D9C0Ra8mOWScMFT2Mqq1e/RPS-Designs-%26-Development?type=design&node-id=0-1&mode=design&t=GZVaXRDeF3EGs5T8-0)
 
 ### Colour Scheme
 ![Image of colour palette](/documents/readme-images/rps-colour-scheme.png)
-- A reduced colour scheme of three greys (#f9f9f9, #c9c9c9, #222222) has been chosen for this project. The advantages of this are as follows:
+A reduced colour scheme of three greys (#f9f9f9, #c9c9c9, #222222) has been chosen for this project. The advantages of this are as follows:
   - Clean, professional design with universal appeal.
   - Reduced screen glare for all users as lightest shade is off-white, and darkest is off-black. 
   - Better accommodates users with higher visual requirements.
