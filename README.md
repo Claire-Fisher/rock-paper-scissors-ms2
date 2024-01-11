@@ -108,6 +108,7 @@ Please click the link to view my development work on Figma:[View here](https://w
 
 ### Colour Scheme
 ![Image of colour palette](/documents/readme-images/rps-colour-scheme.png)
+
 A reduced colour scheme of three greys (#f9f9f9, #c9c9c9, #222222) has been chosen for this project. The advantages of this are as follows:
   - Clean, professional design with universal appeal.
   - Reduced screen glare for all users as lightest shade is off-white, and darkest is off-black. 
@@ -116,6 +117,8 @@ A reduced colour scheme of three greys (#f9f9f9, #c9c9c9, #222222) has been chos
 
 ### Typography
 'Inter" from Google Fonts was selected throughout as a clear, easily-readable font choice. [View here](https://fonts.google.com/specimen/Inter?query=inter)
+
+A generic 'serif' font has been included as a backup in the event 'Inter' fails to load or is incompatible with the user's browser. 
 
 # Features
 
