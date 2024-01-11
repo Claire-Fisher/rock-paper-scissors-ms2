@@ -2,9 +2,9 @@
 ### This site is designed as a pick-up-&-play game for entertainment. 
 This project is intended for users of any age. Target users are most likely access this on mobile devices. Therefore it is developed using a mobile first approach and is fully responsive. The project aims to meet high standards of accessibility requirements. 
 
-![An mock-up image of the Rock Paper Scissors project]()EXAMPLE DONT LEAVE THIS IN!! 
+![An mock-up image of the Rock Paper Scissors project](/documents/readme-images/rps-mockup.png)
 
-- EXAMPLE DONT LEAVE THIS IN!! [Click here to deploy this project live]()
+[Click here to deploy this project live](https://claire-fisher.github.io/rock-paper-scissors-ms2/)
 
 ## Contents
 [Planning & Development](#Planning-and-Development)
@@ -158,7 +158,7 @@ An advertising banner could be added to promote other content from the same publ
 - Please see full documentation for testing and bug reports in TESTING.md
 
 # Deployment
-- [Click here to deploy this project live]() EXAMPLE DONT LEAVE THIS IN!! 
+[Click here to deploy this project live](https://claire-fisher.github.io/rock-paper-scissors-ms2/)
 
 - Or you can deploy this site on GitHub by following these steps :-
   1. From the project's [repository](), go to the green 'Code' button.
