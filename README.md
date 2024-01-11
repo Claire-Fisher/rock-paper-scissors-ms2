@@ -7,7 +7,7 @@ This project is intended for users of any age. Target users are most likely acce
 [Click here to deploy this project live](https://claire-fisher.github.io/rock-paper-scissors-ms2/)
 
 ## Contents
-[Planning & Development](#Planning-and-Development)
+[Planning and Development](#planning-and-development)
 
 [Features](#features)
 
@@ -18,6 +18,8 @@ This project is intended for users of any age. Target users are most likely acce
 [Deployment](#deployment)
 
 [Languages](#languages)
+
+[Frameworks and Tools](#frameworks-and-tools)
 
 [Software](#software)
 
@@ -171,8 +173,25 @@ An advertising banner could be added to promote other content from the same publ
 - HTML
 - CSS
 - Javascript.
+
+# Frameworks & Tools
+- Git
+- GitHub
 - Bootstrap 4.6
 - JQuery
+- Visual Studio Code
+- Font Awesome
+- Procreate
+- Figma
+- Favicon.io
+- Tinypng.com
+- EZGIF.com
+- tenor.com
+- gifphy.com
+- Lighthouse
+- W3C Markup validation service
+- W3C Jigsaw CSS validation service
+- WAVE WebAIM web accessibility evaluation tool
 
 # Software
 - Visual Studio Code to create, load and push my code to Github.
@@ -217,3 +236,5 @@ An advertising banner could be added to promote other content from the same publ
 - Tom Harris: Site tester, and my biggest cheerleader.
 
 - Shaun Russell: Site tester, my partner, my UI/UX personal mentor, and my provider while I study. Building my new development career change would have been infinitely harder without you. Thank you.
+
+[def]: #frameworks-and-tools
