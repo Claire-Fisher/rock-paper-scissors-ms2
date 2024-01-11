@@ -61,7 +61,8 @@ body {
 
 /* MODAL */
 
-#rulesModalBtn {
+#rulesModalBtn,
+.modal-close {
     min-height: 3rem;
     min-width: 3rem;
     margin:0;
