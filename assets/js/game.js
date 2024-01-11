@@ -196,21 +196,21 @@ function rollCountdown() {
   $("#No3")
     .show()
     .css("opacity", "1")
-    .fadeOut(750)
+    .fadeOut(1000)
     .promise()
     .done(function () {
       $("#No2")
         .show()
         .css("opacity", "1")
         .removeClass("hidden")
-        .fadeOut(750)
+        .fadeOut(1000)
         .promise()
         .done(function () {
           $("#No1")
             .show()
             .css("opacity", "1")
             .removeClass("hidden")
-            .fadeOut(750)
+            .fadeOut(1000)
             .promise()
             .done(function () {
               $("#turnResultArea").removeClass("hidden");
