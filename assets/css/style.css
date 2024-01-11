@@ -52,7 +52,7 @@ body {
     padding: 0.5rem;
 }
 
-h1 {
+#title {
     margin-top: 0;
     margin-bottom:0;
     font-size: 1.5rem;
@@ -62,13 +62,17 @@ h1 {
 /* MODAL */
 
 #rulesModalBtn {
+    min-height: 3rem;
+    min-width: 3rem;
     margin:0;
     padding:0;
 }
 
-/* #rulesModalBtn p {
-    font-weight: 700;
-} */
+.fa-circle-question {
+    font-size: 2.5rem;
+    color: #222;
+}
+
 
 .modal-body,
 .modal-body p {
@@ -187,7 +191,7 @@ footer p {
         margin-top: 0.8rem;
         padding: 0.7rem 0.7rem 0.2rem;
     }
-    h1 {
+    #title {
         margin-top:0.5rem;
         font-size:1.12rem;
     }
@@ -219,4 +223,7 @@ footer p {
     #logo {
         margin-top: 4rem;
     }
+    .fa-circle-question {
+    font-size: 1.5rem;
+}
 }
