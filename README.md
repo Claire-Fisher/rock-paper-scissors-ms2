@@ -45,13 +45,13 @@ This project is intended for users of any age. Target users are most likely acce
 7. As a colour blind user, I want the project to work clearly in grayscale.
 
 ### Site Objectives
-- To provide a positive user experience.
-- To create an intuitive UI that provides good site flow.
-- To build a family-friendly game that is appropriate for all ages.
-- To build a single-finger playable game. 
-- To deliver a game that is responsive on a large variety of screen sizes and mobile devices.
-- To create a fast, easy-to-use game that can be enjoyed in less than 1 minute.
-- To deliver a game that implements accessibility needs to a high level.
+1. To provide a positive user experience.
+2. To create an intuitive UI that provides good site flow.
+3. To build a family-friendly game that is appropriate for all ages.
+4. To build a single-finger playable game. 
+5. To deliver a game that is responsive on a large variety of screen sizes and mobile devices.
+6. To create a fast, easy-to-use game that can be enjoyed in less than 1 minute.
+7. To deliver a game that implements accessibility needs to a high level.
 
 ### Approach
 - Mobile first design.
@@ -118,25 +118,76 @@ A reduced colour scheme of three greys (#f9f9f9, #c9c9c9, #222222) has been chos
 'Inter" from Google Fonts was selected throughout as a clear, easily-readable font choice. [View here](https://fonts.google.com/specimen/Inter?query=inter)
 
 # Features
-### General
-- The site is fully responsive and functional on all screen sizes down to 320px.
-- The site considers different user's sensory perceptions and reduces screen glare by softening white to a off-white (#f9f9f9), and black to a dark-grey (#222).
-- The site uses semantic elements to assist screen reader users to navigate and access information.
+
+This project consists of one page with 13 features.
+
+### Fully Responsive
+- This site adapts to all devices and screen sizes ranging between 320px to 2560px wide (Tested).
+
+### Intuitive Navigation
+- The rules button is present on every page and stays in the same location.
+- The weapon buttons are large, obvious and stay in the same location. Shifting only from horizontal to vertical alignment dependant on screen width. 
+- All buttons are named with intuitive text so navigation is clear to the user (e.g Continue, New Game).
+- All buttons have aria-labels to allow good navigation for users with screen-readers.
+
+### Clear typography
+- The highly legible and readable font 'Inter' was selected from googlefonts. As a googlefonts listed typography, 'Inter' has a high chance of being useable across most devices. A generic 'serif' font has been coded to display in the event a device is not compatible with 'Inter'. 
 
 ### Logo
-- The logo format will be text based inline with the project clean and simplistic style choice.
-- The logo colours will match the colour pallette of the site for brand consistency. 
-
-### Navigation
-- A navigation bar is unnecessary for this single-page project. 
-- User input can be selected intuitively from large button choices dominating the page. 
-- Game rules can be found intuitively via an obvious interactive button that toggles a modal of information.
+- Custom designed Logo in keeping with project brand asthetics: both in colour and typography.
+- SVG format for optimum resolution quality at all screen sizes.
 
 ### Images
-- Images are intentionally very limited to prioritse project performance. Animated gifs are included to represent user win or loss respectively. This adds to a positive user experience. A win result randomly selects 1 of 5 win gif. A lose result always displays the same Game Over gif. 
+- Game over gifs have been included to increase the users positive experience. (Site objective No.1).
+- To prioritise performance (Site objective No.6), all images and gifs are:
+  - Limited.
+  - Compressed for faster load times.
+  - Included as files in the assets folder to increase download times.
+
+### Fully automated game functionality
+- The user is only required navigate and input their weapon selection with a choice of three buttons. 
+- The AI's choice, turn result, score keeping and final result are all fully automated and displayed to the user. 
+
+### 3-2-1 Countdown
+- An animated short countdown gives the illusion that the AI is "thinking" about it's weapon selection. It build suspense before the turn result, improving UX. 
+- The countdown allows the user a moment to read and be reminded of their latest weapon choice, while not interrupting site flow.
+- This feature also improves accessibilities by allowing users with cognitive, and/or reading difficulties, a moment to process the game information.
+
+### Game Win Result
+- The game randomly selects one of five different gifs when the player achieves a win result. In contrast to the singular "Game Over: You Lose" ending, this is more rewarding for the player when they win (Site objective No.1). 
+
+### Large Buttons
+- Buttons have been built for all user interactions with this project. This eliminates user input error so the game functions are rapid, and excellent site flow is maintained. (Site objectives No.1, 2, 6).
+- They are designed with a minimum size of 48px x 48px. These are the WCAG 2.1 recommended guidelines for touchscreen buttons.
+- It improves usability for all users, especially when using their device single handed. Input doesnt need to be typed and is selected with a simple button press (User story No.5).
+- It improves accessibility for people with physical disabilities who have dexterity needs (Site objective No.7). 
+
+### Colour scheme
+- The minimum colour palette has universal appeal.
+- Eye comfort. The lightest shade (#f9f9f9) is off-white, and the darkest shade (#222) is off-black. This reduces screen glare for all users. 
+
+### Dark Mode
+- Due to the high contrast colour scheme, this project works well on dark mode screen settings. 
+
+### High Standards of Accessibiliy 
+[According to accessguide.io](https://www.accessguide.io/)
+- Definite status messages - 404 page included - "Oops, something went wrong" message.
+- Responsive design.
+- High colour contrast.
+- No colours convey information - colourblind users
+- No flashing lights. Care has been taken to select gifs with minimum to no flashing lights.
+- No background audio or autoplay audio.
+- Aria-labels on all interactive elements.
+- Alt descriptions on all images.
+- Semantic elements to assist screen reader users to navigate and access information.
+- Consistent navigation.
+- Written content is at an approachable level.
+- Minimum font size of 16px throughout the site and on all screen sizes.  
+- Custom visual graphic of the game rules. This minimises the amount of written information needed to be understood by the user. It helps those with cognitive difficulties. An brief but descriptive aria-label has been given to the rules image for visually impaired users. 
+- Pausable game play. The pauses at specific intervals (game start, user weapon selection, turn result, game over), and waits for the user input before continuing (eg. click continue). This provides all users the opportunity to break their attention from the game to attend to other things. It gives people with cognitive and learning disabilities the control to pace the game to suit their individual needs.   
 
 ### The Footer
-The footer will be limimted to simple copyright information. It cannot be interacted with by user. 
+The footer provides copyright information and name of the site creator. It cannot be interacted with by user. 
 
 # Future Features
 ### Feedback Form
@@ -218,6 +269,7 @@ An advertising banner could be added to promote other content from the same publ
 - Favicon.io for icon converter & instructions [View here](https://favicon.io/)
 - Tinypng.com for image compression [View here](https://tinypng.com/)
 - EZGIF.com to gif compression [View here](https://ezgif.com/gif-to-webp)
+- Accessguide.io an excellent accessibility guide [View here](https://www.accessguide.io/)
 
 ## **Thanks**
 - Richard Wells: my Code Institute Mentor.
