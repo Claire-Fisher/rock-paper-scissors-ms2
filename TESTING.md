@@ -65,18 +65,18 @@ To manaually test my CSS and JS links were functioning as intended:
 ### Colour Scheme Contrast
 Testing the contrast is high enough for readability:
   * H1 result: contrast rating = 9.6. Good readability.
-  * H2 result: contrast rating = 15.11. Good readability.
+  * H2 result: contrast rating = 15.11. Good readabilit
   * H3 result: contrast rating = 1.57 Low readability.
   * **Result:** Only the H1 and H2 combo examples will be used.
 <details><summary>Colour Contrast Test Image</summary>
 <img src="documents/testing-images/color-testing.png">
 </details> 
 
-**Best of three function**
-* To manaually test my bestOfThree function was working as intended: 
-  * Included a simple console log to announce "GAME OVER. PLEASE REFRESH" when any of the scores (win/lose/draw) hit the value of 3. 
-
-  ![The results of manually testing the best-of-three function image](/documents/testing-images/best-of-three.png)
+### Function Testing
+<details><summary>Function Testing Image</summary>
+<img src="documents/testing-images/functions-testing.png">
+</details><br/>
+The functions are all tested via their output displayed in the UI, the console, or both. (All console.log and console.info have been removed in the final version of the project).
 
 ### ***Bugs and Fixes:***
 
