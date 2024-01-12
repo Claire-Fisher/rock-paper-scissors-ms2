@@ -15,7 +15,8 @@ This project was tested continuously during development. Post build, the site ha
       * [*Mobile Version*](#mobile-version)
       * [*Lighthouse Score*](#lighthouse-score-feedback-from-third-party-testers)
   * [**Accessability**](#accessability)
-* [Third Party Testing and Feedback](#third-party-testing-and-feedback)
+* [**Third Party Testing and Feedback**](#third-party-testing-and-feedback)
+* [**With Thanks**](#thank-you-to-my-product-testers)
 
 ## **During Development Testing**
 During the development process, I was manually testing in the following ways:-
@@ -119,22 +120,25 @@ Below is a list of bugs I found during the development process by testing myself
     * ***Issue Found:*** 
         * 
     * ***Solution Used:***    
-        * 
-
-### **Third Party Testing and Feedback**
-
-1. **Final result "Draw"**
-    * ***Tester feedback: Shaun Russell***
-        * The "Final Result: Draw" outcome is confusing to the user. 
-        * Suggestion: Have "Win" and "Lose" game completion options only.
-        * Draw will continously tally until Win or Lose scores reach three.
-2. **Final result "Lose"**
-    * ***Tester feedback: Shaun Russell***
-        * The "Final Result: Lose" outcome isn't obvious enough to the user. 
-        * Suggestion: Have a single "Lose" game gif.
-        * Lose outcome is still less favourable than win, as the single gif will be displayed every time a loss result is reached. 
+        *
     
 ## **Post Development Testing**
+
+Post development, I manually tested in the following ways:-
+
+1. Manually tested each element for appearance and responsiveness via a simulated live server using an extension in VSCode.
+
+2. Put my code through validators to check for errors.
+
+3. Put my code though Accessibility tests. 
+    
+4. Published the page via GitHub pages and shared with fellow students to test and receive feedback.
+
+5. Sent my gitHub to link to three third party testers with different devices, browsers, and skill sets:
+    - Dan Sanderson - Senior Developer
+    - Shaun Russell - Senior UI/UX/Product Designer
+    - Tom Harris - Enterprise Account Manager, krystal.io and iOS user 
+
 ### **Validators**
 
 #### ***HTML*** - https://validator.w3.org/nu/
@@ -189,5 +193,14 @@ In addition to the accessability score on light house I also used [WAVE - Web ac
         * The "Final Result: Lose" outcome isn't obvious enough to the user. 
         * Suggestion: Have a single "Lose" game gif.
         * Lose outcome is still less favourable than win, as the single gif will be displayed every time a loss result is reached. 
+
+## Thank you to my product testers
+- Richard Wells: Senior Developer, and my Code Institute Mentor.
+
+- Dan Sanderson: Senior Developer.
+
+- Shaun Russell: Senior UI/UX/Product Designer. 
+
+- Tom Harris: Site tester, and my biggest cheerleader.
 
 [return to README.md](README.md)
