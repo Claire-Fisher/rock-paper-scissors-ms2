@@ -10,6 +10,7 @@ This project was tested continuously during development. Post build, the site ha
   * [**Validators**](#validators)
       * [*HTML*](#html---httpsvalidatorw3orgnu)
       * [*CSS*](#css---httpsjigsaww3orgcss-validator)
+      * [*JavaScript*](#javascript---httpsjshint.com)
   * [**Lighthouse Scores**](#lighthouse-scores)
   * [**Accessability**](#accessability)
 * [**Third Party Testing and Feedback**](#third-party-testing-and-feedback)
@@ -205,6 +206,20 @@ Post development, I manually tested in the following ways:-
 
 * ***Errors Found:***
     * None
+* ***Action Taken:***
+    * N/A
+
+### JavaScript - https://jshint.com/
+
+<details><summary>JS validator Results Image</summary>
+<img src="documents/testing-images/js-validator.png">
+</details> 
+
+JSHint validator was configured to recognise New JavaScript Features (ES6), and jQuery.
+* ***Errors Found:***
+    * None
+* ***Action Taken:***
+    * N/A
 
 ## Lighthouse Scores
 ### Test conditions
