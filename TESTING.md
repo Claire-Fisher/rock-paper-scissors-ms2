@@ -1,8 +1,11 @@
-# Testing Page Table of Contents
+# Testing Rock Paper Scissors
+This project was tested continuously during development. Post build, the site has been manually tested by myself and third party testers. It has also passed on html, CSS, JS, and accessibility validators. 
+
+[return to README.md](README.md)
+# Table of Contents
 * [**During Development Testing**](#during-development-testing)
     * [*Manual Testing*](#manual-testing)
     * [*Bugs and Fixes*](#bugs-and-fixes)
-    * [*Third Party Testing and Feedback*](#third-party-testing-and-feedback)
 * [**Post Development Testing**](#post-development-testing)
   * [**Validators**](#validators)
       * [*HTML*](#html---httpsvalidatorw3orgnu)
@@ -10,8 +13,9 @@
   * [**Lighthouse Scores**](#lighthouse-scores)
       * [*Desktop Version:*](#desktop-version)
       * [*Mobile Version*](#mobile-version)
-      * [*Lighthouse Score Feedback From Third Party Testers*](#lighthouse-score-feedback-from-third-party-testers)
+      * [*Lighthouse Score*](#lighthouse-score-feedback-from-third-party-testers)
   * [**Accessability**](#accessability)
+* [Third Party Testing and Feedback](#third-party-testing-and-feedback)
 
 ## **During Development Testing**
 During the development process, I was manually testing in the following ways:-
@@ -41,8 +45,10 @@ During the development process, I was manually testing in the following ways:-
   * Ran my project in a live browser.
   * Result: Links working correctly.
 
-  ![The reults of the links test image](/documents/testing-images/manual-testing-linked-css-and-js.png)
-
+<details><summary>The reults of the links test image</summary>
+<img src="documents/testing-images/manual-testing-linked-css-and-js.png">
+</details>
+<br/>
 **Colour Palette**
 * I softened the white and black values to reduce screen glare discomfort for the user. To test the contrast was still high enough for readability:
   * I created an additional h2 & h3 on my html.
@@ -169,4 +175,17 @@ I have only included one screenshot for desktop as all pages were the same score
 ### **Accessability** CHECK THIS BEFORE PROJECT COMPLETION!!
 In addition to the accessability score on light house I also used [WAVE - Web accessability evaluation tool](https://wave.webaim.org/) to check my pages for accessability and no errors were returned.
 ***   
+### **Third Party Testing and Feedback**
+
+1. **Final result "Draw"**
+    * ***Tester feedback: Shaun Russell***
+        * The "Final Result: Draw" outcome is confusing to the user. 
+        * Suggestion: Have "Win" and "Lose" game completion options only.
+        * Draw will continously tally until Win or Lose scores reach three.
+2. **Final result "Lose"**
+    * ***Tester feedback: Shaun Russell***
+        * The "Final Result: Lose" outcome isn't obvious enough to the user. 
+        * Suggestion: Have a single "Lose" game gif.
+        * Lose outcome is still less favourable than win, as the single gif will be displayed every time a loss result is reached. 
+
 [return to README.md](README.md)
