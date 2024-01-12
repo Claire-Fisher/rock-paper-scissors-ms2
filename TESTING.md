@@ -2,7 +2,7 @@
 This project was tested continuously during development. Post build, the site has been manually tested by myself and third party testers. It has also passed on html, CSS, JS, and accessibility validators. 
 
 [return to README.md](README.md)
-# Table of Contents
+## Table of Contents
 * [**During Development Testing**](#during-development-testing)
     * [*Manual Testing*](#manual-testing)
     * [*Bugs and Fixes*](#bugs-and-fixes)
@@ -11,9 +11,6 @@ This project was tested continuously during development. Post build, the site ha
       * [*HTML*](#html---httpsvalidatorw3orgnu)
       * [*CSS*](#css---httpsjigsaww3orgcss-validator)
   * [**Lighthouse Scores**](#lighthouse-scores)
-      * [*Desktop Version:*](#desktop-version)
-      * [*Mobile Version*](#mobile-version)
-      * [*Lighthouse Score*](#lighthouse-score-feedback-from-third-party-testers)
   * [**Accessability**](#accessability)
 * [**Third Party Testing and Feedback**](#third-party-testing-and-feedback)
 * [**With Thanks**](#thank-you-to-my-product-testers)
@@ -27,8 +24,8 @@ During the development process, I was manually testing in the following ways:-
     
 3. Published the page via GitHub pages and shared with fellow students to test and receive feedback.
 
-### Manual Testing:
-***
+## Manual Testing:
+
 ### Browser Compatibility
 During testing, I used four different browsers to ensure cross-compatibility. The desktop browsers used by myself were:
 
@@ -79,7 +76,7 @@ Testing the contrast is high enough for readability:
 The functions are all tested via their output displayed in the UI, the console, or both. (All console.log and console.info have been removed in the final version of the project).
 
 [**Back to top**](#testing-rock-paper-scissors)
-### ***Bugs and Fixes:***
+## ***Bugs and Fixes:***
 
 Below is a list of bugs I found during the development process by testing myself via the live server extension on VSCode. I tried each element for how the browser would display the page to potential users on a range of different screen widths from 320px to 4000px:-
 
@@ -149,7 +146,7 @@ Post development, I manually tested in the following ways:-
     - Shaun Russell - Senior UI/UX/Product Designer
     - Tom Harris - Enterprise Account Manager, krystal.io and iOS user 
 
-### User Story Testing
+## User Story Testing
 1. **As a user, I want to be entertained.**
   * The site provides:
     * Entertainment in the form of a game play. 
@@ -184,48 +181,60 @@ Post development, I manually tested in the following ways:-
    * Please see Features/High Standards of Accessibiliy section of the [README.md](/README.md)
 
 [**Back to top**](#testing-rock-paper-scissors)
-### **Validators**
+## **Validators**
 
-#### ***HTML*** - https://validator.w3.org/nu/
+### HTML - https://validator.w3.org/nu/
 
-* ***Issue Found:***
-    * enter issue here
-* ***Solution Used:***
-    * enter solution here
+<details><summary>HTML validator Results Image</summary>
+<img src="documents/testing-images/html-validator.png">
+</details> 
 
-#### ***CSS*** - https://jigsaw.w3.org/css-validator/
+* ***Errors Found:***
+    * none
+* ***Warnings Found:***
+    * 6x Section Lacks Heading
+* ***Action Taken:***
+    * None.
+    * Reason: They are Warnings and not errors. Forcing additional headings into the project would offer a minor improvement to asscessibility scores. As the Accessibility Evaluation and Lighthouse Tests show the site has a good accessibility rating, changes will not be made at this time. 
 
-* All pages tested, no issues found via URL or file upload.\
-![CSS validator badge](https://jigsaw.w3.org/css-validator/images/vcss)
+### CSS - https://jigsaw.w3.org/css-validator/
 
-### **Lighthouse Scores**
-### **Test conditions**
-* I did all lighthouse tests in incognito mode to avoid interference from browser extensions. 
-* I ran the tests for both mobile and desktop. 
-* I asked people to run lighthouse tests from their own devices. 
-#### ***Desktop Version:***
-I have only included one screenshot for desktop as all pages were the same score, only changing by one or two points in performance if I ran it multiple times. 
+<details><summary>CSS validator Results Image</summary>
+<img src="documents/testing-images/css-validator.png">
+</details> 
 
-![Desktop Lighthouse Score](docs/screenshots/lighthouse-desktop.jpg) 
+* ***Errors Found:***
+    * none
 
-**There were several actions required to get to this score:**
+## Lighthouse Scores
+### Test conditions
+* All lighthouse tests were run in incognito mode to avoid interference from browser extensions. 
+* Both mobile and desktop performance are tested. 
 
-#### ***Mobile Version:*** CHECK THIS BEFORE PROJECT COMPLETION!!
+<details><summary>Desktop Results</summary>
+<img src="documents/testing-images/rps-lighthouse-desktop.png">
+</details> 
 
-* Due to the more significant variance in the performance score, I have included a screenshot for each mobile page. That being said when I asked one of my testers to check the mobile light house scores from his device his performance scores were all the high nineties.
+<details><summary>Mobile Results</summary>
+<img src="documents/testing-images/rps-lighthouse-mobile.png">
+</details> 
 
-1. ***index.html:***
+## Accessability - https://wave.webaim.org/
+In addition to the accessability score on lighthouse, [WAVE - Web accessability evaluation tool](https://wave.webaim.org/) has been used to check the site for accessability issues. 
+<details><summary>Wave Accessibility Evaluation Results Image</summary>
+<img src="documents/testing-images/accessibility-evaluation.png">
+</details> 
 
-    ![Mobile Lighthouse Score for index.html]() 
+* ***Errors Found:***
+    * none
+* ***Contrast Errors Found:***
+    * none
+* ***Alerts Found:***
+    * 6x Section Lacks Heading
+* ***Action Taken:***
+    * None.
+    * Reason: They are Alerts and not errors. Forcing additional headings into the project would offer a minor improvement to asscessibility scores. As the Accessibility Evaluation and Lighthouse Tests show the site has a good accessibility rating, changes will not be made at this time. 
 
-
-
-#### ***Lighthouse score Feedback From Third Party Testers***CHECK THIS BEFORE PROJECT COMPLETION!!
-
-  
-### **Accessability** CHECK THIS BEFORE PROJECT COMPLETION!!
-In addition to the accessability score on light house I also used [WAVE - Web accessability evaluation tool](https://wave.webaim.org/) to check my pages for accessability and no errors were returned.
-***  
 [**Back to top**](#testing-rock-paper-scissors) 
 ### **Third Party Testing and Feedback**
 
