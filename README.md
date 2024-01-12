@@ -8,10 +8,20 @@ This project is intended for users of any age. Target users are most likely acce
 
 ## Table of Contents
 * [**Planning and Development**](#planning-and-development)
+    * [***Target Users***](#target-users)
+    * [***User Stories***](#user-stories)
+    * [***Site Objectives***](#site-objectives)
+    * [***Approach***](#approach)
+    * [***Research***](#research)
+    * [***Wireframes***](#wireframes)
+    * [***Colour Scheme***](#colour-scheme)
+    * [***Typography***](#typography)
 * [**Features**](#features)
 * [**Future Features**](#future-features)
 * [**Testing**](#testing)
+  * [Go to TESTING.md](TESTING.md)
 * [**Deployment**](#deployment)
+  * [Click here to deploy this project live](https://claire-fisher.github.io/rock-paper-scissors-ms2/)
 * [**Languages**](#languages)
 * [**Frameworks and Tools**](#frameworks-and-tools)
 * [**Software**](#software)
@@ -22,7 +32,7 @@ This project is intended for users of any age. Target users are most likely acce
 [**Back to top**](#rock-paper-scissors)
 
 ## Planning and Development
-### Target Audiences
+### Target Users
 - Users of all age groups.
 - Users who are looking to spend some time on a simple game.
 - Users who want a game for a couple of seconds, to a couple of minutes, and beyond.
@@ -116,7 +126,7 @@ A reduced colour scheme of three greys (#f9f9f9, #c9c9c9, #222222) has been chos
 A generic 'serif' font has been included as a backup in the event 'Inter' fails to load or is incompatible with the user's browser. 
 
 [**Back to top**](#rock-paper-scissors)
-# Features
+## Features
 
 This project consists of one page with 14 features.
 
@@ -195,7 +205,7 @@ This project consists of one page with 14 features.
 The footer provides copyright information and name of the site creator. It cannot be interacted with by user. 
 
 [**Back to top**](#rock-paper-scissors)
-# Future Features
+## Future Features
 ### Feedback Form
 Include a button link to a feedback form page. Users can be invited to report bugs, ask for future features, or suggest accessibility improvements.  
 
@@ -215,10 +225,10 @@ Have an option the user can toggle to select a "nice" or a "mean" AI opponent.
 An advertising banner could be added to promote other content from the same publisher. Or adverts supplied by third party companies to monetise the project. 
 
 [**Back to top**](#rock-paper-scissors)
-# Testing
+## Testing
 - Please see full documentation for testing and bug reports [here](TESTING.md)
 
-# Deployment
+## Deployment
 [Click here to deploy this project live](https://claire-fisher.github.io/rock-paper-scissors-ms2/)
 
 - Or you can deploy this site on GitHub by following these steps :-
@@ -227,12 +237,12 @@ An advertising banner could be added to promote other content from the same publ
   3. Find the zipped folder in your local Downloads folder, right click and select 'Extract All..".
   4. In the extracted 'colour-theory-ms1' folder, find the index file. Right click index and select "Open with Google Chrome" (or your preferred browser).
 
-# Languages
+### Languages
 - HTML
 - CSS
 - Javascript.
 
-# Frameworks & Tools
+### Frameworks & Tools
 - Git
 - GitHub
 - Bootstrap 4.6
@@ -251,21 +261,22 @@ An advertising banner could be added to promote other content from the same publ
 - W3C Jigsaw CSS validation service
 - WAVE WebAIM web accessibility evaluation tool
 
-# Software
+### Software
 - Visual Studio Code to create, load and push my code to Github.
 - Git and Github as my version control system for the site.
 - Figma to create design-boards, wireframes and prototypes.
 - Procreate to create design pages and sketch-work, images and logo.
 
 [**Back to top**](#rock-paper-scissors)
-# Code
+### Code
 - Template modal code from [Bootstrap 4.6 Library](https://getbootstrap.com/docs/4.6/components/modal/). Heavily modified to suit my project requirements
 ![An image of bootstrap4 modal code used](/documents/readme-images/bootstrap4-modal.png)
 
 - After a mentor session with Richard Wells. We unpicked my animated countdown I'd coded with JQuery. Explored the .promise() and .done() methods and improved the code.
 ![An image of the code from Richard Wells](/documents/readme-images/countdown-code.png)
 
-# Credits
+## Credits
+- Shaun Russell: RPS logo & Modal Rules images.
 - Google Fonts for 'Inter" typography [View here](https://fonts.google.com/specimen/Inter?query=inter)
 - gifphy.com
   - [Winner, winner, chicken dinner gif](https://giphy.com/gifs/studiosoriginals-chicken-dinner-winner-etKSrsbbKbqwW6vzOg)
