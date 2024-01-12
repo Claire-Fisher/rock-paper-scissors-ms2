@@ -171,15 +171,15 @@ Post development, I manually tested in the following ways:-
     * Interactive elements are obvious and accessible.
     * The rules are available at all times on all screens.
     * Excellent flow. The interactive elements guide the user through the game sequence. 
-4. As a user, I want to use the project across multiple devices.
+4. **As a user, I want to use the project across multiple devices.**
  * The site provides:
     * Fully responsive UI design from screen sizes 320px to 2560px wide.
     * Compatibility across all major browsers.
-5. As a travelling user, I want to be able to play the game with my mobile device in one hand, while I hold onto a transport safety rail, or bags of groceries.
+5. **As a travelling user, I want to be able to play the game with my mobile device in one hand, while I hold onto a transport safety rail, or bags of groceries.**
  * The site provides:
     * Large, accessible, interative buttons which are easy to hit with your thumb while holding a device in one hand.
     * Easy user input. Every interactive element is a button, so the user is not required to enter text.
-6. As a differently abled user, I want the product to be accessible.
+6. **As a differently abled user, I want the product to be accessible.**
  * The site provides:
    * Please see Features/High Standards of Accessibiliy section of the [README.md](/README.md)
 
