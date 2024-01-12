@@ -49,7 +49,6 @@ The site has been tested at screen sizes 320px to 2560px in width.
 <details><summary>Screen Size: 2560px</summary>
 <img src="documents/testing-images/screensize-2560px.png">
 </details>
-<br/>
 
 ### Style and Script link functionality
 To manaually test my CSS and JS links were functioning as intended: 
@@ -57,23 +56,21 @@ To manaually test my CSS and JS links were functioning as intended:
 * I added code in the style.css to make the h1 content red.
 * I added code in the script.js to message the console. 
 * Ran my project in a live browser.
-* Result: Links working correctly.
+* **Result:** Links working correctly.
 
-<details><summary>The reults of the links test image</summary>
+<details><summary>Links Test Image</summary>
 <img src="documents/testing-images/manual-testing-linked-css-and-js.png">
 </details>
-<br/>
-**Colour Palette**
-* I softened the white and black values to reduce screen glare discomfort for the user. To test the contrast was still high enough for readability:
-  * I created an additional h2 & h3 on my html.
-  * I added code in the style.css to test font-color and background-color combos. 
-  * Ran my project in a live browser and inspected with chrome dev tools.
+
+### Colour Scheme Contrast
+Testing the contrast is high enough for readability:
   * H1 result: contrast rating = 9.6. Good readability.
   * H2 result: contrast rating = 15.11. Good readability.
   * H3 result: contrast rating = 1.57 Low readability.
-  * Result: Only the H1 and H2 combo examples will be used. 
-
-  ![The results of the colour palette test image](/documents/testing-images/color-testing.png)
+  * **Result:** Only the H1 and H2 combo examples will be used.
+<details><summary>Colour Contrast Test Image</summary>
+<img src="documents/testing-images/color-testing.png">
+</details> 
 
 **Best of three function**
 * To manaually test my bestOfThree function was working as intended: 
