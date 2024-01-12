@@ -27,26 +27,37 @@ During the development process, I was manually testing in the following ways:-
     
 3. Published the page via GitHub pages and shared with fellow students to test and receive feedback.
 
-### ***Manual Testing:***
-
-**Browser Compatibility**
-* During testing, I used four different browsers to ensure cross-compatibility. The desktop browsers used by myself were:
+### Manual Testing:
+***
+### Browser Compatibility
+During testing, I used four different browsers to ensure cross-compatibility. The desktop browsers used by myself were:
 
   1. Chrome
   2. Firefox  
   3. Opera
   4. Edge
 
-* I then used the devtools to simulate different screen sizes/devices from 320 px up to 1700px in width. 
-* In addition to this, I also asked several people to test using iPhones and Apple Mac laptops/desktops using safari. These users reported no issues or bugs only style suggestions. CHECK THIS BEFORE PROJECT COMPLETION!!
+Tom Harris - Site tester - Tested the project on iOS / Safari.
 
-**Style and Script link functionality**
-* To manaually test my CSS and JS links were functioning as intended: 
-  * I created a test h1 on my html.
-  * I added code in the style.css to make the h1 content red.
-  * I added code in the script.js to message the console. 
-  * Ran my project in a live browser.
-  * Result: Links working correctly.
+### Screen Sizes
+
+The site has been tested at screen sizes 320px to 2560px in width.
+
+<details><summary>Screen Size: 320px</summary>
+<img src="documents/testing-images/screensize-320px.png">
+</details>
+<details><summary>Screen Size: 2560px</summary>
+<img src="documents/testing-images/screensize-2560px.png">
+</details>
+<br/>
+
+### Style and Script link functionality
+To manaually test my CSS and JS links were functioning as intended: 
+* I created a test h1 on my html.
+* I added code in the style.css to make the h1 content red.
+* I added code in the script.js to message the console. 
+* Ran my project in a live browser.
+* Result: Links working correctly.
 
 <details><summary>The reults of the links test image</summary>
 <img src="documents/testing-images/manual-testing-linked-css-and-js.png">
