@@ -218,7 +218,7 @@ Have an option the user can toggle to select a "nice" or a "mean" AI opponent.
 An advertising banner could be added to promote other content from the same publisher. Or adverts supplied by third party companies to monetise the project. 
 
 # Testing
-- Please see full documentation for testing and bug reports in TESTING.md
+- Please see full documentation for testing and bug reports [here](TESTING.md)
 
 # Deployment
 [Click here to deploy this project live](https://claire-fisher.github.io/rock-paper-scissors-ms2/)
