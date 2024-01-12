@@ -281,21 +281,19 @@ An advertising banner could be added to promote other content from the same publ
 - Accessguide.io an excellent accessibility guide [View here](https://www.accessguide.io/)
 
 ## **Thanks**
-- Richard Wells: my Code Institute Mentor.
+- Richard Wells: Senior Developer, site tester, and my Code Institute Mentor.
 
-- Dan Sanderson: my personal code mentor for his support and advice.
+- Dan Sanderson: Senior Developer, site tester, for his support and advice.
 
 - Kera Cudmore: for her excellent guide to writing READMEs
   [View here](https://github.com/kera-cudmore/readme-examples#readme-examples)
 
 - atapas: for his markdown-cheatsheet [View here](https://github.com/atapas/markdown-cheatsheet#horizontal-line)
 
-- Ian Lunn: for his hover css library [View here](https://github.com/IanLunn/Hover)
-
 - David Calikes: for his excellent README file which I've used as a template. [View here](https://github.com/davidcalikes/portfolio-project-one/blob/main/README.md?plain=1)
 
 - Tom Harris: Site tester, and my biggest cheerleader.
 
-- Shaun Russell: Site tester, my partner, my UI/UX personal mentor, and my provider while I study. Building my new development career change would have been infinitely harder without you. Thank you.
+- Shaun Russell: Senior UI/UI/Product Designer. My site tester, my partner, and my provider while I study. Building my new development career change would have been infinitely harder without you. Thank you.
 
 [def]: #frameworks-and-tools
