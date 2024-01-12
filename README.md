@@ -45,8 +45,7 @@ This project is intended for users of any age. Target users are most likely acce
 3. As a user, I want the game to be intuitive and the rules easy to find.
 4. As a user, I want to use the project across multiple devices.
 5. As a travelling user, I want to be able to play the game with my mobile device in one hand, while I hold onto a transport safety rail, or bags of groceries.
-6. As a differently abled user, I want the buttons and text to be of good contrast and larger size for accessiblity.  
-7. As a colour blind user, I want the project to work clearly in grayscale.
+6. As a differently abled user, I want the product to be accessible.
 
 ### Site Objectives
 1. To provide a positive user experience.
