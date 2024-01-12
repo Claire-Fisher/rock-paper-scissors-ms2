@@ -7,27 +7,21 @@ This project is intended for users of any age. Target users are most likely acce
 [Click here to deploy this project live](https://claire-fisher.github.io/rock-paper-scissors-ms2/)
 
 ## Table of Contents
-[Planning and Development](#planning-and-development)
+* [**Planning and Development**](#planning-and-development)
+* [**Features**](#features)
+* [**Future Features**](#future-features)
+* [**Testing**](#testing)
+* [**Deployment**](#deployment)
+* [**Languages**](#languages)
+* [**Frameworks and Tools**](#frameworks-and-tools)
+* [**Software**](#software)
+* [**Code**](#code)
+* [**Credits**](#credits)
+* [**Thanks**](#thanks)
 
-[Features](#features)
+[**Back to top**](#rock-paper-scissors)
 
-[Future Features](#future-features)
-
-[Testing](#testing)
-
-[Deployment](#deployment)
-
-[Languages](#languages)
-
-[Frameworks and Tools](#frameworks-and-tools)
-
-[Software](#software)
-
-[Code](#code)
-
-[Credits](#credits)
-
-# Planning and Development
+## Planning and Development
 ### Target Audiences
 - Users of all age groups.
 - Users who are looking to spend some time on a simple game.
@@ -77,6 +71,7 @@ My adjustments to suit my project aims:
   - No auto play music that can reduce a users positive UX.
   - A best of three outcome. A game that has a definite win or lose outcome is more satisfying to the user. 
 
+[**Back to top**](#rock-paper-scissors)
 ### Wireframes
 
 Procreate was used to document research, sketch out initial ideas, page layouts and wireframes.
@@ -120,6 +115,7 @@ A reduced colour scheme of three greys (#f9f9f9, #c9c9c9, #222222) has been chos
 
 A generic 'serif' font has been included as a backup in the event 'Inter' fails to load or is incompatible with the user's browser. 
 
+[**Back to top**](#rock-paper-scissors)
 # Features
 
 This project consists of one page with 14 features.
@@ -198,6 +194,7 @@ This project consists of one page with 14 features.
 ### The Footer
 The footer provides copyright information and name of the site creator. It cannot be interacted with by user. 
 
+[**Back to top**](#rock-paper-scissors)
 # Future Features
 ### Feedback Form
 Include a button link to a feedback form page. Users can be invited to report bugs, ask for future features, or suggest accessibility improvements.  
@@ -217,6 +214,7 @@ Have an option the user can toggle to select a "nice" or a "mean" AI opponent.
 ### Advertising 
 An advertising banner could be added to promote other content from the same publisher. Or adverts supplied by third party companies to monetise the project. 
 
+[**Back to top**](#rock-paper-scissors)
 # Testing
 - Please see full documentation for testing and bug reports [here](TESTING.md)
 
@@ -259,6 +257,7 @@ An advertising banner could be added to promote other content from the same publ
 - Figma to create design-boards, wireframes and prototypes.
 - Procreate to create design pages and sketch-work, images and logo.
 
+[**Back to top**](#rock-paper-scissors)
 # Code
 - Template modal code from [Bootstrap 4.6 Library](https://getbootstrap.com/docs/4.6/components/modal/). Heavily modified to suit my project requirements
 ![An image of bootstrap4 modal code used](/documents/readme-images/bootstrap4-modal.png)
@@ -296,4 +295,4 @@ An advertising banner could be added to promote other content from the same publ
 
 - Shaun Russell: Senior UI/UI/Product Designer. My site tester, my partner, and my provider while I study. Building my new development career change would have been infinitely harder without you. Thank you.
 
-[def]: #frameworks-and-tools
+[**Back to top**](#rock-paper-scissors)
