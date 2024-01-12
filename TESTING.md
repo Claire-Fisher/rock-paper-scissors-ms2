@@ -78,6 +78,7 @@ Testing the contrast is high enough for readability:
 </details><br/>
 The functions are all tested via their output displayed in the UI, the console, or both. (All console.log and console.info have been removed in the final version of the project).
 
+[**Back to top**](#testing-rock-paper-scissors)
 ### ***Bugs and Fixes:***
 
 Below is a list of bugs I found during the development process by testing myself via the live server extension on VSCode. I tried each element for how the browser would display the page to potential users on a range of different screen widths from 320px to 4000px:-
@@ -128,8 +129,9 @@ Below is a list of bugs I found during the development process by testing myself
     * ***Issue Found:*** 
         * 
     * ***Solution Used:***    
-        *
-    
+        *  
+
+[**Back to top**](#testing-rock-paper-scissors)  
 ## **Post Development Testing**
 
 Post development, I manually tested in the following ways:-
@@ -147,6 +149,41 @@ Post development, I manually tested in the following ways:-
     - Shaun Russell - Senior UI/UX/Product Designer
     - Tom Harris - Enterprise Account Manager, krystal.io and iOS user 
 
+### User Story Testing
+1. **As a user, I want to be entertained.**
+  * The site provides:
+    * Entertainment in the form of a game play. 
+    * User interactive elements.
+    * Fast feedback to user interactions. 
+    * Countdown to build suspense.
+    * Rewarding Game-Over feedback with animated gifs.
+    * Availability on mobile device to play anywhere, and anytime.  
+2. **As a user, I want to have a positive user experience.**
+  * The site provides all points from Story 1, plus:
+    * Fast load times.
+    * Intuitive UI design.
+    * Excellent flow.
+    * Super easy user input (buttons).
+    * Fast & responsive game functionality
+    * Automated game data handing & results feedback.
+3. **As a user, I want the game to be intuitive and the rules easy to find.**
+  * The site provides:
+    * Interactive elements are obvious and accessible.
+    * The rules are available at all times on all screens.
+    * Excellent flow. The interactive elements guide the user through the game sequence. 
+4. As a user, I want to use the project across multiple devices.
+ * The site provides:
+    * Fully responsive UI design from screen sizes 320px to 2560px wide.
+    * Compatibility across all major browsers.
+5. As a travelling user, I want to be able to play the game with my mobile device in one hand, while I hold onto a transport safety rail, or bags of groceries.
+ * The site provides:
+    * Large, accessible, interative buttons which are easy to hit with your thumb while holding a device in one hand.
+    * Easy user input. Every interactive element is a button, so the user is not required to enter text.
+6. As a differently abled user, I want the product to be accessible.
+ * The site provides:
+   * Please see Features/High Standards of Accessibiliy section of the [README.md](/README.md)
+
+[**Back to top**](#testing-rock-paper-scissors)
 ### **Validators**
 
 #### ***HTML*** - https://validator.w3.org/nu/
@@ -188,7 +225,8 @@ I have only included one screenshot for desktop as all pages were the same score
   
 ### **Accessability** CHECK THIS BEFORE PROJECT COMPLETION!!
 In addition to the accessability score on light house I also used [WAVE - Web accessability evaluation tool](https://wave.webaim.org/) to check my pages for accessability and no errors were returned.
-***   
+***  
+[**Back to top**](#testing-rock-paper-scissors) 
 ### **Third Party Testing and Feedback**
 
 1. **Final result "Draw"**
@@ -210,5 +248,7 @@ In addition to the accessability score on light house I also used [WAVE - Web ac
 - Shaun Russell: Senior UI/UX/Product Designer. 
 
 - Tom Harris: Site tester, and my biggest cheerleader.
+
+[**Back to top**](#testing-rock-paper-scissors)
 
 [return to README.md](README.md)
