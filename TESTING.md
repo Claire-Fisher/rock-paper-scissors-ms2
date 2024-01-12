@@ -135,9 +135,9 @@ Post development, I manually tested in the following ways:-
 
 1. Manually tested each element for appearance and responsiveness via a simulated live server using an extension in VSCode.
 
-2. Put my code through validators to check for errors.
+2. The code passed through HTML & CSS validators to check for errors.
 
-3. Put my code though Accessibility tests. 
+3. The code passed though an Accessibility evaluation. 
     
 4. Published the page via GitHub pages and shared with fellow students to test and receive feedback.
 
@@ -190,11 +190,11 @@ Post development, I manually tested in the following ways:-
 </details> 
 
 * ***Errors Found:***
-    * none
+    * None
 * ***Warnings Found:***
     * 6x Section Lacks Heading
 * ***Action Taken:***
-    * None.
+    * None
     * Reason: They are Warnings and not errors. Forcing additional headings into the project would offer a minor improvement to asscessibility scores. As the Accessibility Evaluation and Lighthouse Tests show the site has a good accessibility rating, changes will not be made at this time. 
 
 ### CSS - https://jigsaw.w3.org/css-validator/
@@ -204,7 +204,7 @@ Post development, I manually tested in the following ways:-
 </details> 
 
 * ***Errors Found:***
-    * none
+    * None
 
 ## Lighthouse Scores
 ### Test conditions
@@ -226,9 +226,9 @@ In addition to the accessability score on lighthouse, [WAVE - Web accessability 
 </details> 
 
 * ***Errors Found:***
-    * none
+    * None
 * ***Contrast Errors Found:***
-    * none
+    * None
 * ***Alerts Found:***
     * 6x Section Lacks Heading
 * ***Action Taken:***
