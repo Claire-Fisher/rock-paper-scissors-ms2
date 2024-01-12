@@ -20,9 +20,11 @@ This project was tested continuously during development. Post build, the site ha
 ## **During Development Testing**
 During the development process, I was manually testing in the following ways:-
 
-1. Manually testing each element for appearance and responsiveness via a simulated live server using an extension in VSCode.
+1. Manually tested each element for appearance and responsiveness via a simulated live server using an extension in VSCode.
+
+2. Logged information to the console in Chrome Dev Tools to check JS function outputs. 
     
-1. Published the page via GitHub pages and shared with fellow students to test and received feedback.
+3. Published the page via GitHub pages and shared with fellow students to test and receive feedback.
 
 ### ***Manual Testing:***
 
