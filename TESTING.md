@@ -268,11 +268,11 @@ In addition to the accessability score on lighthouse, [WAVE - Web accessability 
 ### Third Party Feedback
 
 1. **Tom Harris: Safari Tester and screen width up to 2560px.** 
-  * Project comment: "Overall the game runs very well, no issues at all. The design is perfect - everything is very intuitive with no reason for me as a user to have to look far for the obvious next button to press. 
+  * "Overall the game runs very well, no issues at all. The design is perfect - everything is very intuitive with no reason for me as a user to have to look far for the obvious next button to press". 
 
-  * The monochrome design really works in the games favour, text is clear and very easy to read, the rules page is clear and very nice way to show the rules.
+  * "The monochrome design really works in the games favour, text is clear and very easy to read, the rules page is clear and very nice way to show the rules".
 
-  * All the animations are purposeful and never made me wish things were faster, they add value to the game."
+  * "All the animations are purposeful and never made me wish things were faster, they add value to the game."
 
 <details><summary>Tom Harris Feedback Notes</summary>
 <img src="documents/testing-images/t-harris-feedback.pdf">
