@@ -13,7 +13,8 @@ This project was tested continuously during development. Post build, the site ha
       * [*JavaScript*](#javascript---httpsjshint.com)
   * [**Lighthouse Scores**](#lighthouse-scores)
   * [**Accessability**](#accessability)
-* [**Third Party Testing and Feedback**](#third-party-testing-and-feedback)
+* [**Third Party Testing**](#third-party-testing-and-feedback)
+*  [**Third Party Feedback**](#third-party-feedback)
 * [**With Thanks**](#thank-you-to-my-product-testers)
 
 ## **During Development Testing**
@@ -251,7 +252,7 @@ In addition to the accessability score on lighthouse, [WAVE - Web accessability 
     * Reason: They are Alerts and not errors. Forcing additional headings into the project would offer a minor improvement to asscessibility scores. As the Accessibility Evaluation and Lighthouse Tests show the site has a good accessibility rating, changes will not be made at this time. 
 
 [**Back to top**](#testing-rock-paper-scissors) 
-### **Third Party Testing and Feedback**
+### **Third Party Testing**
 
 1. **Final result "Draw"**
     * ***Tester feedback: Shaun Russell***
@@ -262,7 +263,20 @@ In addition to the accessability score on lighthouse, [WAVE - Web accessability 
     * ***Tester feedback: Shaun Russell***
         * The "Final Result: Lose" outcome isn't obvious enough to the user. 
         * Suggestion: Have a single "Lose" game gif.
-        * Lose outcome is still less favourable than win, as the single gif will be displayed every time a loss result is reached. 
+        * Lose outcome is still less favourable than win, as the single gif will be displayed every time a loss result is reached.
+
+### Third Party Feedback
+
+1. **Tom Harris: Safari Tester and screen width up to 2560px.** 
+  * Project comment: "Overall the game runs very well, no issues at all. The design is perfect - everything is very intuitive with no reason for me as a user to have to look far for the obvious next button to press. 
+
+  * The monochrome design really works in the games favour, text is clear and very easy to read, the rules page is clear and very nice way to show the rules.
+
+  * All the animations are purposeful and never made me wish things were faster, they add value to the game."
+
+<details><summary>Tom Harris Feedback Notes</summary>
+<img src="documents/testing-images/t-harris-feedback.pdf">
+</details> 
 
 ## Thank you to my product testers
 - Richard Wells: Senior Developer, and my Code Institute Mentor.
