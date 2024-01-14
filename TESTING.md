@@ -7,12 +7,13 @@ This project was tested continuously during development. Post build, the site ha
     * [*Manual Testing*](#manual-testing)
     * [*Bugs and Fixes*](#bugs-and-fixes)
 * [**Post Development Testing**](#post-development-testing)
+  * [**User Story Testing**](#user-story-testing)
   * [**Validators**](#validators)
       * [*HTML*](#html---httpsvalidatorw3orgnu)
       * [*CSS*](#css---httpsjigsaww3orgcss-validator)
       * [*JavaScript*](#javascript---httpsjshint.com)
   * [**Lighthouse Scores**](#lighthouse-scores)
-  * [**Accessability**](#accessability)
+  * [**Accessibility**](#accessibility)
 * [**Third Party Testing**](#third-party-testing-and-feedback)
 *  [**Third Party Feedback**](#third-party-feedback)
 * [**With Thanks**](#thank-you-to-my-product-testers)
@@ -36,7 +37,8 @@ During testing, I used four different browsers to ensure cross-compatibility. Th
   3. Opera
   4. Edge
 
-Tom Harris - Site tester - Tested the project on iOS / Safari.
+Shaun Russell - Site tester - Tested on Firefox, Opera, Edge, Safari, & iOS
+Tom Harris - Site tester - Tested the project on Safari.
 
 ### Screen Sizes
 
@@ -137,10 +139,10 @@ Post development, I manually tested in the following ways:-
 
 1. Manually tested each element for appearance and responsiveness via a simulated live server using an extension in VSCode.
 
-2. The code passed through HTML & CSS validators to check for errors.
-
+2. The code passed through HTML, CSS, JavaScript(ES6) validators to check for errors.
+* [**Validators Results**](#validators)
 3. The code passed though an Accessibility evaluation. 
-    
+*  [**Accessibility Results**](#accessibility)
 4. Published the page via GitHub pages and shared with fellow students to test and receive feedback.
 
 5. Sent my gitHub to link to three third party testers with different devices, browsers, and skill sets:
@@ -148,7 +150,7 @@ Post development, I manually tested in the following ways:-
     - Shaun Russell - Senior UI/UX/Product Designer
     - Tom Harris - Enterprise Account Manager, krystal.io and iOS user 
 
-## User Story Testing
+## **User Story Testing**
 1. **As a user, I want to be entertained.**
   * The site provides:
     * Entertainment in the form of a game play. 
@@ -197,7 +199,7 @@ Post development, I manually tested in the following ways:-
     * 6x Section Lacks Heading
 * ***Action Taken:***
     * None
-    * Reason: They are Warnings and not errors. Forcing additional headings into the project would offer a minor improvement to asscessibility scores. As the Accessibility Evaluation and Lighthouse Tests show the site has a good accessibility rating, changes will not be made at this time. 
+    * Reason: They are Warnings and not errors. Forcing additional headings into the project would offer a minor improvement to asscessibility scores. As the accessibility Evaluation and Lighthouse Tests show the site has a good accessibility rating, changes will not be made at this time. 
 
 ### CSS - https://jigsaw.w3.org/css-validator/
 
@@ -235,8 +237,10 @@ JSHint validator was configured to recognise New JavaScript Features (ES6), and 
 <img src="documents/testing-images/rps-lighthouse-mobile.png">
 </details> 
 
-## Accessability - https://wave.webaim.org/
-In addition to the accessability score on lighthouse, [WAVE - Web accessability evaluation tool](https://wave.webaim.org/) has been used to check the site for accessability issues. 
+## **Accessibility** 
+https://wave.webaim.org/
+
+In addition to the accessibility score on lighthouse, [WAVE - Web accessibility evaluation tool](https://wave.webaim.org/) has been used to check the site for accessibility issues. 
 <details><summary>Wave Accessibility Evaluation Results Image</summary>
 <img src="documents/testing-images/accessibility-evaluation.png">
 </details> 
