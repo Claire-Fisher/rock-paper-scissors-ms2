@@ -79,6 +79,7 @@ function newGame() {
   game.turnNumber = 0;
   $(".result-gif").addClass("hidden");
   $("#next-turn").addClass("hidden");
+  $(".turn-gif").addClass("hidden");
   $("#newGameButton").addClass("hidden");
   $("#continueButton").show();
   $("#turnResultArea").addClass("hidden");
