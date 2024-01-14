@@ -125,6 +125,7 @@ body {
 
 .turn-result-para {
     margin-bottom: 0.4rem;
+    line-height: normal;
 }
 
 #continueButton,
@@ -215,8 +216,8 @@ footer p {
     border-radius: 1.5rem;
     }
     .turn-gif {
-        max-height: 90px;
-        max-width: 90px;
+        max-height: 55px;
+        max-width: 55px;
     }
     .result-gif {
     max-height: 150px;
