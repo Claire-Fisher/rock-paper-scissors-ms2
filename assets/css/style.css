@@ -125,7 +125,7 @@ body {
 /* TURN RESULT AREA */
 
 .turn-result-para {
-    margin-bottom: 0;
+    margin-bottom: 0.25rem;
     line-height: normal;
 }
 
