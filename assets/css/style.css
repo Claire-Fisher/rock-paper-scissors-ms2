@@ -125,7 +125,7 @@ body {
 /* TURN RESULT AREA */
 
 .turn-result-para {
-    margin-bottom: 0.4rem;
+    margin-bottom: 0;
     line-height: normal;
 }
 
@@ -202,7 +202,7 @@ footer p {
     }
     #title {
         margin-top:0.5rem;
-        font-size:1.12rem;
+        font-size:1rem;
     }
     #rulesModalBtn p,
     .modal-body p {
@@ -212,15 +212,16 @@ footer p {
         height: 3rem;
     }
     .scores-box,
-    .turn-result-box {
+    .turn-result-box,
+    .ai-turn-result-box {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     max-width: 90%;
     border-radius: 1.5rem;
     }
     .turn-gif {
-        max-height: 40px;
-        max-width: 40px;
+        max-height: 30px;
+        max-width: 30px;
     }
     .result-gif {
     max-height: 150px;
