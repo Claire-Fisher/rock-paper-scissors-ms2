@@ -50,6 +50,7 @@ body {
 #logo {
     margin-top: 8rem;
     padding: 0.5rem;
+    max-width: 31rem;
 }
 
 #title {
@@ -196,6 +197,7 @@ footer p {
     #logo {
         margin-top: 0.8rem;
         padding: 0.7rem 0.7rem 0.2rem;
+        max-width: 18.5rem;
     }
     #title {
         margin-top:0.5rem;
