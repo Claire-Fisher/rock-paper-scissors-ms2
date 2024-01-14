@@ -155,6 +155,7 @@ body {
 /* SCORE AREA */
 
 .turn-result-box,
+.ai-turn-result-box,
 .scores-box {
     max-width: 60%;
     margin-top: 1rem;
