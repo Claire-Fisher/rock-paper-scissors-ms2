@@ -283,8 +283,14 @@ In addition to the accessibility score on lighthouse, [WAVE - Web accessibility 
         * Lose outcome is still less favourable than win, as the single gif will be displayed every time a loss result is reached.
 
 ### Third Party Feedback
+1. <u>**Dan Sanderson - Senior Developer.**</u>
+  * "It looks great to me. Plays well and reliably. Nice job!".
+ 
+  * "Some UI feedback, but it's minor, it's a bit difficult to know who's won each turn until you look closely and read the text. It's not in-your-face, but maybe that's what you're going for... One way around this might be to change the background colour of the results box to red or green if you lose or win, but I know your palette is monotone, so not sure how that would work".
 
-1. **Tom Harris: Safari Tester and screen width up to 2560px.** 
+  * "A future feature you could add would be to take all the hardcoded text out of your JS and HTML files and stick that in a language file. Then you can just run it through google translate or something and then have English and maybe French option etc which you can swap with a button."
+
+2. <u>**Tom Harris: Safari Tester and screen width up to 2560px.**</u>
   * "Overall the game runs very well, no issues at all. The design is perfect - everything is very intuitive with no reason for me as a user to have to look far for the obvious next button to press". 
 
   * "The monochrome design really works in the games favour, text is clear and very easy to read, the rules page is clear and very nice way to show the rules".
