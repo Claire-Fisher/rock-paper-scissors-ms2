@@ -168,20 +168,24 @@ function turnPoint(playersChoice, computersChoice) {
  */
 function resultAnnouncement(result) {
   if (result === "draw") {
+    $("#eyes-gif").removeClass("hidden");
     resultChoices.innerText = `You both chose ${playersChoice}`;
     resultText.innerText = "it's a draw!";
   }
   if (result === "win") {
+    $("#tick-gif").removeClass("hidden");
     resultChoices.innerText = `Your ${playersChoice} beats ${computersChoice}`;
     resultText.innerText = "you score!";
   }
   if (result === "lose") {
+    $("#cross-gif").removeClass("hidden");
     resultChoices.innerText = `Your ${playersChoice} loses to  ${computersChoice}`;
     resultText.innerText = "AI scores.";
   }
   $("#continueButton").on("click", function () {
     $("#game-area").show();
     $("#turnResultArea").addClass("hidden");
+    $(".turn-gif").addClass("hidden");
   });
 }
 
