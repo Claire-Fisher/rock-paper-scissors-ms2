@@ -279,6 +279,9 @@ An advertising banner could be added to promote other content from the same publ
 - Google Fonts for 'Inter" typography [View here](https://fonts.google.com/specimen/Inter?query=inter)
 - gifphy.com
   - [Winner, winner, chicken dinner gif](https://giphy.com/gifs/studiosoriginals-chicken-dinner-winner-etKSrsbbKbqwW6vzOg)
+  - [eyes-gif](https://giphy.com/stickers/eyes-look-search-Z5CLNXG4hJ7O05IPqb)
+  - [tick-gif](https://giphy.com/stickers/mrurbinaco-verified-mr-urbina-verification-QJ4Hm8oJgMJIqFAuVc)
+  - [cross-gif](https://giphy.com/stickers/mrurbinaco-wrong-verification-check-box-fJxnT4k3H0aZ8JwOII)
 - tenor.com
   - [Shawn the sheep "Wooo" gif](https://media.tenor.com/z93T38sX_HAAAAAi/woo-yey.gif)
   - [Minions 'Woohoo' gif](https://media1.tenor.com/m/rVH0yznv-fIAAAAC/minions-woo-hoo.gif)
