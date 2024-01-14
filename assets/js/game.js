@@ -1,7 +1,6 @@
 const resultChoices = document.getElementById("turnResultChoices");
 const continueButton = document.getElementById("continueButton");
 const resultText = document.getElementById("turnResultText");
-const choices = document.getElementById("choices-result-area-text");
 const buttons = document.getElementsByClassName("game-btn");
 const winTally = document.getElementById("win-tally");
 const loseTally = document.getElementById("lose-tally");
@@ -64,6 +63,7 @@ function editScores() {
   winTally.innerText = game.winScore;
   loseTally.innerText = game.loseScore;
   drawTally.innerText = game.drawScore;
+  $("#game-countdown").addClass("hidden");
   $("#game-area").removeClass("hidden");
 }
 
@@ -80,10 +80,6 @@ function newGame() {
   $(".result-gif").addClass("hidden");
   $("#next-turn").addClass("hidden");
   $(".turn-gif").addClass("hidden");
-  $("#choices-result-area").addClass("hidden");
-  $("#choices-result-area-text")
-    .removeClass("light-text")
-    .addClass("dark-grey-text");
   $("#newGameButton").addClass("hidden");
   $("#continueButton").show();
   $("#turnResultArea").addClass("hidden");
@@ -130,9 +126,6 @@ function bestOfThree(win, lose) {
   if (lose === 3) {
     resultText.innerText = "Game Over: You Lose!";
     $("#game-over").removeClass("hidden");
-    $("#choices-result-area-text")
-      .removeClass("dark-grey-text")
-      .addClass("light-text");
     $(".turn-result-box").removeClass("mid-grey-bg").addClass("dark-grey-bg");
     $("#turnResultChoices").removeClass("dark-text").addClass("light-text");
     $("#turnResultText").removeClass("dark-text").addClass("light-text");
@@ -149,7 +142,6 @@ function bestOfThree(win, lose) {
  * Changes score points depending on outcome
  */
 function turnPoint(playersChoice, computersChoice) {
-  $("#turnResultArea").removeClass("hidden");
   if (playersChoice === computersChoice) {
     game.drawScore++;
     resultAnnouncement("draw");
@@ -178,7 +170,7 @@ function turnPoint(playersChoice, computersChoice) {
 function resultAnnouncement(result) {
   if (result === "draw") {
     $("#eyes-gif").removeClass("hidden");
-    resultChoices.innerText = `You have both chosen ${playersChoice}`;
+    resultChoices.innerText = `You both chose ${playersChoice}`;
     resultText.innerText = "it's a draw!";
   }
   if (result === "win") {
@@ -192,20 +184,11 @@ function resultAnnouncement(result) {
     resultText.innerText = "AI scores.";
   }
   $("#continueButton").on("click", function () {
-    $("#choices-result-area").addClass("hidden");
     $("#game-area").show();
     $("#turnResultArea").addClass("hidden");
     $(".turn-gif").addClass("hidden");
   });
 }
-
-const vsChoices = (a) => {
-  choices.innerText = `Ai chooses ${a}`;
-};
-
-// const addTwoNumbers = (a, b) => {
-//   return a + b;
-// };
 
 /**
  * Event: on weapon button click:
@@ -235,9 +218,7 @@ function rollCountdown() {
             .fadeOut(1000)
             .promise()
             .done(function () {
-              $("#game-countdown").addClass("hidden");
-              $("#choices-result-area").removeClass("hidden");
-              vsChoices(computersChoice);
+              $("#turnResultArea").removeClass("hidden");
               resultAnnouncement();
               turnPoint(playersChoice, computersChoice);
             });
