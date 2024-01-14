@@ -81,9 +81,6 @@ function newGame() {
   $("#next-turn").addClass("hidden");
   $(".turn-gif").addClass("hidden");
   $("#ai-choice-result-area").addClass("hidden");
-  $("#ai-choice-result-area-text")
-    .removeClass("light-text")
-    .addClass("dark-grey-text");
   $("#newGameButton").addClass("hidden");
   $("#continueButton").show();
   $("#turnResultArea").addClass("hidden");
@@ -130,9 +127,6 @@ function bestOfThree(win, lose) {
   if (lose === 3) {
     resultText.innerText = "Game Over: You Lose!";
     $("#game-over").removeClass("hidden");
-    $("#ai-choice-result-area-text")
-      .removeClass("dark-grey-text")
-      .addClass("light-text");
     $(".turn-result-box").removeClass("mid-grey-bg").addClass("dark-grey-bg");
     $("#turnResultChoices").removeClass("dark-text").addClass("light-text");
     $("#turnResultText").removeClass("dark-text").addClass("light-text");
