@@ -25,7 +25,7 @@ This project is intended for users of any age. Target users are most likely acce
 * [**Languages**](#languages)
 * [**Frameworks and Tools**](#frameworks-and-tools)
 * [**Software**](#software)
-* [**Code**](#code)
+* [**Imported Code**](#imported-code)
 * [**Credits**](#credits)
 * [**Thanks**](#thanks)
 
@@ -236,12 +236,12 @@ An advertising banner could be added to promote other content from the same publ
   3. Find the zipped folder in your local Downloads folder, right click and select 'Extract All..".
   4. In the extracted 'colour-theory-ms1' folder, find the index file. Right click index and select "Open with Google Chrome" (or your preferred browser).
 
-### Languages
+### **Languages**
 - HTML
 - CSS
 - Javascript.
 
-### Frameworks & Tools
+### **Frameworks and Tools**
 - Git
 - GitHub
 - Bootstrap 4.6
@@ -260,21 +260,26 @@ An advertising banner could be added to promote other content from the same publ
 - W3C Jigsaw CSS validation service
 - WAVE WebAIM web accessibility evaluation tool
 
-### Software
+### **Software**
 - Visual Studio Code to create, load and push my code to Github.
 - Git and Github as my version control system for the site.
 - Figma to create design-boards, wireframes and prototypes.
 - Procreate to create design pages and sketch-work, images and logo.
 
 [**Back to top**](#rock-paper-scissors)
-### Code
-- Template modal code from [Bootstrap 4.6 Library](https://getbootstrap.com/docs/4.6/components/modal/). Heavily modified to suit my project requirements
-![An image of bootstrap4 modal code used](/documents/readme-images/bootstrap4-modal.png)
+## **Imported Code**
+Template modal code from [Bootstrap 4.6 Library](https://getbootstrap.com/docs/4.6/components/modal/). Heavily modified to suit my project requirements
+<details><summary>View the imported code here</summary>
+<img src="documents/readme-images/bootstrap4-modal.png">
+</details><br/>
 
-- After a mentor session with Richard Wells. We unpicked my animated countdown I'd coded with JQuery. Explored the .promise() and .done() methods and improved the code.
-![An image of the code from Richard Wells](/documents/readme-images/countdown-code.png)
+After a mentor session with Richard Wells. We unpicked my animated countdown I'd coded with JQuery. Explored the .promise() and .done() methods and improved the code.
 
-## Credits
+<details><summary>View the mentor session code result here</summary>
+<img src="documents/readme-images/countdown-code.png">
+</details><br/>
+
+## **Credits**
 - Shaun Russell: RPS logo & Modal Rules images.
 - Google Fonts for 'Inter" typography [View here](https://fonts.google.com/specimen/Inter?query=inter)
 - gifphy.com
