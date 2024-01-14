@@ -135,6 +135,11 @@ body {
 
 /* GIFS */
 
+.turn-gif {
+    max-height: 120px;
+    max-width: 120px;
+}
+
 .result-gif {
     max-height: 250px;
     max-width: 250px;
@@ -208,6 +213,10 @@ footer p {
     margin-bottom: 0.5rem;
     max-width: 90%;
     border-radius: 1.5rem;
+    }
+    .turn-gif {
+        max-height: 90px;
+        max-width: 90px;
     }
     .result-gif {
     max-height: 150px;
