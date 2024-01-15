@@ -537,10 +537,6 @@ In addition to the accessibility score on lighthouse, [WAVE - Web accessibility 
 
   * "All the animations are purposeful and never made me wish things were faster, they add value to the game."
 
-<details><summary>Tom Harris Feedback Notes</summary>
-<img src="documents/testing-images/t-harris-feedback.pdf">
-</details> <br/>
-
 4. <u>**Multiple friends and family general testing and feedback**</u>
   * Comment 1: "Is it missing a step to show what the ai drew? You get the text-field that says your XX beats/loses to XX, but could there be a visual field to show what's been drawn?"
   * Comment 2: "Something is needed to make the Ai's result a bit more obvious."
