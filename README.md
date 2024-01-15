@@ -6,6 +6,8 @@ This project is intended for users of any age. Target users are most likely acce
 
 [Click here to deploy this project live](https://claire-fisher.github.io/rock-paper-scissors-ms2/)
 
+**PLEASE NOTE: This documentation contains many images which can be viewed via a dropdown toggle.**
+
 ## Table of Contents
 * [**Planning and Development**](#planning-and-development)
     * [***Target Users***](#target-users)
