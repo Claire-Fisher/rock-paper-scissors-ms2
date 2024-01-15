@@ -194,7 +194,7 @@ This project consists of one page with 14 features.
 - Consistent navigation.
 - Written content is at an approachable level.
 - Minimum font size of 16px throughout the site and on all screen sizes.  
-- Custom visual graphic of the game rules. This minimises the amount of written information needed to be understood by the user. It helps those with cognitive difficulties. An brief but descriptive aria-label has been given to the rules image for visually impaired users. 
+- Custom visual graphic of the game rules. This minimises the amount of written information needed to be understood by the user. It helps those with cognitive difficulties. A brief but descriptive aria-label has been given to the rules image for visually-impaired users. 
 - Pausable game play. The pauses at specific intervals (game start, user weapon selection, turn result, game over), and waits for the user input before continuing (eg. click continue). This provides all users the opportunity to break their attention from the game to attend to other things. It gives people with cognitive and learning disabilities the control to pace the game to suit their individual needs.
 
 ### Family Friendly
