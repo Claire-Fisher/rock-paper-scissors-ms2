@@ -245,7 +245,7 @@ An advertising banner could be added to promote other content from the same publ
 [Click here to deploy this project live](https://claire-fisher.github.io/rock-paper-scissors-ms2/)
 
 - Or you can deploy this site on GitHub by following these steps :-
-  1. From the project's [repository](), go to the green 'Code' button.
+  1. From the project's repository, go to the green 'Code' button.
   2. On the local tab, select Download zip.
   3. Find the zipped folder in your local Downloads folder, right click and select 'Extract All..".
   4. In the extracted 'colour-theory-ms1' folder, find the index file. Right click index and select "Open with Google Chrome" (or your preferred browser).
@@ -306,6 +306,7 @@ After a mentor session with Richard Wells. We unpicked my animated countdown I'd
   - [Minions 'Woohoo' gif](https://media1.tenor.com/m/rVH0yznv-fIAAAAC/minions-woo-hoo.gif)
   - [tonton cheer gif](https://media.tenor.com/_ocNArtc8fEAAAAi/tonton-tonton-sticker.gif)
   - [Cheering child gif](https://media1.tenor.com/m/Z_IV0-4w2vEAAAAC/yes-winning.gif)
+  - [Game Over gif](https://tenor.com/en-GB/view/oyun-bitti-loser-game-over-gif-20982221)
 - Favicon.io for icon converter & instructions [View here](https://favicon.io/)
 - Tinypng.com for image compression [View here](https://tinypng.com/)
 - EZGIF.com to gif compression [View here](https://ezgif.com/gif-to-webp)
@@ -321,7 +322,7 @@ After a mentor session with Richard Wells. We unpicked my animated countdown I'd
 
 - atapas: for his markdown-cheatsheet [View here](https://github.com/atapas/markdown-cheatsheet#horizontal-line)
 
-- David Calikes: for his excellent README file which I've used as a template. [View here](https://github.com/davidcalikes/portfolio-project-one/blob/main/README.md?plain=1)
+- David Calikes: for his excellent README file which I've used as a example. [View here](https://github.com/davidcalikes/portfolio-project-one/blob/main/README.md?plain=1)
 
 - Tom Harris: Site tester, and my biggest cheerleader.
 
