@@ -104,6 +104,18 @@ Please toggle the following dropdowns to view the wireframe images.
 <details><summary>Wireframe Mobile: Game-Rules-Modal image</summary>
 <img src="documents/readme-images/wireframe-mobile-rules-modal.jpg">
 </details>
+
+<details><summary>Wireframe Desktop: Home/Countdown/Modal image</summary>
+<img src="documents/readme-images/wireframe-desktop-home-countdown.jpg">
+</details>
+
+<details><summary>Wireframe Desktop: Turn-results image</summary>
+<img src="documents/readme-images/wireframe-desktop-turn-results.jpg">
+</details>
+
+<details><summary>Wireframe Desktop: Game-Over image</summary>
+<img src="documents/readme-images/wireframe-desktop-game-over.jpg">
+</details>
 <br/>
 
 This planning and development work is uploaded to Figma. The design page on Figma is a useful tool to layout all my early project documents in one space, and share online with others for additional input. It allowed my mentor to quickly view and understand my project themes and objectives.
