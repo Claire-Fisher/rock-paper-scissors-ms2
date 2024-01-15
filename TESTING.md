@@ -8,6 +8,12 @@ This project was tested continuously during development. Post build, the site ha
     * [*Bugs and Fixes*](#bugs-and-fixes)
 * [**Post Development Testing**](#post-development-testing)
   * [**Post Development Testing Expanded**](#post-development-testing-expanded)
+    * [Home Page Manual Testing](#home-page-manual-testing)
+    * [Modal Manual Testing](#modal-manual-testing)
+    * [Weapon Buttons Manual Testing](#weapon-buttons-manual-testing)
+    * [Continue Button Manual Testing](#continue-button-manual-testing)
+    * [Game Over Status Manual Testing](#game-over-status-manual-testing)
+    * [New Game Button Manual Testing](#new-game-button-manual-testing)
   * [**User Story Testing**](#user-story-testing)
   * [**Validators**](#validators)
       * [*HTML*](#html---httpsvalidatorw3orgnu)
@@ -127,11 +133,6 @@ Below is a list of bugs I found during the development process by testing myself
         * Suspected issue was the countdown numbers were still classed as "hidden" after the first fadeOuts. Showing and hiding in different positions, and even later functions, did not fix the issue. 
     * ***Solution Used:***    
         * Not only did the numbers need to be unhidden with show(), but the opacity had to be reset back up to 1 so they werent transparent. Countdown now executes as expected. 
-7. **Intended Outcome** 
-    * ***Issue Found:*** 
-        * 
-    * ***Solution Used:***    
-        *  
 
 [**Back to top**](#testing-rock-paper-scissors)  
 ## **Post Development Testing**
@@ -153,15 +154,238 @@ Post development, I manually tested in the following ways:-
 
 ## **Post Development Testing Expanded**
 
-My manual testing log:
-
-| 1          |         |
-| :---       | :----   |
-| Expected:  |         |
-| Testing:   |         |
-| Result:    |         |
-| Fix:       |         |
-
+My manual testing logs are as follows:
+***
+### Home Page Manual Testing
+***
+**Home Page Test 1 -  Incorrect URL (random letter character)**
+* Expected:
+  * Site expected to display 404 page when the user enters an incorrect URL.
+* Testing:
+  * Tested site by adding a random letter at the end of URL
+* Result:
+  * The site acted as expected and showed it’s custom 404 page.
+* Action: 
+  * None
+***
+**Home Page Test 2 -  Incorrect URL (random number character)**
+* Expected:
+  * Site expected to display 404 page when the user enters an incorrect URL.
+* Testing:
+  * Tested site by adding a random number at the end of URL
+* Result:
+  * The site acted as expected and showed it’s custom 404 page.
+* Action: 
+  * None
+***
+**Home Page Test 3 -  Incorrect URL (random special character)**
+* Expected:
+  * Site expected to display 404 page when the user enters an incorrect URL.
+* Testing:
+  * Tested site by adding a random special character at the end of URL
+* Result:
+  * The site acted as expected and showed it’s custom 404 page.
+  * EXCEPTION: When the % character was added to the end of the URL, the site showed “400-Bad Request” page from Github. The user can return to the site by clicking “back” on the browser window. 
+* Action: 
+  * None
+***
+**Home Page Test 4 -  Clicking non-interactive elements**
+* Expected:
+  * Site expected to do nothing when the user clicks anywhere that’s not interactable. 
+* Testing:
+  * Tested site by clicking all over the site background. The logo. The score box area. The footer. H1, and paragraphs
+* Result:
+  * The site acted as expected and did nothing
+* Action: 
+  * None
+***
+### Modal Manual Testing
+***
+**Modal Test 1 -  Clicking the Modal Button**
+* Expected:
+  * Site expected to open the modal window when the user clicks the modal button. 
+* Testing:
+  * Tested site by clicking, and double-clicking, the modal button.
+* Result:
+  * The site acted as expected and displayed the modal window.
+* Action: 
+  * None
+***
+**Modal Test 2 -  Clicking around the Modal window**
+* Expected:
+  * Site expected to do nothing when the user clicks anywhere on modal (except the interactive elements). 
+* Testing:
+  * Tested site by clicking all over modal window, whilst avoiding the close buttons.
+* Result:
+  * The site acted as expected and did nothing.
+* Action: 
+  * None
+***
+**Modal Test 3 -  Clicking the close elements on the Modal**
+* Expected:
+  * Site expected to close the modal window when the user clicks the cross (top right) or the close (bottom right).
+* Testing:
+  * Tested site by clicking the cross, reopening the modal, then clicking close. 
+* Result:
+  * The site acted as expected and closed the modal window when the user clicks either the cross, or close
+  * N.B Modal also closes when clicking outside the modal window. This is acceptable.
+  * (Accessibility: both buttons can be targeted with the Tab keyboard button, and then hitting Enter).
+* Action: 
+  * None
+***
+### Weapon Buttons Manual Testing
+***
+**Weapon Buttons Test 1 -  ROCK Button**
+* Expected:
+  * When the Rock button is clicked, the site is expected to:-
+    1. Hide weapon buttons
+    2. Show countdown until end
+    3. Hide countdown
+    4. Show turn result box
+    5. Show "Continue" or "New Game" button (Dependin on scores)
+    6. Display message “YOUR PAPER…” (then either win/lose/draw etc, & who scores)
+    7. (Tick or Cross or Eyes gifs should also display depending on turn outcome).
+    8. Score area numbers update correctly depending on turn outcome.     
+* Testing:
+  * Tested site by clicking the Rock button.
+* Result:
+  * The site acted as expected and all the listed actions above displayed in order and with the correct strings.
+  * (Accessibility: Rock button can also be targeted with Tab and pressing Enter).
+* Action: 
+  * None
+***
+**Weapon Buttons Test 2 -  PAPER Button**
+* Expected:
+  * When the Paper button is clicked, the site is expected to:-
+    1. Hide weapon buttons
+    2. Show countdown until end
+    3. Hide countdown
+    4. Show turn result box
+    5. Show "Continue" or "New Game" button (Dependin on scores)
+    6. Display message “YOUR PAPER…” (then either win/lose/draw etc, & who scores)
+    7. (Tick or Cross or Eyes gifs should also display depending on turn outcome).
+    8. Score area numbers update correctly depending on turn outcome.     
+* Testing:
+  * Tested site by clicking the Paper button.
+* Result:
+  * The site acted as expected and all the listed actions above displayed in order and with the correct strings.
+  * (Accessibility: Paper button can also be targeted with Tab and pressing Enter).
+* Action: 
+  * None
+***
+**Weapon Buttons Test 3 -  SCISSORS Button**
+* Expected:
+  * When the Scissors button is clicked, the site is expected to:-
+    1. Hide weapon buttons
+    2. Show countdown until end
+    3. Hide countdown
+    4. Show turn result box
+    5. Show "Continue" or "New Game" button (Dependin on scores)
+    6. Display message “YOUR PAPER…” (then either win/lose/draw etc, & who scores)
+    7. (Tick or Cross or Eyes gifs should also display depending on turn outcome).
+    8. Score area numbers update correctly depending on turn outcome.    
+* Testing:
+  * Tested site by clicking the Scissors button.
+* Result:
+  * The site acted as expected and all the listed actions above displayed in order and with the correct strings.
+  * (Accessibility: Scissors button can also be targeted with Tab and pressing Enter).
+* Action: 
+  * None
+***
+**Weapon Buttons Test 4 - Weapon Click Event Sequence**
+* Expected:
+  * Site expected to continue with weapon-click-event sequence when user tries to interrupt by clicking all over the site.    
+* Testing:
+  * Tested site by clicking a weapon button, and clicking all over the screen. 
+* Result:
+  * The site acted as expected and the sequence continued without interruption.
+  * Except: Site still opened the Modal with the modal Button during the game sequence… but the sequence continued behind and displayed correctly when the modal was closed. 
+  * Except: The site always refreshes, and clears all data, when the browser reload button is clicked. 
+* Action:
+  * None. All behaviours acceptable. 
+***
+### Continue Button Manual Testing
+***
+**Continue Button Test 1 -  Continue Click Event Sequence**
+* Expected:
+  * When the user clicks the “Continue” button, the site is expected to:
+    1. Hide turn result area
+    2. Hide the “Ai chooses…” area
+    3. Show home screen / weapon select area
+    4. Display “Take your next turn!” string above “Choose your weapon:”
+    5. Wait for the user to select next click-event weapon
+    6. Keep current scores accurate and displayed
+* Testing:
+  * Tested site by clicking the “continue” button. 
+* Result:
+  * The site acted as expected and did all of the action-list above.
+  * (Accessibility: Continue button can also be targeted with Tab and pressing Enter).
+* Action:
+  * None.
+***
+### Game Over Status Manual Testing
+***
+**Win Result Test 1 -  Game Over Player Win Sequence**
+* Expected:
+  * If the “WIN” score is the first score value to equal 3, the site is expected to:
+    1. Score area numbers update correctly depending on turn outcome.
+    2. Display 1 of the 5 win-gifs randomly
+    3. Display “CONGRATULATIONS! YOU WIN! In the turn result box
+    4. Switch “Continue” button to “New Game” button
+* Testing:
+  * Tested the site by playing the game until multiple win results were achieved. 
+* Result:
+  * The site acted as expected and all the listed actions above displayed in order and with the correct strings. I continued until I won 5 times to check the win gifs are pulled randomly. The results were: Win 1 = chicken, Win 2 = child-cheering, Win 3 = chicken, Win 4 = shawn-sheep, Win 5 = shawn-sheep. Randomising as expected. 
+* Action:
+  * None.
+***
+**Lose Result Test 2 -  Game Over Player Lose Sequence**
+* Expected:
+  * If the “LOSE” score is the first score value to equal 3, the site is expected to:
+    1. Score area numbers update correctly depending on turn outcome.
+    2. Display the singular game-over gif.
+    3. Display “GAME OVER: YOU LOSE! In the turn result box
+    4. Change turn-result area to dark-bg and light-text
+    5. Switch “Continue” button to “New Game” button
+* Testing:
+  * Tested the site by playing the game until multiple Lose results were achieved. 
+* Result:
+  * The site acted as expected and all the listed actions above displayed in order and with the correct strings. I continued until I lost 3 times.
+* Action:
+  * None.
+***
+**Draw Result Test 3 -  Draw Sequence**
+* Expected:
+  * If the “DRAW” score is the first score value to equal 3, the site is expected to:
+    1. Score area numbers update correctly depending on turn outcome.
+    2. Continue the game as a normal turn. 
+    3. Allow the Draw score to increase beyond 3 until a game-over situation occurs. 
+* Testing:
+  * Tested the site by playing the game until the draw score reached 3, and higher.
+* Result:
+  * The site acted as expected and all the listed actions above displayed in order and with the correct strings. I continued until I managed to achieve a Draw score = 7. 
+* Action:
+  * None.
+***
+### New Game Button Manual Testing
+***
+* Expected:
+  * When the user clicks the “New Game” button, the site is expected to:
+    1. Hide the game-over gif (regardless of win or lose outcome).
+    2. Hide the turn result area
+    3. Hide the “Ai chooses…” area
+    4. Show home screen / weapon select area
+    5. Hide the “Take your next turn!” paragraph
+    6. Reset all the scores back to zero in the display box
+* Testing:
+  * Tested the site by clicking the “New Game” button.
+* Result:
+  * The site acted as expected and did all of the action-list above.
+  * (Accessibility: “New Game” button can also be targeted with Tab and pressing Enter).
+* Action:
+  * None.
+***
+[**Back to top**](#testing-rock-paper-scissors)
 
 ## **User Story Testing**
 1. **As a user, I want to be entertained.**
