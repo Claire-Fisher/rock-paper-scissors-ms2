@@ -507,6 +507,13 @@ In addition to the accessibility score on lighthouse, [WAVE - Web accessibility 
         * The "Final Result: Lose" outcome isn't obvious enough to the user. 
         * Suggestion: Have a single "Lose" game gif.
         * Lose outcome is still less favourable than win, as the single gif will be displayed every time a loss result is reached.
+3. **Turn Result not clear to user (Especially the Ai's weapon choice)**
+    * ***Tester feedback: Dan Sanderson and multiple other testers***
+        * Testers felt there was a missing "step" after the countdown and before the turn-result box is displayed. 
+        * Suggestion: Have some way to make the Ai's weapon selection more obvious to the user.
+        * Suggestion: Make the turn result more obvious to the user without have to closely read the text.
+        * Action Taken: Added a "Ai has chosen..." box to appear above the turn result box, and in a contrasting colour to stand out. 
+        * Action Taken: Added Tick/Cross/Eyes gifs to the turn result box. The gifs display depending on the turn outcome from the player's POV.
 
 ### Third Party Feedback
 1. <u>**Dan Sanderson - Senior Developer.**</u>
@@ -530,7 +537,13 @@ In addition to the accessibility score on lighthouse, [WAVE - Web accessibility 
 
 <details><summary>Tom Harris Feedback Notes</summary>
 <img src="documents/testing-images/t-harris-feedback.pdf">
-</details> 
+</details> <br/>
+
+4. <u>**Multiple friends and family general testing and feedback**</u>
+  * Comment 1: "Is it missing a step to show what the ai drew? You get the text-field that says your XX beats/loses to XX, but could there be a visual field to show what's been drawn?"
+  * Comment 2: "Something is needed to make the Ai's result a bit more obvious."
+  * Comment 3: "I think you need to show what the Ai has chosen and make it REALLY stand out, with colour or something."
+
 
 ## Thank you to my product testers
 - Richard Wells: Senior Developer, and my Code Institute Mentor.
