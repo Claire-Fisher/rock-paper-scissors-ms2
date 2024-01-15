@@ -1,8 +1,8 @@
 # Rock Paper Scissors
 ### This site is designed as a pick-up-&-play game for entertainment. 
-This project is intended for users of any age. Target users are most likely access this on mobile devices. Therefore it is developed using a mobile first approach and is fully responsive. The project aims to meet high standards of accessibility requirements. 
+This project is intended for users of any age. Target users are most likely to access this on mobile devices. Therefore it is developed using a mobile first approach and is fully responsive. The project aims to meet high standards of accessibility requirements. 
 
-![An mock-up image of the Rock Paper Scissors project](/documents/readme-images/rps-mockup.png)
+![A mock-up image of the Rock Paper Scissors project](/documents/readme-images/rps-mockup.png)
 
 [Click here to deploy this project live](https://claire-fisher.github.io/rock-paper-scissors-ms2/)
 
@@ -39,7 +39,7 @@ This project is intended for users of any age. Target users are most likely acce
 - Users who are looking to spend some time on a simple game.
 - Users who want a game for a couple of seconds, to a couple of minutes, and beyond.
 - Users who want a clear and easy-to-use game with simple, familiar rules.
-- Users who want entertaining while waiting for something (commuters, patients in a waiting room etc).
+- Users who want entertainment while waiting for something (commuters, patients in a waiting room etc).
 
 ### User Stories
 1. As a user, I want to be entertained.
@@ -77,9 +77,9 @@ Common themes found:
   - Colourful, busy designs, auto-played music.
 
 My adjustments to suit my project aims:
-  - Less colour. Keep to a greyscale palette for better accessibility. 
+  - Less colour. Keep to a monochrome palette for better accessibility. 
   - Clearer feedback to the user on their choice and the AI choice. 
-  - No auto play music that can reduce a users positive UX.
+  - No auto play music that can reduce a user's positive UX.
   - A best of three outcome. A game that has a definite win or lose outcome is more satisfying to the user. 
 
 [**Back to top**](#rock-paper-scissors)
@@ -148,15 +148,15 @@ This project consists of one page with 14 features.
 
 ### Intuitive Navigation
 - The rules button is present on every page and stays in the same location.
-- The weapon buttons are large, obvious and stay in the same location. Shifting only from horizontal to vertical alignment dependant on screen width. 
+- The weapon buttons are large, obvious and stay in the same location. Shifting only from horizontal to vertical alignment depending on screen width. 
 - All buttons are named with intuitive text so navigation is clear to the user (e.g Continue, New Game) (Site objective No.7).
 - All buttons have aria-labels to allow good navigation for users with screen-readers. (Site objective No.7).
 
 ### Clear typography
-- The highly legible and readable font 'Inter' was selected from googlefonts. As a googlefonts listed typography, 'Inter' has a high chance of being useable across most devices. A generic 'serif' font has been coded to display in the event a device is not compatible with 'Inter'. 
+- The highly legible and readable font 'Inter' was selected from Google-fonts. As a Google-fonts listed typography, 'Inter' has a high chance of being usable across most devices. A generic 'serif' font has been coded to display in the event a device is not compatible with 'Inter'. 
 
 ### Logo
-- Custom designed Logo in keeping with project brand asthetics: both in colour and typography.
+- Custom designed Logo in keeping with project brand aesthetics: both in colour and typography.
 - SVG format for optimum resolution quality at all screen sizes.
 
 ### Images
@@ -168,11 +168,11 @@ This project consists of one page with 14 features.
   - Included as files in the assets folder to increase download times.
 
 ### Fully automated game functionality
-- The user is only required navigate and input their weapon selection with a choice of three buttons. 
+- The user is only required to navigate and input their weapon selection with a choice of three buttons. 
 - The AI's choice, turn result, score keeping and final result are all fully automated and displayed to the user. 
 
 ### 3-2-1 Countdown
-- An animated short countdown gives the illusion that the AI is "thinking" about it's weapon selection. It builds suspense before the turn result, improving UX. 
+- An animated short countdown gives the illusion that the AI is "thinking" about its weapon selection. It builds suspense before the turn result, improving UX. 
 - The countdown allows the user a moment to read and be reminded of their latest weapon choice, while not interrupting site flow.
 - This feature also improves accessibilities by allowing users with cognitive, and/or reading difficulties, a moment to process the game information (Site objective No.7).
 
@@ -182,7 +182,7 @@ This project consists of one page with 14 features.
 ### Large Buttons
 - Buttons have been built for all user interactions with this project. This eliminates user input error so the game functions are rapid, and excellent site flow is maintained. (Site objectives No.1, 2, 6).
 - They are designed with a minimum size of 48px x 48px. These are the WCAG 2.1 recommended guidelines for touchscreen buttons (Site objective No.7).
-- It improves usability for all users, especially when using their device single handed. Input doesnt need to be typed and is selected with a simple button press (User story No.5).
+- It improves usability for all users, especially when using their device single handed. Input doesn't need to be typed and is selected with a simple button press (User story No.5).
 - It improves accessibility for people with physical disabilities who have dexterity needs (Site objective No.7). 
 
 ### Colour scheme
@@ -199,7 +199,7 @@ This project consists of one page with 14 features.
 - Definite status messages - 404 page included - "Oops, something went wrong" message.
 - Responsive design.
 - High colour contrast.
-- No colours convey information - colourblind users
+- No colours convey information - colour blind users
 - No flashing lights. Care has been taken to select gifs with minimum to no flashing lights.
 - No background audio or autoplay audio.
 - Aria-labels on all interactive elements.
@@ -215,7 +215,7 @@ This project consists of one page with 14 features.
 - This site is free from offensive language and imagery, and is suitable for users of all ages (Site objective No.3).
 
 ### The Footer
-The footer provides copyright information and name of the site creator. It cannot be interacted with by user. 
+The footer provides copyright information and name of the site creator. It cannot be interacted with by the user. 
 
 [**Back to top**](#rock-paper-scissors)
 ## Future Features
@@ -226,7 +226,7 @@ Include a button link to a feedback form page. Users can be invited to report bu
 Additional game versions, or game types could be added. A drop-down menu to those options would add additional positive user experience. It would also keep the user on the product longer. 
 
 ### Difficulty setting
-Have an option the user can toggle to change the difficulty of the game. Harder levels might calculate the computer has a 50% change to select the winning weapon based on the user's choice etc. 
+Have an option the user can toggle to change the difficulty of the game. Harder levels might calculate the computer has a 50% chance to select the winning weapon based on the user's choice etc. 
 
 ### AI personality
 More conversational responses from the AI could be included to give the AI a "personality".
@@ -325,6 +325,6 @@ After a mentor session with Richard Wells. We unpicked my animated countdown I'd
 
 - Tom Harris: Site tester, and my biggest cheerleader.
 
-- Shaun Russell: Senior UI/UI/Product Designer. My site tester, my partner, and my provider while I study. Building my new development career change would have been infinitely harder without you. Thank you.
+- Shaun Russell: Senior UX/UI/Product Designer. My site tester, my partner, and my provider while I study. Building my new development career change would have been infinitely harder without you. Thank you.
 
 [**Back to top**](#rock-paper-scissors)
