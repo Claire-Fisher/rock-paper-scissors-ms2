@@ -2,6 +2,8 @@
 This project was tested continuously during development. Post build, the site has been manually tested by myself and third party testers. It has also passed on html, CSS, JS, and accessibility validators. 
 
 [return to README.md](README.md)
+
+**PLEASE NOTE: This documentation contains many images which can be viewed via a dropdown toggle.**
 ## Table of Contents
 * [**During Development Testing**](#during-development-testing)
     * [*Manual Testing*](#manual-testing)

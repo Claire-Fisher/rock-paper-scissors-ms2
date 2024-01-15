@@ -178,7 +178,7 @@ This project consists of one page with 14 features.
 ### Dark Mode
 - Due to the high contrast colour scheme, this project works well on dark mode screen settings. 
 
-### High Standards of Accessibiliy 
+### High Standards of Accessibility 
 [According to accessguide.io](https://www.accessguide.io/)
 
 (Site objective No.7).
