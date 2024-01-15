@@ -516,7 +516,12 @@ In addition to the accessibility score on lighthouse, [WAVE - Web accessibility 
 
   * "A future feature you could add would be to take all the hardcoded text out of your JS and HTML files and stick that in a language file. Then you can just run it through google translate or something and then have English and maybe French option etc which you can swap with a button."
 
-2. <u>**Tom Harris: Safari Tester and screen width up to 2560px.**</u>
+2. <u>**Shaun Russell - Senior UX/UI/Product Designer.**</u>
+  * "No issues to report really beyond the gifs not initially displaying which has now been resolved."
+  * "I like that everything can be done one handed - so if folk are commuting and standing on a crowded public transport, they can play this to pass the time a little bit."
+  * "Instructions are clear and readily accessible. UI is clean and clear and accessible. The GIFs are a nice reward / commiseration and denote the end of the game. The tick and cross to denote round win / loss is a good identifier. Maybe use your icons in instructions to denote what user and AI has picked"
+
+3. <u>**Tom Harris: Safari Tester and screen width up to 2560px.**</u>
   * "Overall the game runs very well, no issues at all. The design is perfect - everything is very intuitive with no reason for me as a user to have to look far for the obvious next button to press". 
 
   * "The monochrome design really works in the games favour, text is clear and very easy to read, the rules page is clear and very nice way to show the rules".
