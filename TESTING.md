@@ -23,7 +23,7 @@ This project was tested continuously during development. Post build, the site ha
       * [*JavaScript*](#javascript---httpsjshint.com)
   * [**Lighthouse Scores**](#lighthouse-scores)
   * [**Accessibility**](#accessibility)
-* [**Third Party Testing**](#third-party-testing-and-feedback)
+* [**Third Party Testing**](#third-party-testing)
 *  [**Third Party Feedback**](#third-party-feedback)
 * [**With Thanks**](#thank-you-to-my-product-testers)
 
@@ -479,8 +479,6 @@ JSHint validator was configured to recognise New JavaScript Features (ES6), and 
 NOTE: After feedback from my site testers, 3 additional gifs were included in the project. (Tick / Cross / Eyes). This was to improve user feedback on what the Ai's weapon selection was at the end of each turn. This has reduced the site’s performance on lighthouse scores in Chrome Dev Tools on Mobile devices only (Now approx rating of 73). No significant change on Desktop performance. None of my testers went on to report any noticeable performance change, so I wont be improving on this score at this time.
 
 ## **Accessibility** 
-https://wave.webaim.org/
-
 In addition to the accessibility score on lighthouse, [WAVE - Web accessibility evaluation tool](https://wave.webaim.org/) has been used to check the site for accessibility issues. 
 <details><summary>Wave Accessibility Evaluation Results Image</summary>
 <img src="documents/testing-images/accessibility-evaluation.png">
