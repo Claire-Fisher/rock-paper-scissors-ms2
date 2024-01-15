@@ -61,7 +61,7 @@ The site has been tested at screen sizes 320px to 2560px in width.
 </details>
 
 ### Style and Script link functionality
-To manaually test my CSS and JS links were functioning as intended: 
+To manually test my CSS and JS links were functioning as intended: 
 * I created a test h1 on my html.
 * I added code in the style.css to make the h1 content red.
 * I added code in the script.js to message the console. 
@@ -75,7 +75,7 @@ To manaually test my CSS and JS links were functioning as intended:
 ### Colour Scheme Contrast
 Testing the contrast is high enough for readability:
   * H1 result: contrast rating = 9.6. Good readability.
-  * H2 result: contrast rating = 15.11. Good readabilit
+  * H2 result: contrast rating = 15.11. Good readability.
   * H3 result: contrast rating = 1.57 Low readability.
   * **Result:** Only the H1 and H2 combo examples will be used.
 <details><summary>Colour Contrast Test Image</summary>
@@ -110,31 +110,31 @@ Below is a list of bugs I found during the development process by testing myself
         * Created an updateChoices function & called it inside the handleButtonClick function.
 3. **H1 styling issue** 
     * ***Issue Found:*** 
-        * H1 line height was far too big and causing styling issues. Dropping lower elements further down the page. All attempts to restyle H1 failed to fix the issue. 
+        * H1 line height was far too big and caused styling issues. Dropping lower elements further down the page. All attempts to restyle H1 failed to fix the issue. 
     * ***Solution Used:***    
         * Realised I had targeted the weapon buttons with the class .btn
-        * .btn is a bootstrap class, so the styling I'd applied to the weapons buttons, was also targetting the bootstrap modal button in the H1. 
-        * Targetted the weapons buttons with .game-btn instead (my own class name). Additional height properties no longer affecting the H1 element. 
+        * .btn is a bootstrap class, so the styling I'd applied to the weapons buttons was also targeting the bootstrap modal button in the H1.
+        * Targeted the weapons buttons with .game-btn instead (my own class name). Additional height properties no longer affect the H1 element.
 4. **AI random weapon not updating correctly** 
     * ***Issue Found:*** 
-        * The AI's randomly generated weapon was not updating after the first round.  
+        * The AI's randomly generated weapon was not updated after the first round.
     * ***Solution Used:***    
         * Created an empty string variable. 
         * Reassigned this variable with the getRandomWeapon function inside the button click event. 
         * AI random weapon choice now refreshes on every click event. 
 5. **New Game functionality** 
     * ***Issue Found:*** 
-        * Continue button still operating as a "New Game" button after first game over. So game kept resetting every time user clicked Continue.
+        * Continue button still operating as a "New Game" button after the first game-over. So the game kept resetting every time the user clicked Continue.
     * ***Solution Used:***    
         * Created a separate New Game button in the html. Previously the button's innerText switched between "Continue" and "New Game" with JavaScript.
         * Used show and hide JQuerys to switch between the two buttons at the correct time.
-        * With separate buttons, I could then accurately target each one to excute the correct functions and JQuery commands.  
+        * With separate buttons, I could then accurately target each one to execute the correct functions and JQuery commands.  
 6. **rollCountdown function** 
     * ***Issue Found:*** 
-        * Appeared rollCountdown function was not executing after it's first cycle.
+        * The rollCountdown function was not executed after it's first cycle.
         * Suspected issue was the countdown numbers were still classed as "hidden" after the first fadeOuts. Showing and hiding in different positions, and even later functions, did not fix the issue. 
     * ***Solution Used:***    
-        * Not only did the numbers need to be unhidden with show(), but the opacity had to be reset back up to 1 so they werent transparent. Countdown now executes as expected. 
+        * Not only did the numbers need to be unhidden with show(), but the opacity had to be reset back up to 1 so they weren’t transparent. Countdown now executes as expected.
 
 [**Back to top**](#testing-rock-paper-scissors)  
 ## **Post Development Testing**
@@ -145,14 +145,14 @@ Post development, I manually tested in the following ways:-
 
 2. The code passed through HTML, CSS, JavaScript(ES6) validators to check for errors.
 * [**Validators Results**](#validators)
-3. The code passed though an Accessibility evaluation. 
+3. The code passed through an Accessibility evaluation. 
 *  [**Accessibility Results**](#accessibility)
 4. Published the page via GitHub pages and shared with fellow students to test and receive feedback.
 
 5. Sent my gitHub to link to three third party testers with different devices, browsers, and skill sets:
     - Dan Sanderson - Senior Developer
     - Shaun Russell - Senior UI/UX/Product Designer
-    - Tom Harris - Enterprise Account Manager, krystal.io and iOS user 
+    - Tom Harris - Enterprise Account Manager, krystal.io and Safari user 
 
 ## **Post Development Testing Expanded**
 
@@ -162,32 +162,32 @@ My manual testing logs are as follows:
 ***
 **Home Page Test 1 -  Incorrect URL (random letter character)**
 * Expected:
-  * Site expected to display 404 page when the user enters an incorrect URL.
+  * Site expected to display 404-page when the user enters an incorrect URL.
 * Testing:
   * Tested site by adding a random letter at the end of URL
 * Result:
-  * The site acted as expected and showed it’s custom 404 page.
+  * The site acted as expected and showed its custom 404-page.
 * Action: 
   * None
 ***
 **Home Page Test 2 -  Incorrect URL (random number character)**
 * Expected:
-  * Site expected to display 404 page when the user enters an incorrect URL.
+  * Site expected to display 404-page when the user enters an incorrect URL.
 * Testing:
   * Tested site by adding a random number at the end of URL
 * Result:
-  * The site acted as expected and showed it’s custom 404 page.
+  * The site acted as expected and showed it’s custom 404-page.
 * Action: 
   * None
 ***
 **Home Page Test 3 -  Incorrect URL (random special character)**
 * Expected:
-  * Site expected to display 404 page when the user enters an incorrect URL.
+  * Site expected to display 404-page when the user enters an incorrect URL.
 * Testing:
   * Tested site by adding a random special character at the end of URL
 * Result:
-  * The site acted as expected and showed it’s custom 404 page.
-  * EXCEPTION: When the % character was added to the end of the URL, the site showed “400-Bad Request” page from Github. The user can return to the site by clicking “back” on the browser window. 
+  * The site acted as expected and showed it’s custom 404-page.
+  * EXCEPTION: When the % character was added to the end of the URL, the site showed a “400-Bad Request” page from Github. The user can return to the site by clicking “back” on the browser window. 
 * Action: 
   * None
 ***
@@ -213,11 +213,11 @@ My manual testing logs are as follows:
 * Action: 
   * None
 ***
-**Modal Test 2 -  Clicking around the Modal window**
+**Modal Test 2 -  Clicking inside the Modal window**
 * Expected:
   * Site expected to do nothing when the user clicks anywhere on modal (except the interactive elements). 
 * Testing:
-  * Tested site by clicking all over modal window, whilst avoiding the close buttons.
+  * Tested site by clicking all over the modal window, whilst avoiding the close buttons.
 * Result:
   * The site acted as expected and did nothing.
 * Action: 
@@ -244,7 +244,7 @@ My manual testing logs are as follows:
     2. Show countdown until end
     3. Hide countdown
     4. Show turn result box
-    5. Show "Continue" or "New Game" button (Dependin on scores)
+    5. Show "Continue" or "New Game" button (Depending on scores)
     6. Display message “YOUR PAPER…” (then either win/lose/draw etc, & who scores)
     7. (Tick or Cross or Eyes gifs should also display depending on turn outcome).
     8. Score area numbers update correctly depending on turn outcome.     
@@ -263,7 +263,7 @@ My manual testing logs are as follows:
     2. Show countdown until end
     3. Hide countdown
     4. Show turn result box
-    5. Show "Continue" or "New Game" button (Dependin on scores)
+    5. Show "Continue" or "New Game" button (Depending on scores)
     6. Display message “YOUR PAPER…” (then either win/lose/draw etc, & who scores)
     7. (Tick or Cross or Eyes gifs should also display depending on turn outcome).
     8. Score area numbers update correctly depending on turn outcome.     
@@ -282,7 +282,7 @@ My manual testing logs are as follows:
     2. Show countdown until end
     3. Hide countdown
     4. Show turn result box
-    5. Show "Continue" or "New Game" button (Dependin on scores)
+    5. Show "Continue" or "New Game" button (Depending on scores)
     6. Display message “YOUR PAPER…” (then either win/lose/draw etc, & who scores)
     7. (Tick or Cross or Eyes gifs should also display depending on turn outcome).
     8. Score area numbers update correctly depending on turn outcome.    
@@ -405,7 +405,7 @@ My manual testing logs are as follows:
     * Excellent flow.
     * Super easy user input (buttons).
     * Fast & responsive game functionality
-    * Automated game data handing & results feedback.
+    * Automated game data handling & results feedback.
 3. **As a user, I want the game to be intuitive and the rules easy to find.**
   * The site provides:
     * Interactive elements are obvious and accessible.
@@ -417,11 +417,11 @@ My manual testing logs are as follows:
     * Compatibility across all major browsers.
 5. **As a travelling user, I want to be able to play the game with my mobile device in one hand, while I hold onto a transport safety rail, or bags of groceries.**
  * The site provides:
-    * Large, accessible, interative buttons which are easy to hit with your thumb while holding a device in one hand.
+    * Large, accessible, interactive buttons which are easy to hit with your thumb while holding a device in one hand.
     * Easy user input. Every interactive element is a button, so the user is not required to enter text.
 6. **As a differently abled user, I want the product to be accessible.**
  * The site provides:
-   * Please see Features/High Standards of Accessibiliy section of the [README.md](/README.md)
+   * Please see Features/High Standards of Accessibility section of the [README.md](/README.md)
 
 [**Back to top**](#testing-rock-paper-scissors)
 ## **Validators**
@@ -438,7 +438,7 @@ My manual testing logs are as follows:
     * 6x Section Lacks Heading
 * ***Action Taken:***
     * None
-    * Reason: They are Warnings and not errors. Forcing additional headings into the project would offer a minor improvement to asscessibility scores. As the accessibility Evaluation and Lighthouse Tests show the site has a good accessibility rating, changes will not be made at this time. 
+    * Reason: They are Warnings and not errors. Forcing additional headings into the project would offer a minor improvement to accessibility scores. As the accessibility Evaluation and Lighthouse Tests show the site has a good accessibility rating, changes will not be made at this time. 
 
 ### CSS - https://jigsaw.w3.org/css-validator/
 
@@ -476,7 +476,7 @@ JSHint validator was configured to recognise New JavaScript Features (ES6), and 
 <img src="documents/testing-images/rps-lighthouse-mobile.png">
 </details> 
 <br/>
-NOTE: After feedback from my site testers, 3 additional gifs were included in the project. (Tick / Cross / Eyes). This was to improve user feedback on what the Ai's weapon selection was at the end of each turn. This has reduced the sites performance on lighthouse scores in Chrome Dev Tools on Mobile devices only (Now approx rating of 73). No significant change on Desktop performance. None of my testers went on to report any noticeable performance change, so I wont be improving on this score at this time.
+NOTE: After feedback from my site testers, 3 additional gifs were included in the project. (Tick / Cross / Eyes). This was to improve user feedback on what the Ai's weapon selection was at the end of each turn. This has reduced the site’s performance on lighthouse scores in Chrome Dev Tools on Mobile devices only (Now approx rating of 73). No significant change on Desktop performance. None of my testers went on to report any noticeable performance change, so I wont be improving on this score at this time.
 
 ## **Accessibility** 
 https://wave.webaim.org/
@@ -494,7 +494,7 @@ In addition to the accessibility score on lighthouse, [WAVE - Web accessibility 
     * 6x Section Lacks Heading
 * ***Action Taken:***
     * None.
-    * Reason: They are Alerts and not errors. Forcing additional headings into the project would offer a minor improvement to asscessibility scores. As the Accessibility Evaluation and Lighthouse Tests show the site has a good accessibility rating, changes will not be made at this time. 
+    * Reason: They are Alerts and not errors. Forcing additional headings into the project would offer a minor improvement to accessibility scores. As the Accessibility Evaluation and Lighthouse Tests show the site has a good accessibility rating, changes will not be made at this time. 
 
 [**Back to top**](#testing-rock-paper-scissors) 
 ### **Third Party Testing**
@@ -503,7 +503,7 @@ In addition to the accessibility score on lighthouse, [WAVE - Web accessibility 
     * ***Tester feedback: Shaun Russell***
         * The "Final Result: Draw" outcome is confusing to the user. 
         * Suggestion: Have "Win" and "Lose" game completion options only.
-        * Draw will continously tally until Win or Lose scores reach three.
+        * Draw will continuously tally until Win or Lose scores reach three.
 2. **Final result "Lose"**
     * ***Tester feedback: Shaun Russell***
         * The "Final Result: Lose" outcome isn't obvious enough to the user. 
@@ -511,9 +511,9 @@ In addition to the accessibility score on lighthouse, [WAVE - Web accessibility 
         * Lose outcome is still less favourable than win, as the single gif will be displayed every time a loss result is reached.
 3. **Turn Result not clear to user (Especially the Ai's weapon choice)**
     * ***Tester feedback: Dan Sanderson and multiple other testers***
-        * Testers felt there was a missing "step" after the countdown and before the turn-result box is displayed. 
+        * Testers felt there was a missing "step" after the countdown and before the turn-result box was displayed. 
         * Suggestion: Have some way to make the Ai's weapon selection more obvious to the user.
-        * Suggestion: Make the turn result more obvious to the user without have to closely read the text.
+        * Suggestion: Make the turn result more obvious to the user without needing to closely read the text.
         * Action Taken: Added a "Ai has chosen..." box to appear above the turn result box, and in a contrasting colour to stand out. 
         * Action Taken: Added Tick/Cross/Eyes gifs to the turn result box. The gifs display depending on the turn outcome from the player's POV.
 
@@ -523,7 +523,7 @@ In addition to the accessibility score on lighthouse, [WAVE - Web accessibility 
  
   * "Some UI feedback, but it's minor, it's a bit difficult to know who's won each turn until you look closely and read the text. It's not in-your-face, but maybe that's what you're going for... One way around this might be to change the background colour of the results box to red or green if you lose or win, but I know your palette is monotone, so not sure how that would work".
 
-  * "A future feature you could add would be to take all the hardcoded text out of your JS and HTML files and stick that in a language file. Then you can just run it through google translate or something and then have English and maybe French option etc which you can swap with a button."
+  * "A future feature you could add would be to take all the hardcoded text out of your JS and HTML files and stick that in a language file. Then you can just run it through google translate or something and then have an English and maybe a French option etc which you can swap with a button."
 
 2. <u>**Shaun Russell - Senior UX/UI/Product Designer.**</u>
   * "No issues to report really beyond the gifs not initially displaying which has now been resolved."
@@ -533,7 +533,7 @@ In addition to the accessibility score on lighthouse, [WAVE - Web accessibility 
 3. <u>**Tom Harris: Safari Tester and screen width up to 2560px.**</u>
   * "Overall the game runs very well, no issues at all. The design is perfect - everything is very intuitive with no reason for me as a user to have to look far for the obvious next button to press". 
 
-  * "The monochrome design really works in the games favour, text is clear and very easy to read, the rules page is clear and very nice way to show the rules".
+  * "The monochrome design really works in the games favour, text is clear and very easy to read, the rules page is clear and a very nice way to show the rules".
 
   * "All the animations are purposeful and never made me wish things were faster, they add value to the game."
 
@@ -554,7 +554,9 @@ In addition to the accessibility score on lighthouse, [WAVE - Web accessibility 
 
 - Shaun Russell: Senior UI/UX/Product Designer. 
 
-- Tom Harris: Site tester, and my biggest cheerleader.
+- Tom Harris: Site tester, Safari user.
+
+- Various friends and family members.
 
 [**Back to top**](#testing-rock-paper-scissors)
 
