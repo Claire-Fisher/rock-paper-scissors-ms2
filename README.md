@@ -248,7 +248,7 @@ An advertising banner could be added to promote other content from the same publ
   1. From the project's repository, go to the green 'Code' button.
   2. On the local tab, select Download zip.
   3. Find the zipped folder in your local Downloads folder, right click and select 'Extract All..".
-  4. In the extracted 'colour-theory-ms1' folder, find the index file. Right click index and select "Open with Google Chrome" (or your preferred browser).
+  4. In the extracted 'rock-paper-scissors-ms2' folder, find the index file. Right click index and select "Open with Google Chrome" (or your preferred browser).
 
 ### **Languages**
 - HTML
@@ -268,7 +268,7 @@ An advertising banner could be added to promote other content from the same publ
 - Tinypng.com
 - EZGIF.com
 - tenor.com
-- gifphy.com
+- giphy.com
 - Lighthouse
 - W3C Markup validation service
 - W3C Jigsaw CSS validation service
@@ -296,7 +296,7 @@ After a mentor session with Richard Wells. We unpicked my animated countdown I'd
 ## **Credits**
 - Shaun Russell: RPS logo & Modal Rules images.
 - Google Fonts for 'Inter" typography [View here](https://fonts.google.com/specimen/Inter?query=inter)
-- gifphy.com
+- giphy.com
   - [Winner, winner, chicken dinner gif](https://giphy.com/gifs/studiosoriginals-chicken-dinner-winner-etKSrsbbKbqwW6vzOg)
   - [eyes-gif](https://giphy.com/stickers/eyes-look-search-Z5CLNXG4hJ7O05IPqb)
   - [tick-gif](https://giphy.com/stickers/mrurbinaco-verified-mr-urbina-verification-QJ4Hm8oJgMJIqFAuVc)
